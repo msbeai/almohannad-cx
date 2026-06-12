@@ -177,6 +177,56 @@ for theme, d in EN_DIRS.items():
             "bodyEn": clean_en_body(body),
         })
 
+# ---- internalize links to his own articles -------------------------------------
+def norm_title(s):
+    s = unicodedata.normalize("NFC", s)
+    s = s.replace("أ", "ا").replace("إ", "ا").replace("آ", "ا").replace("ى", "ي").replace("ة", "ه")
+    s = re.sub(r"[^\w\s]", " ", s)
+    return [w for w in s.split() if len(w) > 2]
+
+url_to_slug = {}
+title_tokens = []
+for r in records:
+    if r["linkedin"]:
+        url_to_slug[r["linkedin"].rstrip("/")] = r["slug"]
+    title_tokens.append((set(norm_title(r["titleAr"])), r["slug"]))
+
+from urllib.parse import unquote
+
+def resolve_internal(url):
+    u = url.rstrip("/")
+    if u in url_to_slug:
+        return url_to_slug[u]
+    if "linkedin" in u and ("/pulse/" in u or "/posts/" in u):
+        decoded = unquote(u).replace("-", " ")
+        words = set(norm_title(decoded))
+        best, best_score = None, 0.0
+        for tokens, slug in title_tokens:
+            if not tokens:
+                continue
+            score = len(tokens & words) / len(tokens)
+            if score > best_score:
+                best, best_score = slug, score
+        if best_score >= 0.8:
+            return best
+    return None
+
+def internalize_links(body, lang):
+    prefix = "/articles/" if lang == "ar" else "/en/articles/"
+    def repl(m):
+        slug = resolve_internal(m.group(2))
+        return f"[{m.group(1)}]({prefix}{slug})" if slug else m.group(0)
+    return re.sub(r"\[([^\]]*)\]\((https?://[^)\s]+)\)", repl, body)
+
+internalized = 0
+for r in records:
+    for key, lang in (("bodyAr", "ar"), ("bodyEn", "en")):
+        if r[key]:
+            new = internalize_links(r[key], lang)
+            internalized += len(re.findall(r"\]\(/(?:en/)?articles/", new)) - len(re.findall(r"\]\(/(?:en/)?articles/", r[key]))
+            r[key] = new
+print(f"internalized links: {internalized}")
+
 # ---- write content files -------------------------------------------------------
 used_images = set()
 for r in records:

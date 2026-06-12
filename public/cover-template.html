@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: 'TSD'; src: url('/fonts/thmanyahserifdisplay-Bold.woff2') format('woff2'); font-weight: 700; }
+  @font-face { font-family: 'TS'; src: url('/fonts/thmanyahsans-Regular.woff2') format('woff2'); }
+  @font-face { font-family: 'TSM'; src: url('/fonts/thmanyahsans-Medium.woff2') format('woff2'); }
+  * { margin: 0; box-sizing: border-box; }
+  .cover {
+    position: fixed; top: 0; left: 0;
+    width: 1200px; height: 630px;
+    background: #1b1b1a; color: #f3f3f1;
+    padding: 64px 80px;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .top { display: flex; align-items: center; gap: 18px; }
+  .dot { width: 18px; height: 18px; border-radius: 50%; background: #a8a8a5; flex: none; }
+  .kicker { font-family: 'TSM'; font-size: 30px; color: #a8a8a5; }
+  .title {
+    font-family: 'TSD'; font-weight: 700;
+    flex: 1; display: flex; align-items: center;
+    line-height: 1.45; font-size: 84px;
+  }
+  .bottom { display: flex; justify-content: space-between; align-items: center; border-top: 2px solid #323230; padding-top: 28px; }
+  .wordmark { font-family: 'TSD'; font-size: 30px; direction: ltr; color: #9a9a97; }
+  .wordmark span { color: #a8a8a5; }
+  .byline { font-family: 'TS'; font-size: 26px; color: #7e7e7b; }
+</style>
+</head>
+<body>
+  <div class="cover" id="cover">
+    <div class="top"><div class="dot"></div><div class="kicker" id="kicker"></div></div>
+    <div class="title" id="title"></div>
+    <div class="bottom">
+      <div class="byline" id="byline"></div>
+      <div class="wordmark">almohannad<span>.cx</span></div>
+    </div>
+  </div>
+  <script>
+    const p = new URLSearchParams(location.search);
+    const lang = p.get('l') || 'ar';
+    document.getElementById('cover').dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.getElementById('kicker').textContent = p.get('k') || '';
+    document.getElementById('byline').textContent = lang === 'ar' ? 'المهند السبيعي' : 'Almohannad Alsbeai';
+    const el = document.getElementById('title');
+    el.textContent = p.get('t') || '';
+    // shrink to fit
+    let size = 84;
+    el.style.fontSize = size + 'px';
+    while (el.scrollHeight > el.clientHeight && size > 38) {
+      size -= 4;
+      el.style.fontSize = size + 'px';
+    }
+  </script>
+</body>
+</html>

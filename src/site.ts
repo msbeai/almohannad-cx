@@ -2,8 +2,8 @@ export const SITE = {
   domain: 'almohannad.cx',
   nameAr: 'المهند السبيعي',
   nameEn: 'Almohannad Alsbeai',
-  taglineAr: 'ممارس تجربة عملاء وباحث تسويقي',
-  taglineEn: 'Customer experience practitioner & marketing researcher',
+  taglineAr: 'قائد تجربة عملاء، مؤلف ومتحدث',
+  taglineEn: 'Customer experience leader, author & speaker',
   descriptionAr:
     'الموقع الشخصي للمهند السبيعي — مقالات وكتب وحوارات في تجربة العميل والأبحاث التسويقية، بالعربية.',
   descriptionEn:

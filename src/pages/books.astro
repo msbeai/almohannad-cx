@@ -29,10 +29,12 @@ const books = (booksData.books ?? []) as Book[];
       <div class="card-grid" style="margin-bottom: 4rem">
         {books.map((b) => (
           <a class="card" href={b.link} target="_blank" rel="noopener">
-            {b.cover && <img src={b.cover} alt={b.titleAr} loading="lazy" />}
-            <span class="meta">{b.year && <span>{b.year}</span>}</span>
-            <h3>{b.titleAr}</h3>
-            {b.descriptionAr && <p>{b.descriptionAr}</p>}
+            {b.cover && <img class="card-cover" src={b.cover} alt={b.titleAr} loading="lazy" />}
+            <div class="card-body">
+              <span class="meta">{b.year && <span>{b.year}</span>}</span>
+              <h3>{b.titleAr}</h3>
+              {b.descriptionAr && <p>{b.descriptionAr}</p>}
+            </div>
           </a>
         ))}
       </div>

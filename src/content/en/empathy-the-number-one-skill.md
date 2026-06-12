@@ -72,7 +72,7 @@ Surveys and market research aren't enough. No matter how hard you try and how mu
 
 If you want your company to have a human-centered culture, you need to hire people with high empathy — because those are the ones who will turn this culture from theory into tangible practice. The empathetic don't simply repeat "put yourself in the customer's shoes" — they take off their own and put on the customer's, suffering pain if it's too tight or falling on their face if it's too big (a metaphor). Their impact extends to colleagues, so the work environment becomes healthy and based on collaboration, sharing, and team spirit. One way I know to assess empathy is the [Strength Finder](https://www.gallup.com/cliftonstrengths/en/home.aspx) test from Gallup, which ranks strengths in the test result. If empathy is among the top five strengths, don't hesitate to hire that person — especially in customer-facing roles or in CX. Another resource for those who want to dig deeper into empathy tests: [this treasure](http://cultureofempathy.com/References/Test.htm).
 
-Related articles: [With Yourself, Not With the Customer](https://bit.ly/3cBEwU2) | [If Customer Experience Were a Girl, I'd Marry Her](https://bit.ly/3bJvhkx) | [Step Out of Your Ivory Towers](https://bit.ly/2Sv2f0u)
+Related articles: [With Yourself, Not With the Customer](/en/articles/with-yourself-not-with-the-customer) | [If Customer Experience Were a Girl, I'd Marry Her](/en/articles/if-customer-experience-were-a-girl-id-marry-her) | [Step Out of Your Ivory Towers](/en/articles/get-out-of-your-ivory-towers)
 
 Related concepts: Moments That Matter, Customer Journey Mapping, Voice of Customer (VoC).
 

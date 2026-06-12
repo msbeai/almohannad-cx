@@ -54,16 +54,16 @@
   font-display: swap;
 }
 
-/* ---------- tokens ---------- */
+/* ---------- tokens — monochrome identity, shades of gray ---------- */
 :root {
-  --bg: #faf8f5;
+  --bg: #f7f7f6;
   --bg-raised: #ffffff;
-  --ink: #1a1815;
-  --ink-soft: #57514a;
-  --ink-faint: #8d857c;
-  --line: #e6e1da;
-  --accent: #9a3b26;
-  --accent-soft: #f3e6e1;
+  --ink: #1b1b1a;
+  --ink-soft: #555553;
+  --ink-faint: #8a8a87;
+  --line: #e3e3e0;
+  --accent: #3f3f3d;
+  --accent-soft: #ebebe8;
   color-scheme: light;
 
   --font-sans: 'Thmanyah Sans', 'IBM Plex Sans Arabic', system-ui, sans-serif;
@@ -74,16 +74,16 @@
   --wide: 70rem;
 }
 
-/* dark theme — warm charcoal, same editorial feel */
+/* dark theme — deep grays, same editorial feel */
 html[data-theme='dark'] {
-  --bg: #161310;
-  --bg-raised: #201c18;
-  --ink: #ece7e1;
-  --ink-soft: #b6aea4;
-  --ink-faint: #8a8278;
-  --line: #2e2924;
-  --accent: #d4775c;
-  --accent-soft: #3a261e;
+  --bg: #151515;
+  --bg-raised: #1f1f1f;
+  --ink: #ebebea;
+  --ink-soft: #b0b0ae;
+  --ink-faint: #828280;
+  --line: #2c2c2b;
+  --accent: #c7c7c4;
+  --accent-soft: #2a2a29;
   color-scheme: dark;
 }
 
@@ -309,16 +309,30 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
 .card {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
   background: var(--bg-raised);
   border: 1px solid var(--line);
   border-radius: 0.9rem;
-  padding: 1.5rem 1.6rem;
+  overflow: hidden;
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 .card:hover {
   border-color: var(--ink-faint);
   transform: translateY(-2px);
+}
+.card-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.3rem 1.6rem 1.5rem;
+  flex: 1;
 }
 .card .meta {
   display: flex;
@@ -475,8 +489,8 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
 
 /* ---------- newsletter (always dark, works in both themes) ---------- */
 .newsletter-box {
-  background: #1a1815;
-  color: #faf8f5;
+  background: #1b1b1a;
+  color: #f7f7f6;
   border: 1px solid var(--line);
   border-radius: 1.1rem;
   padding: 3rem clamp(1.5rem, 5vw, 3.5rem);
@@ -488,7 +502,7 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   margin: 0 0 0.6rem;
 }
 .newsletter-box p {
-  color: #cfc9c2;
+  color: #c4c4c2;
   margin: 0 0 1.75rem;
   max-width: 36rem;
 }
@@ -504,13 +518,13 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   font-size: 1rem;
   padding: 0.7rem 1.2rem;
   border-radius: 999px;
-  border: 1px solid #4a453f;
-  background: #262220;
-  color: #faf8f5;
+  border: 1px solid #474746;
+  background: #262625;
+  color: #f7f7f6;
   color-scheme: dark;
 }
 .newsletter-form input[type='email']::placeholder {
-  color: #8d857c;
+  color: #8a8a87;
 }
 .newsletter-form button {
   font-family: var(--font-sans);
@@ -519,13 +533,13 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   padding: 0.7rem 1.7rem;
   border-radius: 999px;
   border: none;
-  background: var(--accent);
-  color: #fff;
+  background: #f7f7f6;
+  color: #1b1b1a;
   cursor: pointer;
   transition: filter 0.15s ease;
 }
 .newsletter-form button:hover {
-  filter: brightness(1.12);
+  filter: brightness(0.88);
 }
 
 /* ---------- empty state (books / podcasts placeholders) ---------- */

@@ -88,4 +88,4 @@ date: 2019-06-10
 
 أرجو من القراء الأكارم إضافة بعض الأمثلة التي عاشوها بشكل شخصي عن الربح الفاسد لتعم الفائدة على الجميع، يجدر بالذكر أن مجال تجربة المستخدم لديهم ممارسات عديدة تؤدي نفس النتيجة ولعل القراء الأعزاء من مجال تجربة المستخدم يفيدوننا ببعض الأمثلة
 
-مقال آخر لي ذو صلة بالموضوع: [العدل](https://goo.gl/E3RjtG)[](https://goo.gl/E3RjtG)[في](https://goo.gl/E3RjtG)[](https://goo.gl/E3RjtG)[تجربة](https://goo.gl/E3RjtG)[](https://goo.gl/E3RjtG)[العميل](https://goo.gl/E3RjtG)[](https://goo.gl/E3RjtG)[والموظف](https://goo.gl/E3RjtG)
+مقال آخر لي ذو صلة بالموضوع: [العدل](/articles/fairness-in-customer-and-employee-experience)[](/articles/fairness-in-customer-and-employee-experience)[في](/articles/fairness-in-customer-and-employee-experience)[](/articles/fairness-in-customer-and-employee-experience)[تجربة](/articles/fairness-in-customer-and-employee-experience)[](/articles/fairness-in-customer-and-employee-experience)[العميل](/articles/fairness-in-customer-and-employee-experience)[](/articles/fairness-in-customer-and-employee-experience)[والموظف](/articles/fairness-in-customer-and-employee-experience)

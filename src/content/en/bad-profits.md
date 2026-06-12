@@ -86,7 +86,7 @@ The final advice to colleagues in customer experience: make sure to monitor cust
 
 I ask esteemed readers to add some examples they've personally experienced of bad profit so everyone can benefit. It's worth noting that the user experience field has many practices that produce the same result, and I hope our dear UX readers can offer some examples.
 
-A related article of mine: [Fairness in Customer and Employee Experience](https://goo.gl/E3RjtG).
+A related article of mine: [Fairness in Customer and Employee Experience](/en/articles/fairness-in-customer-and-employee-experience).
 
 
 ![](/images/articles/image101.jpg)
