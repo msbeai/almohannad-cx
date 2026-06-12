@@ -2,15 +2,245 @@
 import Base from '../layouts/Base.astro';
 ---
 
-<Base lang="ar" title="الصفحة غير موجودة — المهند السبيعي">
+<Base lang="ar" title="404 — لحظة حقيقة غير مخطط لها">
   <div class="wrap">
-    <div class="empty-state" style="margin-block: 6rem">
-      <div class="mark">404</div>
-      <p style="font-size: 1.15rem; color: var(--ink)">هذه الصفحة غير موجودة — ربما تغيّر عنوانها.</p>
-      <p style="margin-top: 1.5rem">
-        <a class="btn btn-solid" href="/">العودة للرئيسية</a>
-        <a class="btn btn-ghost" href="/en" style="margin-inline-start: .6rem">English home</a>
-      </p>
-    </div>
+    <section class="nf" aria-live="polite">
+      <!-- broken customer-journey map -->
+      <svg class="nf-journey" viewBox="0 0 640 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path class="nf-path" d="M610 70 C 540 20, 470 110, 400 65 S 260 20, 195 70" fill="none" />
+        <path class="nf-path nf-path-broken" d="M165 73 C 130 80, 110 95, 88 108" fill="none" />
+        <g class="nf-stations">
+          <circle cx="610" cy="70" r="9" class="nf-dot" />
+          <circle cx="468" cy="63" r="9" class="nf-dot" />
+          <circle cx="330" cy="48" r="9" class="nf-dot" />
+          <circle cx="195" cy="70" r="9" class="nf-dot" />
+        </g>
+        <g class="nf-lost">
+          <circle cx="62" cy="114" r="13" class="nf-dot-404" />
+          <text x="62" y="119" text-anchor="middle" class="nf-404-mark">؟</text>
+        </g>
+        <text x="610" y="105" text-anchor="middle" class="nf-label nf-label-ar">الوعي</text>
+        <text x="468" y="98" text-anchor="middle" class="nf-label nf-label-ar">الاهتمام</text>
+        <text x="330" y="83" text-anchor="middle" class="nf-label nf-label-ar">النقر</text>
+        <text x="195" y="105" text-anchor="middle" class="nf-label nf-label-ar">الوصول</text>
+        <text x="610" y="105" text-anchor="middle" class="nf-label nf-label-en">Awareness</text>
+        <text x="468" y="98" text-anchor="middle" class="nf-label nf-label-en">Interest</text>
+        <text x="330" y="83" text-anchor="middle" class="nf-label nf-label-en">Click</text>
+        <text x="195" y="105" text-anchor="middle" class="nf-label nf-label-en">Arrival</text>
+      </svg>
+
+      <!-- Arabic -->
+      <div id="nf-ar">
+        <p class="nf-kicker">خطأ 404</p>
+        <h1 class="nf-title">لحظة حقيقة… غير مخطط لها</h1>
+        <p class="nf-lede">
+          الصفحة التي تبحث عنها خارج خريطة الرحلة: ربما تغيّر عنوانها، أو تسلل خطأ إملائي
+          إلى الرابط. وفي مهنتنا قاعدة لا نكسرها: لا نترك عميلًا عالقًا عند نقطة التماس.
+        </p>
+        <div class="nf-actions">
+          <a class="btn btn-solid" href="/">خذني إلى الرئيسية</a>
+          <a class="btn btn-ghost" href="/articles">أو تصفّح المقالات</a>
+        </div>
+        <div class="nf-nps">
+          <p class="nf-nps-q">بصراحة: ما احتمال أن ترشّح صفحة الخطأ هذه لصديق؟</p>
+          <div class="nf-nps-scale" role="group" aria-label="مقياس من صفر إلى عشرة">
+            {Array.from({ length: 11 }, (_, i) => (
+              <button class="nf-nps-btn" data-score={i}>{i}</button>
+            ))}
+          </div>
+          <p class="nf-nps-reply" data-detractor="منتقد؟ مُنصفٌ جدًا — حتى نحن ما كنا سنرشّح صفحة خطأ لأحد. المهم أنك وصلت، والبقية علينا."
+             data-passive="محايد تجاه صفحة 404؟ هذا أعلى من المعدل العالمي لصفحات الخطأ بصراحة."
+             data-promoter="مروّجٌ لصفحة خطأ! هذا أندر من عميل راضٍ عن شركة اتصالات. نَعِدُك أن بقية الموقع أفضل."></p>
+        </div>
+      </div>
+
+      <!-- English -->
+      <div id="nf-en" hidden>
+        <p class="nf-kicker">Error 404</p>
+        <h1 class="nf-title">An unplanned moment of truth</h1>
+        <p class="nf-lede">
+          The page you're looking for is off the journey map: it may have moved, or a typo
+          slipped into the link. In this craft we have one unbreakable rule: never leave a
+          customer stranded at a touchpoint.
+        </p>
+        <div class="nf-actions">
+          <a class="btn btn-solid" href="/en">Take me home</a>
+          <a class="btn btn-ghost" href="/en/articles">Or browse the articles</a>
+        </div>
+        <div class="nf-nps">
+          <p class="nf-nps-q">Honestly: how likely are you to recommend this error page to a friend?</p>
+          <div class="nf-nps-scale" role="group" aria-label="Scale from zero to ten">
+            {Array.from({ length: 11 }, (_, i) => (
+              <button class="nf-nps-btn" data-score={i}>{i}</button>
+            ))}
+          </div>
+          <p class="nf-nps-reply" data-detractor="A detractor? Fair — we wouldn't recommend an error page either. The important thing is you're here; we'll handle the rest."
+             data-passive="Neutral about a 404? That's honestly above the global benchmark for error pages."
+             data-promoter="A promoter… of an error page! Rarer than a happy telecom customer. We promise the rest of the site is better."></p>
+        </div>
+      </div>
+    </section>
   </div>
+
+  <style>
+    .nf {
+      max-width: 44rem;
+      margin-inline: auto;
+      padding-block: 3.5rem 5rem;
+      text-align: center;
+    }
+    .nf-journey {
+      width: min(34rem, 90%);
+      margin: 0 auto 1.5rem;
+      display: block;
+    }
+    .nf-path {
+      stroke: var(--ink-faint);
+      stroke-width: 2.5;
+      stroke-dasharray: 7 7;
+      animation: nf-draw 1.2s ease-out both;
+    }
+    .nf-path-broken {
+      stroke: var(--ink-faint);
+      opacity: 0.45;
+      stroke-dasharray: 3 9;
+    }
+    .nf-dot {
+      fill: var(--bg);
+      stroke: var(--ink-soft);
+      stroke-width: 2.5;
+    }
+    .nf-dot-404 {
+      fill: var(--ink);
+      animation: nf-pulse 2.2s ease-in-out infinite;
+    }
+    .nf-404-mark {
+      fill: var(--bg);
+      font-family: var(--font-sans);
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .nf-label {
+      fill: var(--ink-faint);
+      font-family: var(--font-sans);
+      font-size: 13.5px;
+    }
+    .nf-label-en {
+      display: none;
+    }
+    @keyframes nf-draw {
+      from { stroke-dashoffset: 220; opacity: 0; }
+      to { stroke-dashoffset: 0; opacity: 1; }
+    }
+    @keyframes nf-pulse {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(4px); }
+    }
+    .nf-kicker {
+      color: var(--ink-faint);
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      margin: 0 0 0.5rem;
+    }
+    .nf-title {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(2rem, 5.5vw, 3.2rem);
+      line-height: 1.3;
+      margin: 0 0 1rem;
+    }
+    .nf-lede {
+      color: var(--ink-soft);
+      font-size: 1.1rem;
+      line-height: 2;
+      max-width: 36rem;
+      margin: 0 auto 2rem;
+    }
+    .nf-actions {
+      display: flex;
+      gap: 0.9rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 3.5rem;
+    }
+    .nf-nps {
+      border-top: 1px solid var(--line);
+      padding-top: 2rem;
+    }
+    .nf-nps-q {
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+      margin: 0 0 1rem;
+    }
+    .nf-nps-scale {
+      display: flex;
+      gap: 0.35rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      direction: ltr;
+    }
+    .nf-nps-btn {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: var(--bg-raised);
+      color: var(--ink-soft);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .nf-nps-btn:hover {
+      border-color: var(--ink);
+      color: var(--ink);
+      transform: translateY(-2px);
+    }
+    .nf-nps-btn[aria-pressed='true'] {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--bg);
+    }
+    .nf-nps-reply {
+      min-height: 3em;
+      color: var(--ink);
+      font-size: 1rem;
+      margin: 1.1rem auto 0;
+      max-width: 32rem;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .nf-nps-reply.show {
+      opacity: 1;
+    }
+  </style>
+
+  <script is:inline>
+    (() => {
+      // serve the English experience when the lost URL was under /en/
+      if (location.pathname.startsWith('/en')) {
+        document.documentElement.lang = 'en';
+        document.documentElement.dir = 'ltr';
+        document.getElementById('nf-ar').hidden = true;
+        document.getElementById('nf-en').hidden = false;
+        document.querySelectorAll('.nf-label-ar').forEach((el) => (el.style.display = 'none'));
+        document.querySelectorAll('.nf-label-en').forEach((el) => (el.style.display = 'block'));
+        document.title = '404 — An unplanned moment of truth';
+      }
+      // the NPS easter egg
+      document.querySelectorAll('.nf-nps').forEach((box) => {
+        const reply = box.querySelector('.nf-nps-reply');
+        box.querySelectorAll('.nf-nps-btn').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            box.querySelectorAll('.nf-nps-btn').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+            btn.setAttribute('aria-pressed', 'true');
+            const s = +btn.dataset.score;
+            reply.textContent =
+              s <= 6 ? reply.dataset.detractor : s <= 8 ? reply.dataset.passive : reply.dataset.promoter;
+            reply.classList.add('show');
+          });
+        });
+      });
+    })();
+  </script>
 </Base>
