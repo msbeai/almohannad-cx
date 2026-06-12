@@ -1,0 +1,73 @@
+---
+import '../styles/global.css';
+import { SITE, T, type Lang } from '../site';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description?: string;
+  /** path of the same page in the other language, for the toggle + hreflang */
+  altPath?: string;
+  /** current path for nav highlighting, e.g. "/articles" */
+  current?: string;
+}
+
+const { lang, title, description, altPath, current } = Astro.props;
+const t = T[lang];
+const dir = lang === 'ar' ? 'rtl' : 'ltr';
+const desc = description ?? (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn);
+const name = lang === 'ar' ? SITE.nameAr : SITE.nameEn;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const altLang = lang === 'ar' ? 'en' : 'ar';
+const homeHref = lang === 'ar' ? '/' : '/en';
+const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
+---
+
+<!doctype html>
+<html lang={lang} dir={dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    {altPath && <link rel="alternate" hreflang={altLang} href={new URL(altPath, Astro.site)} />}
+    <link rel="alternate" type="application/rss+xml" title={name} href={rssHref} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={name} />
+    <meta name="twitter:card" content="summary" />
+    <link rel="preload" href="/fonts/thmanyahserifdisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/thmanyahsans-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={homeHref}>almohannad<span class="tld">.cx</span></a>
+        <nav class="site-nav" aria-label={lang === 'ar' ? 'التنقل الرئيسي' : 'Main navigation'}>
+          {t.nav.map((item) => (
+            <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a>
+          ))}
+          <a class="lang-switch" href={altPath ?? (lang === 'ar' ? '/en' : '/')} lang={altLang} dir={altLang === 'ar' ? 'rtl' : 'ltr'}>{t.switchLabel}</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© {new Date().getFullYear()} {name} — {t.rights}</span>
+        <span class="footer-links">
+          <a href={SITE.linkedin} rel="me noopener" target="_blank">LinkedIn</a>
+          <a href={rssHref}>{t.rss}</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

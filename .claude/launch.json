@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "almohannad-cx",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/almohannad/Projects/almohannad-cx",
+      "port": 4321
+    }
+  ]
+}

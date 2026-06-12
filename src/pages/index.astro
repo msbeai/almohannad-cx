@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { SITE } from '../site';
+import { getArticles, excerpt } from '../lib/articles';
+
+const articles = await getArticles('ar');
+const featured = articles.slice(0, 6);
+---
+
+<Base lang="ar" title={`${SITE.nameAr} — ${SITE.taglineAr}`} altPath="/en" current="/">
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">تجربة العميل · الأبحاث التسويقية · الكتابة</p>
+      <h1>المهند السبيعي</h1>
+      <p class="lede">
+        ممارس تجربة عملاء وباحث تسويقي من السعودية. أعمل في الميدان منذ سنوات طويلة، وأكتب
+        بالعربية عمّا أتعلمه: قصص من الواقع، وأدوات تُستخدم لا تُؤطَّر، ورأي صريح في ممارسات
+        المهنة — {articles.length} مقالًا حتى الآن، والقادم أكثر.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="/articles">تصفّح المقالات</a>
+        <a class="btn btn-ghost" href="/newsletter">اشترك في النشرة</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>مقالات مختارة</h2>
+        <a class="more" href="/articles">كل المقالات ←</a>
+      </div>
+      <div class="card-grid">
+        {featured.map((a) => (
+          <ArticleCard
+            lang="ar"
+            slug={a.id.replace(/\.md$/, '')}
+            title={a.data.title}
+            theme={a.data.theme}
+            date={a.data.date}
+            excerpt={excerpt(a.body)}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>الكتب والبودكاست</h2>
+      </div>
+      <div class="card-grid">
+        <a class="card" href="/books">
+          <span class="meta"><span class="tag">الكتب</span></span>
+          <h3>ما نشرته من كتب</h3>
+          <p>إصداراتي المنشورة — هذا القسم قيد التجهيز وسيُضاف المحتوى قريبًا.</p>
+        </a>
+        <a class="card" href="/podcasts">
+          <span class="meta"><span class="tag">البودكاست</span></span>
+          <h3>حوارات شاركت فيها</h3>
+          <p>لقاءات وحلقات بودكاست شاركت فيها ضيفًا، معظمها على يوتيوب — قريبًا هنا.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <NewsletterForm lang="ar" />
+  </div>
+</Base>

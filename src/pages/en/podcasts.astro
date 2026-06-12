@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import podcastsData from '../../data/podcasts.json';
+
+interface Episode {
+  titleAr: string;
+  titleEn?: string;
+  show?: string;
+  year?: string;
+  youtube?: string;
+  descriptionEn?: string;
+}
+const episodes = (podcastsData.episodes ?? []) as Episode[];
+
+function youtubeId(url?: string) {
+  if (!url) return null;
+  const m = url.match(/(?:youtu\.be\/|v=|\/embed\/|\/shorts\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+---
+
+<Base lang="en" title="Podcasts — Almohannad Alsbeai" altPath="/podcasts" current="/en/podcasts">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>Podcasts</h1>
+      <p>Conversations and episodes I joined as a guest, on customer experience and research.</p>
+    </header>
+
+    {episodes.length === 0 ? (
+      <div class="empty-state">
+        <div class="mark">Soon</div>
+        <p>This section is being prepared — podcast appearances will appear here shortly.</p>
+      </div>
+    ) : (
+      <div class="card-grid" style="margin-bottom: 4rem">
+        {episodes.map((e) => {
+          const id = youtubeId(e.youtube);
+          return (
+            <div class="card">
+              {id && (
+                <iframe
+                  style="aspect-ratio: 16/9; width: 100%; border: 0; border-radius: 0.6rem"
+                  src={`https://www.youtube-nocookie.com/embed/${id}`}
+                  title={e.titleEn ?? e.titleAr}
+                  loading="lazy"
+                  allowfullscreen
+                />
+              )}
+              <span class="meta">
+                {e.show && <span class="tag">{e.show}</span>}
+                {e.year && <span>{e.year}</span>}
+              </span>
+              <h3>{e.titleEn ?? e.titleAr}</h3>
+              {e.descriptionEn && <p>{e.descriptionEn}</p>}
+            </div>
+          );
+        })}
+      </div>
+    )}
+  </div>
+</Base>

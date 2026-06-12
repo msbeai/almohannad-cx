@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import booksData from '../data/books.json';
+
+interface Book {
+  titleAr: string;
+  titleEn?: string;
+  year?: string;
+  descriptionAr?: string;
+  link?: string;
+  cover?: string;
+}
+const books = (booksData.books ?? []) as Book[];
+---
+
+<Base lang="ar" title="الكتب — المهند السبيعي" altPath="/en/books" current="/books">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>الكتب</h1>
+      <p>إصداراتي المنشورة في تجربة العميل والأبحاث التسويقية.</p>
+    </header>
+
+    {books.length === 0 ? (
+      <div class="empty-state">
+        <div class="mark">قريبًا</div>
+        <p>هذا القسم قيد التجهيز — ستجد هنا الكتب المنشورة قريبًا بإذن الله.</p>
+      </div>
+    ) : (
+      <div class="card-grid" style="margin-bottom: 4rem">
+        {books.map((b) => (
+          <a class="card" href={b.link} target="_blank" rel="noopener">
+            {b.cover && <img src={b.cover} alt={b.titleAr} loading="lazy" />}
+            <span class="meta">{b.year && <span>{b.year}</span>}</span>
+            <h3>{b.titleAr}</h3>
+            {b.descriptionAr && <p>{b.descriptionAr}</p>}
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</Base>

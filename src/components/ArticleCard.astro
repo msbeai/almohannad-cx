@@ -1,0 +1,28 @@
+---
+import { THEMES, type Lang } from '../site';
+
+interface Props {
+  lang: Lang;
+  slug: string;
+  title: string;
+  theme: 'cx' | 'research';
+  excerpt?: string;
+  date?: Date;
+}
+
+const { lang, slug, title, theme, excerpt, date } = Astro.props;
+const href = lang === 'ar' ? `/articles/${slug}` : `/en/articles/${slug}`;
+const dateStr = date?.toLocaleDateString(lang === 'ar' ? 'ar-SA' : 'en-US', {
+  year: 'numeric',
+  month: 'long',
+});
+---
+
+<a class="card" href={href}>
+  <span class="meta">
+    <span class="tag">{THEMES[theme][lang]}</span>
+    {dateStr && <span>{dateStr}</span>}
+  </span>
+  <h3>{title}</h3>
+  {excerpt && <p>{excerpt}</p>}
+</a>

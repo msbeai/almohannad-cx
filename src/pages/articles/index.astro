@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { THEMES } from '../../site';
+import { getArticles, excerpt } from '../../lib/articles';
+
+const all = await getArticles('ar');
+const themeParam = Astro.url.searchParams.get('theme');
+---
+
+<Base lang="ar" title="المقالات — المهند السبيعي" altPath="/en/articles" current="/articles">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>المقالات</h1>
+      <p>
+        {all.length} مقالًا نُشرت أصلًا على لينكدإن، في محورين: تجربة العميل، والأبحاث
+        التسويقية والمؤشرات. اختر محورًا أو تصفّحها كلها.
+      </p>
+    </header>
+
+    <nav class="filter-row" aria-label="تصفية حسب المحور" id="filters">
+      <a href="/articles" data-theme="all" aria-current="true">الكل ({all.length})</a>
+      <a href="/articles?theme=cx" data-theme="cx">{THEMES.cx.ar} ({all.filter((a) => a.data.theme === 'cx').length})</a>
+      <a href="/articles?theme=research" data-theme="research">{THEMES.research.ar} ({all.filter((a) => a.data.theme === 'research').length})</a>
+    </nav>
+
+    <div class="card-grid" style="margin-bottom: 4rem">
+      {all.map((a) => (
+        <div data-theme={a.data.theme} style="display: contents">
+          <ArticleCard
+            lang="ar"
+            slug={a.id.replace(/\.md$/, '')}
+            title={a.data.title}
+            theme={a.data.theme}
+            date={a.data.date}
+            excerpt={excerpt(a.body)}
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <script>
+    // client-side theme filter (static site, no reload needed)
+    const apply = () => {
+      const theme = new URLSearchParams(location.search).get('theme') ?? 'all';
+      document.querySelectorAll<HTMLElement>('[data-theme]').forEach((el) => {
+        if (el.closest('#filters')) {
+          el.setAttribute('aria-current', String(el.dataset.theme === theme));
+        } else {
+          el.style.display = theme === 'all' || el.dataset.theme === theme ? 'contents' : 'none';
+        }
+      });
+    };
+    document.querySelectorAll('#filters a').forEach((a) =>
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        history.pushState({}, '', (a as HTMLAnchorElement).href);
+        apply();
+      })
+    );
+    window.addEventListener('popstate', apply);
+    apply();
+  </script>
+</Base>

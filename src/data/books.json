@@ -1,0 +1,5 @@
+{
+  "_comment": "Add published books here; the Books pages render them automatically. cover goes in public/images/books/.",
+  "books": [
+  ]
+}

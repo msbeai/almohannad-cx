@@ -1,0 +1,63 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import { THEMES } from '../../../site';
+import { getArticles, excerpt } from '../../../lib/articles';
+
+const all = await getArticles('en');
+---
+
+<Base lang="en" title="Articles — Almohannad Alsbeai" altPath="/articles" current="/en/articles">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>Articles</h1>
+      <p>
+        {all.length} articles originally published in Arabic on LinkedIn and translated to
+        English, across two themes: customer experience, and marketing research & metrics.
+      </p>
+    </header>
+
+    <nav class="filter-row" aria-label="Filter by theme" id="filters">
+      <a href="/en/articles" data-theme="all" aria-current="true">All ({all.length})</a>
+      <a href="/en/articles?theme=cx" data-theme="cx">{THEMES.cx.en} ({all.filter((a) => a.data.theme === 'cx').length})</a>
+      <a href="/en/articles?theme=research" data-theme="research">{THEMES.research.en} ({all.filter((a) => a.data.theme === 'research').length})</a>
+    </nav>
+
+    <div class="card-grid" style="margin-bottom: 4rem">
+      {all.map((a) => (
+        <div data-theme={a.data.theme} style="display: contents">
+          <ArticleCard
+            lang="en"
+            slug={a.id.replace(/\.md$/, '')}
+            title={a.data.title}
+            theme={a.data.theme}
+            date={a.data.date}
+            excerpt={excerpt(a.body)}
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <script>
+    const apply = () => {
+      const theme = new URLSearchParams(location.search).get('theme') ?? 'all';
+      document.querySelectorAll<HTMLElement>('[data-theme]').forEach((el) => {
+        if (el.closest('#filters')) {
+          el.setAttribute('aria-current', String(el.dataset.theme === theme));
+        } else {
+          el.style.display = theme === 'all' || el.dataset.theme === theme ? 'contents' : 'none';
+        }
+      });
+    };
+    document.querySelectorAll('#filters a').forEach((a) =>
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        history.pushState({}, '', (a as HTMLAnchorElement).href);
+        apply();
+      })
+    );
+    window.addEventListener('popstate', apply);
+    apply();
+  </script>
+</Base>

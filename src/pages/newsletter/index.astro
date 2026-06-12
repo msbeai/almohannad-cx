@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+---
+
+<Base lang="ar" title="النشرة البريدية — المهند السبيعي" altPath="/en/newsletter" current="/newsletter">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>النشرة البريدية</h1>
+      <p>
+        رسالة تصلك إلى بريدك كلما نشرت جديدًا: مقال في تجربة العميل أو الأبحاث التسويقية،
+        قصة من الميدان، أو خلاصة كتاب يستحق وقتك. لا إزعاج، ولا رسائل تسويقية — وتستطيع
+        إلغاء الاشتراك متى شئت.
+      </p>
+    </header>
+
+    <NewsletterForm
+      lang="ar"
+      heading="اشترك الآن"
+      text="اترك بريدك الإلكتروني وكن أول من يقرأ الجديد."
+    />
+
+    <div class="prose measure" style="margin-inline: 0; padding-bottom: 4rem">
+      <h2>ماذا ستجد فيها؟</h2>
+      <ul>
+        <li>مقالات جديدة في تجربة العميل والأبحاث التسويقية، بالعربية.</li>
+        <li>قصص وتجارب من الممارسة اليومية داخل المنظمات — لا نظريات مترجمة.</li>
+        <li>أدوات وخلاصات كتب تختصر عليك الطريق.</li>
+      </ul>
+    </div>
+  </div>
+</Base>

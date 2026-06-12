@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { THEMES, T } from '../../../site';
+import { readingMinutes, excerpt } from '../../../lib/articles';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('en');
+  return articles.map((article) => ({
+    params: { slug: article.id.replace(/\.md$/, '') },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+const slug = article.id.replace(/\.md$/, '');
+const ar = (await getCollection('ar')).find((e) => e.id === article.id);
+const minutes = readingMinutes(article.body);
+const dateStr = article.data.date?.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<Base
+  lang="en"
+  title={`${article.data.title} — Almohannad Alsbeai`}
+  description={excerpt(article.body, 160)}
+  altPath={ar ? `/articles/${slug}` : '/articles'}
+>
+  <article class="wrap">
+    <header class="article-head">
+      <span class="tag">{THEMES[article.data.theme].en}</span>
+      <h1>{article.data.title}</h1>
+      <div class="meta">
+        {dateStr && <span>{T.en.publishedOn} {dateStr}</span>}
+        <span>{minutes} {T.en.minutes}</span>
+        <span>Translated from the Arabic original</span>
+      </div>
+    </header>
+
+    <div class="prose measure">
+      <Content />
+    </div>
+
+    <footer class="article-foot measure">
+      {article.data.linkedin && (
+        <a href={article.data.linkedin} target="_blank" rel="noopener">{T.en.onLinkedIn} ↗</a>
+      )}
+      <a href="/en/articles">← All articles</a>
+    </footer>
+  </article>
+</Base>

@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+import podcastsData from '../data/podcasts.json';
+
+interface Episode {
+  titleAr: string;
+  titleEn?: string;
+  show?: string;
+  year?: string;
+  youtube?: string; // full YouTube URL
+  descriptionAr?: string;
+}
+const episodes = (podcastsData.episodes ?? []) as Episode[];
+
+function youtubeId(url?: string) {
+  if (!url) return null;
+  const m = url.match(/(?:youtu\.be\/|v=|\/embed\/|\/shorts\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+---
+
+<Base lang="ar" title="البودكاست — المهند السبيعي" altPath="/en/podcasts" current="/podcasts">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>البودكاست</h1>
+      <p>حوارات ولقاءات شاركت فيها ضيفًا للحديث عن تجربة العميل والأبحاث التسويقية.</p>
+    </header>
+
+    {episodes.length === 0 ? (
+      <div class="empty-state">
+        <div class="mark">قريبًا</div>
+        <p>هذا القسم قيد التجهيز — ستجد هنا حلقات البودكاست واللقاءات قريبًا بإذن الله.</p>
+      </div>
+    ) : (
+      <div class="card-grid" style="margin-bottom: 4rem">
+        {episodes.map((e) => {
+          const id = youtubeId(e.youtube);
+          return (
+            <div class="card">
+              {id && (
+                <iframe
+                  style="aspect-ratio: 16/9; width: 100%; border: 0; border-radius: 0.6rem"
+                  src={`https://www.youtube-nocookie.com/embed/${id}`}
+                  title={e.titleAr}
+                  loading="lazy"
+                  allowfullscreen
+                />
+              )}
+              <span class="meta">
+                {e.show && <span class="tag">{e.show}</span>}
+                {e.year && <span>{e.year}</span>}
+              </span>
+              <h3>{e.titleAr}</h3>
+              {e.descriptionAr && <p>{e.descriptionAr}</p>}
+            </div>
+          );
+        })}
+      </div>
+    )}
+  </div>
+</Base>

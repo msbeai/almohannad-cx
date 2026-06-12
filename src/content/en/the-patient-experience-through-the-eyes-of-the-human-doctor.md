@@ -1,0 +1,78 @@
+---
+title: "The Patient Experience Through the Eyes of the Human Doctor"
+titleAr: "تجربة المريض بعيون الطبيب الإنسان"
+titleEn: "The Patient Experience Through the Eyes of the Human Doctor"
+theme: cx
+order: 47
+linkedin: "https://bit.ly/43IL1k7"
+date: 2022-11-21
+---
+
+## Introduction
+
+On a recent visit to my uncle in Jeddah, I wanted to learn about the patient experience through the eyes of a human doctor who has spent over forty years in this humanitarian profession (from 1979 to this day). He didn't hesitate to share his personal insights drawn from a long career. From what he generously shared with me, I'd like to pass on to you the best of what I heard on the 20th of November 2022. Everything I'll mention in the article below is taken from that day's conversation, with light editing on my part. I've also added valuable contributions from our relative Dr. Iyad bin Adnan Al-Sbeai, marked with an asterisk, with attribution when quoted.
+
+## The Six Rules for Delivering an Exceptional Patient Experience
+
+### 1. Conscience = Mindfulness of God
+
+Fear of God in dealing with patients and acting on the noble hadith, "None of you truly believes until he loves for his brother what he loves for himself" (Bukhari and Muslim). The meaning of empathy plays out as the doctor puts himself in the patient's place and refuses to prescribe a medication that could chemically interact with other medications the patient is currently taking, and prescribes only the medicine whose benefit is genuine. The question my uncle asks himself is: could I take this same medication if I were in the condition of the patient in front of me right now?
+
+What pushes doctors (not all, of course) to do otherwise are the inducements offered by pharmaceutical companies, some of which use crooked, unethical, and unprofessional methods to secure a bigger market share than their competitors. These practices include giving the doctor up to 10% of medication sales, either in cash, in-kind gifts, or shopping vouchers. My uncle has told me stories of throwing many pharmaceutical reps out of his office after they tried to bribe him through one of these means. What's acceptable to him is for the medication being marketed to be appropriate for the conditions it has been approved for (backed by sound medical studies), and for it to have no negative side effects, with an incentive from the company in the form of free samples to give to patients in need whom he treated for the sake of God outside official working hours. It's worth noting that this negative phenomenon has become significantly less prevalent in recent years.
+
+My uncle also doesn't object to attending invitations to international medical conferences, on the condition that they're organised by professional pharmaceutical companies that don't impose any conditions on the doctor in exchange for attendance and travel and accommodation expenses. The reason is that conference attendance brings significant scientific benefit because of the speakers who are recruited to present clinical research on a range of medications (not only the medication offered by the sponsoring company) aimed at treating the same condition.
+
+He adds that even if a patient asks for a specific medication by name, and even if they have health insurance or the financial means to pay for the prescription, he will explain its risks and refuse to prescribe it, offering instead the alternative most suited to their condition and health status.
+
+### 2. Listening to the Patient
+
+The medical profession has shifted into a purely commercial one, and this has pushed many doctors (not all), either out of fear of the pressure they're under from management (to milk patients: drain their money unjustly) or out of greed for the percentage they'll earn for hitting certain financial targets, to view the patient as just a commercial transaction. Instead of assessing their condition and asking the many questions that help diagnose the illness, their focus has become finding out the patient's social standing, where they work, how much they can spend on this consultation, or what kind of insurance they have. Then, instead of diagnosing the case, the patient is directed to undergo as many tests and scans as possible, both necessary and unnecessary, even though, in many cases, doctors can diagnose the condition without any need for additional procedures at all. My uncle resigned from one centre previously because of the constant pressure on him from its owner to generate more income from every patient by directing them to do things that weren't needed. Neither was that permissible in his view, nor was accepting a percentage of the revenue, even though that percentage in many cases would have exceeded his basic salary. He was certain that "whoever fears God, He will make a way out for him," and God Almighty made many ways out for him.
+
+A patient feels at ease with a doctor who listens to them and asks several questions that make them feel real attention and genuine empathy, and that's where the relationship forms and trust is built. The employers at some of the places my uncle worked at were taken aback by patients leaving consultants and queuing in a long line to see him.
+
+The human doctor can encounter patients suffering from physical pain whose root cause is purely psychological, not organic. By his perceptiveness, the doctor can treat the patient with words, not medication. The pain would lift from some of his patients from the very first session. I have no doubt about this, for looking into his eyes, which overflow with calm and reassurance, brings relief and recovery. In other words, the human doctor is a psychiatrist par excellence, and sadly many patients are victims of relatives who were harsh on them, or of other doctors who exaggerated their condition and made them feel that death was near, and only the human doctor can pull them out of the worry and gloom they're in. Even if the patient's condition is critical from a clinical standpoint, doctors like him give them hope and remind them that healing is from God.
+
+### 3. Humility and Treating Others as You Wish to Be Treated
+
+No matter how many degrees a doctor has accumulated, they must be humble with their patients, and the patient must not feel any sense of superiority on the doctor's part. All the degrees and qualifications a doctor has obtained aren't from themselves, but from God and His enabling. Patients feel humility, and they feel arrogance, in a doctor's words and body language. I cannot forget the psychological pain caused to me by one doctor when he replied to me with arrogance because of the many questions I had before a surgical procedure I underwent more than nine years ago. I never went back to him after the surgery, and I never recommended him to anyone.
+
+A doctor's words can be like stab wounds, and a patient may leave the doctor's office with half of their pain gone because of the mercy and humanity of the doctor that passed to them in the brief session they spent together. A doctor's humility shows in their words and even the slips of their tongue. Even if the patient asserts something they have no proper knowledge of (a Google search, for example), the doctor can reply with full courtesy and correct any misunderstandings, instead of saying things like, "I studied for 12 years so you could come correct me?" or "Are you a medical student to be giving opinions?" or "Why are you here then, if you know what your illness is?"
+
+A doctor must also treat everyone the same, regardless of their status or social standing, serving the poor person as they serve the minister, with no preferential treatment or priority for anyone over anyone else. No patient is moved ahead of another because of their position. Everyone is seen according to their appointment or their place in the queue.
+
+Part of my uncle's humility is that he doesn't mind sharing his mobile number with anyone, despite the calls and WhatsApp messages pouring in on him from people he knows and people he doesn't, and he doesn't hesitate to generously give of his time and his knowledge (without charge) to advise them on what's best for their health. Every time I visit him, he offers me everything he can in tests, advice, and medications, without my asking. On my last visit, when I told him I was taking a specific cholesterol medication, he asked me to stop it immediately and gave me the most suitable alternative, because the medication I was on causes muscle atrophy as one of its side effects. My muscles were in fact hurting for reasons I didn't know, and I hadn't for a moment imagined that the medication was related to that.
+
+### 4. Confidentiality
+
+The doctor who is faithful in their work and who respects the oath they swore when they decided to enter the medical profession respects the privacy of their patients, unless religious necessity demands otherwise. For example, when asked about the condition of one of their patients, whether women or men, for purposes related to marriage, if the person being asked about carries a serious hereditary disease, a syndrome, or a terminal illness, he doesn't find it problematic to disclose the details of their condition, on the condition that the person being told the details doesn't share them with anyone else.
+
+Respect for confidentiality also includes not exploiting the patient's standing in any way to achieve personal gains or financial benefits, or talking about their case to anyone else.
+
+One day I completely lost trust in a doctor because he was making fun of his patients and telling their stories to amuse those sitting with him in the majlis. Even though he didn't mention their names, the doctor fell in my estimation.
+
+### 5. *Continuous Knowledge Development
+
+Dr. Iyad adds: "The doctor must not stop following the latest research and studies in their specialty, because anyone who isn't growing is shrinking. Given that our profession is a trust that God has placed on our shoulders, to diagnose and treat those who come to us as patients with the utmost care and accuracy, and given that medical research findings change at an astonishing pace, the doctor who intends to serve their patients in the best possible way must dedicate part of their day to reading medical journals or what is published online, and must do their best to attend at least one scientific conference in their specialty every year, if not more. They must also not let their source of information be pharmaceutical company reps, because many companies present information that is somewhat skewed from reality to support their products." End of quote.
+
+### 6. *Setting the Intention Every Morning
+
+Dr. Iyad adds: "Sincerity of intention to God Almighty in our work is extremely important. I believe the doctor should set their intention every morning as they get ready to go to work, so that every move they make and every effort they put in becomes an act of worship to God Almighty, no different from other acts of worship like prayer and fasting, and they will be rewarded for it, God willing. Also, when they set their intention daily, it becomes a barrier between them and any inducements that may come their way in the practice of their profession, so that those inducements don't pull them off the road map they set when they made their intention before going to work. After making this intention, the doctor must turn to God Almighty and to His help, and not be deceived by what their knowledge, capabilities, or experience have brought them, because the One who grants success is God Almighty. The believing doctor is the one who seeks God's help and turns to Him, stripping themselves of their own self and capabilities. In this regard, I prepared a supplication and remembrance many years ago that I repeat every morning when I get in my car to head to work: 'O God, I have intended to serve Your servants and tend to them, seeking Your pleasure and following the example of Your chosen Prophet, peace and blessings be upon him. So reward me for that and bestow upon me generously, and aid me with help from You, and make my hand a means of healing for those who come to me from Your creation, and keep it from harming any of Your creation, by mistake or intentionally. O God, I have taken refuge in Your great strength from my weakness, and in the vastness of Your knowledge from my ignorance, and in the breadth of Your wisdom from my lack of judgement. O God, do not leave me to myself, or to anyone besides You, for the blink of an eye, or for less than that. O God, I have no Lord to call upon but You, and no god to hope in but You, so do not leave me to myself or to anyone besides You for the blink of an eye or less. O God, be with my eye that sees, and my mind that thinks, and my hand that works. In You I trust, and to You I turn, and to You is the return, and there is no power or strength except in God the Most High, the Great, and may God bless our master Muhammad and his family and companions.'" End of quote.
+
+## How Do You Know That the Patient Is Satisfied With Your Service?
+
+I asked him this question because, in the field, we focus on measuring the experience. He told me that a patient coming back to him, in his specialty or otherwise, is sufficient proof to him that he served them well. He doesn't recall throughout his career anything other than one single incident where the patient was dissatisfied with his service, because he refused to refer them to a private hospital when their condition didn't warrant it. A patient's prayer for him, in his presence or in his absence, is worth the world to him. He handed me his mobile after he played me a voice note from one of his patients praying for him. A tear came to my eye as I listened to the recording, and I hid it from him. I felt what he meant when he said that those prayers are worth the world.
+
+He then closed his comments with the most truthful statement: "If you want to know what the ideal patient experience is, you have to ask the patient, not the doctor. Patients chase the doctor, not the healthcare facility. When people search for an outstanding doctor, they chase them wherever they work, however far away the appointment might be."
+
+## In Closing
+
+I have no doubt that improving the patient experience in any healthcare facility begins with selecting the human doctor. He is the most important element in the equation. Healthcare facilities can recruit the greatest doctors in scientific competence, but their selection of doctors who possess high human qualities should be their most important goal. By them is trust built, and long-term loyalty.
+
+Because he was a human doctor, and because he delivers an exceptional patient experience by instinct (meaning he has never read a single letter about patient experience), to this day he continues to receive consultations from patients who have the best types of health insurance and can go to the best hospitals in the Kingdom and beyond, yet they trust him blindly. Some have been treated by him for over a century, and have passed on the recommendation to their children. This article doesn't do him justice and is considered a partial witness in his favour, for conversations of an hour cannot summarise cumulative skills built over a career spanning more than forty years. I ask God to bless him in his wealth, his life, and his children, for what he has given, and is still giving, in the service of humanity.
+
+I thank Dr. Mohammad Bassam and Dr. Iyad for their valuable contributions, which made this article possible.
+
+> "All humans are people, but not all people are Human." — Asiya Ibrahim
+
+---
+← Articles MOC
