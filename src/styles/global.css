@@ -64,6 +64,7 @@
   --line: #e6e1da;
   --accent: #9a3b26;
   --accent-soft: #f3e6e1;
+  color-scheme: light;
 
   --font-sans: 'Thmanyah Sans', 'IBM Plex Sans Arabic', system-ui, sans-serif;
   --font-serif: 'Thmanyah Serif Text', Georgia, serif;
@@ -71,6 +72,19 @@
 
   --measure: 42rem;
   --wide: 70rem;
+}
+
+/* dark theme — warm charcoal, same editorial feel */
+html[data-theme='dark'] {
+  --bg: #161310;
+  --bg-raised: #201c18;
+  --ink: #ece7e1;
+  --ink-soft: #b6aea4;
+  --ink-faint: #8a8278;
+  --line: #2e2924;
+  --accent: #d4775c;
+  --accent-soft: #3a261e;
+  color-scheme: dark;
 }
 
 /* ---------- base ---------- */
@@ -91,6 +105,7 @@ body {
   line-height: 1.9;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 img {
   max-width: 100%;
@@ -169,6 +184,37 @@ a {
 .lang-switch:hover {
   border-color: var(--ink-faint);
   color: var(--ink);
+}
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  color: var(--ink-soft);
+  cursor: pointer;
+  padding: 0;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.theme-toggle:hover {
+  border-color: var(--ink-faint);
+  color: var(--ink);
+}
+.theme-toggle svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+.theme-toggle .icon-sun {
+  display: none;
+}
+html[data-theme='dark'] .theme-toggle .icon-sun {
+  display: block;
+}
+html[data-theme='dark'] .theme-toggle .icon-moon {
+  display: none;
 }
 
 /* ---------- hero ---------- */
@@ -427,10 +473,11 @@ a {
   text-decoration: underline;
 }
 
-/* ---------- newsletter ---------- */
+/* ---------- newsletter (always dark, works in both themes) ---------- */
 .newsletter-box {
-  background: var(--ink);
-  color: var(--bg);
+  background: #1a1815;
+  color: #faf8f5;
+  border: 1px solid var(--line);
   border-radius: 1.1rem;
   padding: 3rem clamp(1.5rem, 5vw, 3.5rem);
   margin-block: 3.5rem;
@@ -459,7 +506,8 @@ a {
   border-radius: 999px;
   border: 1px solid #4a453f;
   background: #262220;
-  color: var(--bg);
+  color: #faf8f5;
+  color-scheme: dark;
 }
 .newsletter-form input[type='email']::placeholder {
   color: #8d857c;

@@ -42,6 +42,14 @@ const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
     <meta name="twitter:card" content="summary" />
     <link rel="preload" href="/fonts/thmanyahserifdisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/thmanyahsans-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <script is:inline>
+      // set theme before first paint to avoid a flash; falls back to system preference
+      (() => {
+        const stored = localStorage.getItem('theme');
+        const dark = stored ? stored === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -52,6 +60,21 @@ const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
             <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a>
           ))}
           <a class="lang-switch" href={altPath ?? (lang === 'ar' ? '/en' : '/')} lang={altLang} dir={altLang === 'ar' ? 'rtl' : 'ltr'}>{t.switchLabel}</a>
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            type="button"
+            aria-label={lang === 'ar' ? 'تبديل الوضع الداكن' : 'Toggle dark mode'}
+            title={lang === 'ar' ? 'الوضع الداكن / الفاتح' : 'Dark / light mode'}
+          >
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41"></path>
+            </svg>
+          </button>
         </nav>
       </div>
     </header>
@@ -69,5 +92,13 @@ const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
         </span>
       </div>
     </footer>
+
+    <script is:inline>
+      document.getElementById('theme-toggle')?.addEventListener('click', () => {
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem('theme', next);
+      });
+    </script>
   </body>
 </html>
