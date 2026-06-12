@@ -22,6 +22,20 @@ const dateStr = article.data.date?.toLocaleDateString('ar-SA', {
   month: 'long',
   day: 'numeric',
 });
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.data.title,
+  alternativeHeadline: article.data.titleEn,
+  inLanguage: 'ar',
+  ...(article.data.date && { datePublished: article.data.date.toISOString().slice(0, 10) }),
+  author: { '@type': 'Person', name: 'Almohannad Alsbeai', alternateName: 'المهند السبيعي', url: 'https://almohannad.cx' },
+  publisher: { '@type': 'Person', name: 'Almohannad Alsbeai' },
+  mainEntityOfPage: `https://almohannad.cx/articles/${slug}`,
+  image: 'https://almohannad.cx/og-default.png',
+  about: article.data.theme === 'cx' ? 'تجربة العميل' : 'الأبحاث التسويقية',
+};
 ---
 
 <Base
@@ -29,6 +43,9 @@ const dateStr = article.data.date?.toLocaleDateString('ar-SA', {
   title={`${article.data.title} — المهند السبيعي`}
   description={excerpt(article.body, 160)}
   altPath={en ? `/en/articles/${slug}` : '/en/articles'}
+  altExact={!!en}
+  ogType="article"
+  schema={[articleSchema]}
 >
   <article class="wrap">
     <header class="article-head">

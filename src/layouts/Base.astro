@@ -8,19 +8,58 @@ interface Props {
   description?: string;
   /** path of the same page in the other language, for the toggle + hreflang */
   altPath?: string;
+  /** false when altPath is not a true translation (e.g. EN-only articles) */
+  altExact?: boolean;
   /** current path for nav highlighting, e.g. "/articles" */
   current?: string;
+  ogType?: 'website' | 'article';
+  /** extra JSON-LD blocks (e.g. Article schema) */
+  schema?: object[];
 }
 
-const { lang, title, description, altPath, current } = Astro.props;
+const { lang, title, description, altPath, altExact = true, current, ogType = 'website', schema = [] } = Astro.props;
 const t = T[lang];
 const dir = lang === 'ar' ? 'rtl' : 'ltr';
 const desc = description ?? (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn);
 const name = lang === 'ar' ? SITE.nameAr : SITE.nameEn;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const altLang = lang === 'ar' ? 'en' : 'ar';
+const altUrl = altPath ? new URL(altPath, Astro.site) : undefined;
 const homeHref = lang === 'ar' ? '/' : '/en';
 const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
+const ogImage = new URL('/og-default.png', Astro.site);
+const ogLocale = lang === 'ar' ? 'ar_SA' : 'en_US';
+const ogLocaleAlt = lang === 'ar' ? 'en_US' : 'ar_SA';
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: SITE.nameEn,
+  alternateName: SITE.nameAr,
+  url: Astro.site?.toString(),
+  jobTitle: 'Customer Experience Director',
+  worksFor: { '@type': 'Organization', name: 'Thmanyah', alternateName: 'ثمانية' },
+  sameAs: [SITE.linkedin, SITE.linkedinAuthor],
+  knowsAbout: [
+    'Customer Experience',
+    'تجربة العميل',
+    'Marketing Research',
+    'الأبحاث التسويقية',
+    'Voice of Customer',
+    'Customer Journey Mapping',
+    'NPS',
+  ],
+};
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.nameEn,
+  alternateName: [SITE.nameAr, 'almohannad.cx'],
+  url: Astro.site?.toString(),
+  inLanguage: ['ar', 'en'],
+  author: { '@type': 'Person', name: SITE.nameEn },
+};
+const allSchema = [personSchema, websiteSchema, ...schema];
 ---
 
 <!doctype html>
@@ -31,15 +70,32 @@ const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
     <title>{title}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
-    {altPath && <link rel="alternate" hreflang={altLang} href={new URL(altPath, Astro.site)} />}
+    {altUrl && altExact && (
+      <>
+        <link rel="alternate" hreflang={lang} href={canonical} />
+        <link rel="alternate" hreflang={altLang} href={altUrl} />
+        <link rel="alternate" hreflang="x-default" href={lang === 'ar' ? canonical : altUrl} />
+      </>
+    )}
     <link rel="alternate" type="application/rss+xml" title={name} href={rssHref} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="author" content={name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={name} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:locale:alternate" content={ogLocaleAlt} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={name} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImage} />
+    <script type="application/ld+json" set:html={JSON.stringify(allSchema)} />
     <link rel="preload" href="/fonts/thmanyahserifdisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/thmanyahsans-Regular.woff2" as="font" type="font/woff2" crossorigin />
     <script is:inline>

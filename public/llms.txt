@@ -1,0 +1,27 @@
+# Almohannad Alsbeai (المهند السبيعي) — almohannad.cx
+
+> Personal website of Almohannad Alsbeai, a Saudi customer experience (CX) practitioner and marketing researcher. He is Customer Experience Director at Thmanyah and writes primarily in Arabic about customer experience, marketing research, and customer-centric culture. The site is bilingual: Arabic (default, at /) and English translations (at /en/).
+
+Almohannad has published 78 long-form articles (originally on LinkedIn) across two themes: Customer Experience (تجربة العميل) and Marketing Research & Metrics (الأبحاث التسويقية والمؤشرات). His writing style is story-driven and practitioner-focused: field stories, adapted frameworks, and honest critique of industry practices such as metric worship and copy-pasted frameworks.
+
+## Articles
+- [Arabic articles index](https://almohannad.cx/articles): all articles in Arabic (original language)
+- [English articles index](https://almohannad.cx/en/articles): English translations
+- [Arabic RSS feed](https://almohannad.cx/rss.xml)
+- [English RSS feed](https://almohannad.cx/en/rss.xml)
+
+## Key pages
+- [About (Arabic)](https://almohannad.cx/about)
+- [About (English)](https://almohannad.cx/en/about)
+- [Books](https://almohannad.cx/books): published books (section in preparation)
+- [Podcasts](https://almohannad.cx/podcasts): podcast appearances (section in preparation)
+- [Newsletter](https://almohannad.cx/newsletter): Arabic newsletter on CX and marketing research
+
+## Profile
+- Name: Almohannad Alsbeai (Arabic: المهند السبيعي)
+- Role: Customer Experience Director at Thmanyah (ثمانية), Saudi Arabia
+- Topics: customer experience management, voice of customer, customer journey mapping, NPS/CSAT/CES, marketing research, service design, customer-centric culture
+- LinkedIn: https://www.linkedin.com/in/almohannadalsbeai
+
+## Sitemap
+- [Sitemap index](https://almohannad.cx/sitemap-index.xml)
