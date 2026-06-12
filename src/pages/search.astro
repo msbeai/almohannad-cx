@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base lang="ar" title="البحث — المهند السبيعي" altPath="/en/search" current="/search">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>البحث</h1>
+      <p>ابحث في كل ما نُشر على الموقع — المقالات بالعربية وصفحاته كلها.</p>
+    </header>
+
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+    <div id="search" class="site-search"></div>
+    <div style="height: 5rem"></div>
+  </div>
+
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      const s = document.createElement('script');
+      s.src = '/pagefind/pagefind-ui.js';
+      s.onload = () => {
+        new PagefindUI({
+          element: '#search',
+          showSubResults: true,
+          showImages: false,
+          autofocus: true,
+          translations: {
+            placeholder: 'اكتب كلمة للبحث…',
+            clear_search: 'مسح',
+            load_more: 'عرض المزيد من النتائج',
+            search_label: 'البحث في الموقع',
+            zero_results: 'لا نتائج عن [SEARCH_TERM] — جرّب كلمة أخرى',
+            many_results: '[COUNT] نتيجة عن [SEARCH_TERM]',
+            one_result: 'نتيجة واحدة عن [SEARCH_TERM]',
+            alt_search: 'لا نتائج عن [SEARCH_TERM]، عرضنا نتائج [DIFFERENT_TERM] بدلًا منها',
+            search_suggestion: 'لا نتائج عن [SEARCH_TERM] — جرّب: ',
+            searching: 'جارٍ البحث عن [SEARCH_TERM]…',
+          },
+        });
+      };
+      s.onerror = () => {
+        document.getElementById('search').innerHTML =
+          '<p style="color: var(--ink-soft)">فهرس البحث يتولّد عند النشر — هذه معاينة تطوير فقط.</p>';
+      };
+      document.head.appendChild(s);
+    });
+  </script>
+</Base>

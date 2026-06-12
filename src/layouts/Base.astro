@@ -115,6 +115,17 @@ const allSchema = [personSchema, websiteSchema, ...schema];
           {t.nav.map((item) => (
             <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a>
           ))}
+          <a
+            class="nav-search"
+            href={lang === 'ar' ? '/search' : '/en/search'}
+            aria-label={lang === 'ar' ? 'البحث في الموقع' : 'Search the site'}
+            title={lang === 'ar' ? 'بحث' : 'Search'}
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+          </a>
           <a class="lang-switch" href={altPath ?? (lang === 'ar' ? '/en' : '/')} lang={altLang} dir={altLang === 'ar' ? 'rtl' : 'ltr'}>{t.switchLabel}</a>
           <button
             class="theme-toggle"

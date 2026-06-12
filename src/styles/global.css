@@ -185,6 +185,57 @@ a {
   border-color: var(--ink-faint);
   color: var(--ink);
 }
+.nav-search {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  color: var(--ink-soft);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.nav-search:hover {
+  border-color: var(--ink-faint);
+  color: var(--ink);
+}
+.nav-search svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+/* pagefind UI — match the gray identity */
+.site-search {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: var(--ink);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-background: var(--bg-raised);
+  --pagefind-ui-border: var(--line);
+  --pagefind-ui-tag: var(--accent-soft);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 0.9rem;
+  --pagefind-ui-font: var(--font-sans);
+  max-width: var(--measure);
+}
+.site-search .pagefind-ui__search-input {
+  font-weight: 400;
+}
+.site-search .pagefind-ui__result-link {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--ink);
+}
+.site-search .pagefind-ui__result-excerpt {
+  color: var(--ink-soft);
+  line-height: 1.9;
+}
+.site-search .pagefind-ui__result-excerpt mark {
+  background: var(--accent-soft);
+  color: var(--ink);
+  border-radius: 0.2em;
+  padding-inline: 0.1em;
+}
 .theme-toggle {
   display: inline-flex;
   align-items: center;

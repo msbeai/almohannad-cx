@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base lang="en" title="Search — Almohannad Alsbeai" altPath="/search" current="/en/search">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>Search</h1>
+      <p>Search everything published on the site — all English articles and pages.</p>
+    </header>
+
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+    <div id="search" class="site-search"></div>
+    <div style="height: 5rem"></div>
+  </div>
+
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      const s = document.createElement('script');
+      s.src = '/pagefind/pagefind-ui.js';
+      s.onload = () => {
+        new PagefindUI({
+          element: '#search',
+          showSubResults: true,
+          showImages: false,
+          autofocus: true,
+        });
+      };
+      s.onerror = () => {
+        document.getElementById('search').innerHTML =
+          '<p style="color: var(--ink-soft)">The search index is generated on publish — this is a dev preview.</p>';
+      };
+      document.head.appendChild(s);
+    });
+  </script>
+</Base>
