@@ -41,17 +41,6 @@ import Base from '../layouts/Base.astro';
           <a class="btn btn-solid" href="/">خذني إلى الرئيسية</a>
           <a class="btn btn-ghost" href="/articles">أو تصفّح المقالات</a>
         </div>
-        <div class="nf-nps">
-          <p class="nf-nps-q">بصراحة: ما احتمال أن ترشّح صفحة الخطأ هذه لصديق؟</p>
-          <div class="nf-nps-scale" role="group" aria-label="مقياس من صفر إلى عشرة">
-            {Array.from({ length: 11 }, (_, i) => (
-              <button class="nf-nps-btn" data-score={i}>{i}</button>
-            ))}
-          </div>
-          <p class="nf-nps-reply" data-detractor="منتقد؟ مُنصفٌ جدًا — حتى نحن ما كنا سنرشّح صفحة خطأ لأحد. المهم أنك وصلت، والبقية علينا."
-             data-passive="محايد تجاه صفحة 404؟ هذا أعلى من المعدل العالمي لصفحات الخطأ بصراحة."
-             data-promoter="مروّجٌ لصفحة خطأ! هذا أندر من عميل راضٍ عن شركة اتصالات. نَعِدُك أن بقية الموقع أفضل."></p>
-        </div>
       </div>
 
       <!-- English -->
@@ -66,17 +55,6 @@ import Base from '../layouts/Base.astro';
         <div class="nf-actions">
           <a class="btn btn-solid" href="/en">Take me home</a>
           <a class="btn btn-ghost" href="/en/articles">Or browse the articles</a>
-        </div>
-        <div class="nf-nps">
-          <p class="nf-nps-q">Honestly: how likely are you to recommend this error page to a friend?</p>
-          <div class="nf-nps-scale" role="group" aria-label="Scale from zero to ten">
-            {Array.from({ length: 11 }, (_, i) => (
-              <button class="nf-nps-btn" data-score={i}>{i}</button>
-            ))}
-          </div>
-          <p class="nf-nps-reply" data-detractor="A detractor? Fair — we wouldn't recommend an error page either. The important thing is you're here; we'll handle the rest."
-             data-passive="Neutral about a 404? That's honestly above the global benchmark for error pages."
-             data-promoter="A promoter… of an error page! Rarer than a happy telecom customer. We promise the rest of the site is better."></p>
         </div>
       </div>
     </section>
@@ -161,57 +139,6 @@ import Base from '../layouts/Base.astro';
       gap: 0.9rem;
       justify-content: center;
       flex-wrap: wrap;
-      margin-bottom: 3.5rem;
-    }
-    .nf-nps {
-      border-top: 1px solid var(--line);
-      padding-top: 2rem;
-    }
-    .nf-nps-q {
-      color: var(--ink-soft);
-      font-size: 0.95rem;
-      margin: 0 0 1rem;
-    }
-    .nf-nps-scale {
-      display: flex;
-      gap: 0.35rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      direction: ltr;
-    }
-    .nf-nps-btn {
-      font-family: var(--font-sans);
-      font-size: 0.9rem;
-      width: 2.2rem;
-      height: 2.2rem;
-      border-radius: 50%;
-      border: 1px solid var(--line);
-      background: var(--bg-raised);
-      color: var(--ink-soft);
-      cursor: pointer;
-      transition: all 0.15s ease;
-    }
-    .nf-nps-btn:hover {
-      border-color: var(--ink);
-      color: var(--ink);
-      transform: translateY(-2px);
-    }
-    .nf-nps-btn[aria-pressed='true'] {
-      background: var(--ink);
-      border-color: var(--ink);
-      color: var(--bg);
-    }
-    .nf-nps-reply {
-      min-height: 3em;
-      color: var(--ink);
-      font-size: 1rem;
-      margin: 1.1rem auto 0;
-      max-width: 32rem;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    .nf-nps-reply.show {
-      opacity: 1;
     }
   </style>
 
@@ -227,20 +154,6 @@ import Base from '../layouts/Base.astro';
         document.querySelectorAll('.nf-label-en').forEach((el) => (el.style.display = 'block'));
         document.title = '404 — An unplanned moment of truth';
       }
-      // the NPS easter egg
-      document.querySelectorAll('.nf-nps').forEach((box) => {
-        const reply = box.querySelector('.nf-nps-reply');
-        box.querySelectorAll('.nf-nps-btn').forEach((btn) => {
-          btn.addEventListener('click', () => {
-            box.querySelectorAll('.nf-nps-btn').forEach((b) => b.setAttribute('aria-pressed', 'false'));
-            btn.setAttribute('aria-pressed', 'true');
-            const s = +btn.dataset.score;
-            reply.textContent =
-              s <= 6 ? reply.dataset.detractor : s <= 8 ? reply.dataset.passive : reply.dataset.promoter;
-            reply.classList.add('show');
-          });
-        });
-      });
     })();
   </script>
 </Base>
