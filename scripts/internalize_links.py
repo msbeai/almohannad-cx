@@ -16,17 +16,21 @@ def norm_tokens(s):
     s = re.sub(r"[^\w\s]", " ", s)
     return {w for w in s.split() if len(w) > 2}
 
-# build url -> slug and title-token index from frontmatter
-url_to_slug, title_index = {}, []
-for f in DIRS["en"].glob("*.md"):
-    text = f.read_text(encoding="utf-8")
-    slug = f.stem
-    m = re.search(r'linkedin: "(.*?)"', text)
-    if m and m.group(1):
-        url_to_slug[m.group(1).rstrip("/")] = slug
-    t = re.search(r'titleAr: "(.*?)"', text)
-    if t:
-        title_index.append((norm_tokens(t.group(1)), slug))
+# build url -> slug and title-token index from frontmatter (AR covers AR-only articles too)
+url_to_slug, title_index, seen_slugs = {}, [], set()
+for d in (DIRS["en"], DIRS["ar"]):
+    for f in d.glob("*.md"):
+        slug = f.stem
+        if slug in seen_slugs:
+            continue
+        seen_slugs.add(slug)
+        text = f.read_text(encoding="utf-8")
+        m = re.search(r'linkedin: "(.*?)"', text)
+        if m and m.group(1):
+            url_to_slug[m.group(1).rstrip("/")] = slug
+        t = re.search(r'titleAr: "(.*?)"', text)
+        if t:
+            title_index.append((norm_tokens(t.group(1)), slug))
 
 def resolve(url):
     u = url.rstrip("/")
