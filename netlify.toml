@@ -1,0 +1,8 @@
+# Netlify build config — used when the site is linked to the GitHub repo for CI.
+# Editing content in the CMS commits to GitHub, which triggers this build + deploy.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
