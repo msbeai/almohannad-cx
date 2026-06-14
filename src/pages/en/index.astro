@@ -11,18 +11,23 @@ const featured = articles.slice(0, 6);
 
 <Base lang="en" title={`${SITE.nameEn} — ${SITE.taglineEn}`} altPath="/" current="/en">
   <section class="hero">
-    <div class="wrap">
-      <p class="kicker">Customer experience · Marketing research · Writing</p>
-      <h1>Almohannad Alsbeai</h1>
-      <p class="lede">
-        Customer experience leader, author, and speaker. I've spent 17+ years in marketing
-        research and customer experience, and I write about what I learn: real stories,
-        tools that get used rather than framed, and honest opinions about the practice —
-        {articles.length} articles so far, with more to come.
-      </p>
-      <div class="hero-actions">
-        <a class="btn btn-solid" href="/en/articles">Browse articles</a>
-        <a class="btn btn-ghost" href="/en/newsletter">Join the newsletter</a>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="kicker">Customer experience · Marketing research · Writing</p>
+        <h1>Almohannad Alsbeai</h1>
+        <p class="lede">
+          Customer experience leader, author, and speaker. I've spent 17+ years in marketing
+          research and customer experience, and I write about what I learn: real stories,
+          tools that get used rather than framed, and honest opinions about the practice —
+          {articles.length} articles so far, with more to come.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="/en/articles">Browse articles</a>
+          <a class="btn btn-ghost" href="/en/newsletter">Join the newsletter</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        <img src="/images/almohannad-hero.jpg" alt="Almohannad Alsbeai" width="760" height="1163" loading="eager" />
       </div>
     </div>
   </section>
@@ -65,7 +70,7 @@ const featured = articles.slice(0, 6);
           <div class="card-body">
           <span class="meta"><span class="tag">Podcasts</span></span>
           <h3>Podcast appearances</h3>
-          <p>Conversations and episodes I joined as a guest, mostly on YouTube — coming soon.</p>
+          <p>Conversations and episodes I joined as a guest, mostly on YouTube — watch them here.</p>
         </div>
         </a>
       </div>

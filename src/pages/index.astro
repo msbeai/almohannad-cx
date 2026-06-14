@@ -11,17 +11,22 @@ const featured = articles.slice(0, 6);
 
 <Base lang="ar" title={`${SITE.nameAr} — ${SITE.taglineAr}`} altPath="/en" current="/">
   <section class="hero">
-    <div class="wrap">
-      <p class="kicker">تجربة العميل · الأبحاث التسويقية · الكتابة</p>
-      <h1>المهند السبيعي</h1>
-      <p class="lede">
-        قائد تجربة عملاء، مؤلف ومتحدث. أمضيت أكثر من ١٧ عامًا في الأبحاث التسويقية وتجربة
-        العميل، وأكتب بالعربية عمّا أتعلمه: قصص من الواقع، وأدوات تُستخدم لا تُؤطَّر، ورأي
-        صريح في ممارسات المهنة — {articles.length} مقالًا حتى الآن، والقادم أكثر.
-      </p>
-      <div class="hero-actions">
-        <a class="btn btn-solid" href="/articles">تصفّح المقالات</a>
-        <a class="btn btn-ghost" href="/newsletter">اشترك في النشرة</a>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="kicker">تجربة العميل · الأبحاث التسويقية · الكتابة</p>
+        <h1>المهند السبيعي</h1>
+        <p class="lede">
+          قائد تجربة عملاء، مؤلف ومتحدث. أمضيت أكثر من ١٧ عامًا في الأبحاث التسويقية وتجربة
+          العميل، وأكتب بالعربية عمّا أتعلمه: قصص من الواقع، وأدوات تُستخدم لا تُؤطَّر، ورأي
+          صريح في ممارسات المهنة — {articles.length} مقالًا حتى الآن، والقادم أكثر.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="/articles">تصفّح المقالات</a>
+          <a class="btn btn-ghost" href="/newsletter">اشترك في النشرة</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        <img src="/images/almohannad-hero.jpg" alt="المهند السبيعي" width="760" height="1163" loading="eager" />
       </div>
     </div>
   </section>
@@ -64,7 +69,7 @@ const featured = articles.slice(0, 6);
           <div class="card-body">
           <span class="meta"><span class="tag">البودكاست</span></span>
           <h3>حوارات شاركت فيها</h3>
-          <p>لقاءات وحلقات بودكاست شاركت فيها ضيفًا، معظمها على يوتيوب — قريبًا هنا.</p>
+          <p>لقاءات وحلقات بودكاست شاركت فيها ضيفًا، معظمها على يوتيوب — شاهدها هنا.</p>
         </div>
         </a>
       </div>

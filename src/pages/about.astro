@@ -55,18 +55,22 @@ import { SITE } from '../site';
 <style>
   .portrait {
     float: right;
-    width: 210px;
-    height: 210px;
+    width: 270px;
+    max-width: 40%;
+    height: auto;
+    aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 1rem;
     border: 1px solid var(--line);
-    margin: 0.3rem 0 1.2rem 1.8rem;
+    margin: 0.4rem 0 1.2rem 2rem;
   }
   @media (max-width: 600px) {
     .portrait {
       float: none;
       display: block;
-      margin: 0 auto 1.6rem;
+      width: 230px;
+      max-width: 72%;
+      margin: 0 auto 1.8rem;
     }
   }
 </style>
