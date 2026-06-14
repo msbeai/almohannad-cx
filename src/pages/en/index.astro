@@ -1,7 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import NewsletterForm from '../../components/NewsletterForm.astro';
 import { SITE } from '../../site';
 import { getArticles, excerpt } from '../../lib/articles';
 
@@ -23,7 +22,6 @@ const featured = articles.slice(0, 6);
         </p>
         <div class="hero-actions">
           <a class="btn btn-solid" href="/en/articles">Browse articles</a>
-          <a class="btn btn-ghost" href="/en/newsletter">Join the newsletter</a>
         </div>
       </div>
       <div class="hero-figure">
@@ -69,8 +67,4 @@ const featured = articles.slice(0, 6);
       </div>
     </div>
   </section>
-
-  <div class="wrap">
-    <NewsletterForm lang="en" />
-  </div>
 </Base>

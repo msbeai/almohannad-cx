@@ -44,7 +44,6 @@ export const T = {
       { href: '/en', label: 'Home' },
       { href: '/en/articles', label: 'Articles' },
       { href: '/en/podcasts', label: 'Podcasts' },
-      { href: '/en/newsletter', label: 'Newsletter' },
       { href: '/en/about', label: 'About' },
     ],
     switchLabel: 'العربية',
