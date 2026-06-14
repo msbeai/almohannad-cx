@@ -1,0 +1,99 @@
+# Pages CMS — visual content editor for almohannad.cx
+# Connect this repo at https://app.pagescms.org (sign in with GitHub), then
+# edit articles / books / podcasts in forms. Saving commits here, which
+# triggers Netlify to rebuild and publish automatically.
+
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: articles_ar
+    label: المقالات (عربي)
+    type: collection
+    path: src/content/ar
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, theme, order, date]
+      primary: title
+      sort: [order, date, title]
+    fields:
+      - { name: title, label: العنوان, type: string, required: true }
+      - { name: titleAr, label: العنوان (عربي), type: string, required: true }
+      - { name: titleEn, label: العنوان (إنجليزي), type: string, required: true }
+      - name: theme
+        label: التصنيف
+        type: select
+        options:
+          values:
+            - { name: cx, label: تجربة العميل }
+            - { name: research, label: الأبحاث التسويقية }
+      - { name: order, label: الترتيب, type: number, required: true }
+      - { name: linkedin, label: رابط لينكدإن (اختياري), type: string }
+      - { name: date, label: تاريخ النشر (اختياري), type: date }
+      - { name: body, label: المحتوى, type: rich-text }
+
+  - name: articles_en
+    label: Articles (English)
+    type: collection
+    path: src/content/en
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, theme, order, date]
+      primary: title
+      sort: [order, date, title]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: titleAr, label: Title (Arabic), type: string, required: true }
+      - { name: titleEn, label: Title (English), type: string, required: true }
+      - name: theme
+        label: Theme
+        type: select
+        options:
+          values:
+            - { name: cx, label: Customer Experience }
+            - { name: research, label: Marketing Research }
+      - { name: order, label: Order, type: number, required: true }
+      - { name: linkedin, label: LinkedIn URL (optional), type: string }
+      - { name: date, label: Publish date (optional), type: date }
+      - { name: body, label: Body, type: rich-text }
+
+  - name: books
+    label: الكتب
+    type: file
+    path: src/data/books.json
+    fields:
+      - name: books
+        label: قائمة الكتب
+        type: object
+        list: true
+        fields:
+          - { name: titleAr, label: العنوان (عربي), type: string, required: true }
+          - { name: titleEn, label: العنوان (إنجليزي), type: string }
+          - { name: year, label: السنة, type: string }
+          - { name: cover, label: صورة الغلاف, type: image }
+          - { name: descriptionAr, label: نبذة, type: text }
+
+  - name: podcasts
+    label: البودكاست
+    type: file
+    path: src/data/podcasts.json
+    fields:
+      - name: episodes
+        label: الحلقات
+        type: object
+        list: true
+        fields:
+          - { name: titleAr, label: العنوان (عربي), type: string, required: true }
+          - { name: titleEn, label: العنوان (إنجليزي), type: string }
+          - { name: show, label: اسم البودكاست, type: string }
+          - { name: year, label: السنة, type: string }
+          - { name: youtube, label: رابط يوتيوب (Watch URL), type: string }
+          - { name: descriptionAr, label: نبذة (عربي), type: text }
+          - { name: descriptionEn, label: نبذة (إنجليزي), type: text }
+
+settings:
+  content:
+    merge: true
