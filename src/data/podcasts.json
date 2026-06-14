@@ -1,5 +1,50 @@
 {
-  "_comment": "Add podcast appearances here (YouTube links). The pages render them automatically with embedded players.",
+  "_comment": "Add podcast appearances here (YouTube links). The pages render them automatically with embedded players. Ordered newest first.",
   "episodes": [
+    {
+      "titleAr": "هل وَلاء العميل يُولد من أول تجربة؟",
+      "titleEn": "Is Customer Loyalty Born from the First Experience?",
+      "show": "بودكاست نقطة ولاء",
+      "year": "2025",
+      "youtube": "https://www.youtube.com/watch?v=SkvgCKd6kUU",
+      "descriptionAr": "حوار عن ولاء العميل ومتى يبدأ في رحلته، وكيف تصنع التجربة الأولى انطباعًا يدوم.",
+      "descriptionEn": "A conversation on customer loyalty — when it begins and how the first experience shapes a lasting impression."
+    },
+    {
+      "titleAr": "الموازنة بين الذكاء الاصطناعي واللمسة الإنسانية: مستقبل تجربة العميل في السعودية",
+      "titleEn": "Balancing AI & Human Touch: The Future of CX in Saudi Arabia",
+      "show": "The Success Revenue Podcast",
+      "year": "2025",
+      "youtube": "https://www.youtube.com/watch?v=Jodp74JcASE",
+      "descriptionAr": "نقاش بالإنجليزية عن الموازنة بين الذكاء الاصطناعي واللمسة الإنسانية في مستقبل تجربة العميل بالسعودية.",
+      "descriptionEn": "An English-language discussion on balancing AI and the human touch in the future of customer experience in Saudi Arabia."
+    },
+    {
+      "titleAr": "العميل لا يهتم بالمنتج",
+      "titleEn": "The Customer Doesn't Care About the Product",
+      "show": "بودكاست مكوك",
+      "year": "2025",
+      "youtube": "https://www.youtube.com/watch?v=TU7KloqWKz0",
+      "descriptionAr": "لماذا لا يهتم العميل بالمنتج بقدر اهتمامه بالتجربة والقيمة التي يحصل عليها.",
+      "descriptionEn": "Why customers care less about the product itself than about the experience and the value they get."
+    },
+    {
+      "titleAr": "مدخل إلى خريطة رحلة العميل",
+      "titleEn": "An Introduction to Customer Journey Mapping",
+      "show": "UX Writing بالعربية",
+      "year": "2023",
+      "youtube": "https://www.youtube.com/watch?v=VaEKh-KMwrw",
+      "descriptionAr": "مدخل عملي إلى خريطة رحلة العميل: ما هي، ولماذا تهمّ فرق التصميم والتجربة.",
+      "descriptionEn": "A practical introduction to customer journey mapping — what it is and why design and CX teams need it."
+    },
+    {
+      "titleAr": "تعرّف على مهنة أخصائي أبحاث السوق",
+      "titleEn": "Inside the Market Research Specialist Profession",
+      "show": "منصة اكتشاف",
+      "year": "2017",
+      "youtube": "https://www.youtube.com/watch?v=j3CPpLb5ZsA",
+      "descriptionAr": "تعريف بمهنة أخصائي أبحاث السوق ومساراتها لمن يفكّر في دخول هذا المجال.",
+      "descriptionEn": "An overview of the market research specialist profession and its career paths for newcomers."
+    }
   ]
 }
