@@ -43,7 +43,6 @@ export const T = {
     nav: [
       { href: '/en', label: 'Home' },
       { href: '/en/articles', label: 'Articles' },
-      { href: '/en/books', label: 'Books' },
       { href: '/en/podcasts', label: 'Podcasts' },
       { href: '/en/newsletter', label: 'Newsletter' },
       { href: '/en/about', label: 'About' },

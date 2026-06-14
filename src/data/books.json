@@ -1,5 +1,54 @@
 {
-  "_comment": "Add published books here; the Books pages render them automatically. cover goes in public/images/books/.",
+  "_comment": "Books render on the Books page as a cover gallery. cover = path under public/images/books/. Ordered newest first.",
   "books": [
+    {
+      "titleAr": "دليل تأسيس إدارة تجربة العميل",
+      "titleEn": "A Practical Guide to Establishing a CX Management Function",
+      "year": "2025",
+      "cover": "/images/books/cx-management-foundation.jpg",
+      "descriptionAr": "خارطة طريقٍ عمليّةٌ لتأسيس إدارة تجربة عميلٍ فعّالةٍ ومستدامة داخل المؤسسات. عملٌ جماعيٌّ شارك فيه أكثر من خمسين ممارسًا، بتأليف المهند السبيعي وعبدالله البدوي."
+    },
+    {
+      "titleAr": "علامتك الشخصية",
+      "titleEn": "Your Personal Brand: 43 Practical Tips",
+      "year": "2024",
+      "cover": "/images/books/personal-branding.jpg",
+      "descriptionAr": "ثلاثٌ وأربعون نصيحةً عمليّةً لبناء علامتك الشخصيّة وتقديم نفسك بوضوحٍ وتميّز — كتابٌ مباشرٌ يساعدك على صناعة حضورٍ مهنيٍّ يُعبّر عنك بصدق."
+    },
+    {
+      "titleAr": "تجربة العميل كمسار مهني",
+      "titleEn": "Customer Experience as a Career Path",
+      "year": "2023",
+      "cover": "/images/books/cx-career-path.jpg",
+      "descriptionAr": "دليلٌ للممارس المستجدّ يفتح أبواب مهنة تجربة العميل: ماهيّتها وأدوارها ومهاراتها، وكيف تبني مسارًا مهنيًّا واضحًا في هذا المجال الناشئ."
+    },
+    {
+      "titleAr": "إدارة الأبحاث التسويقية في جهة العميل",
+      "titleEn": "Managing Marketing Research at the Client Side",
+      "year": "2013",
+      "cover": "/images/books/marketing-research-client-side.jpg",
+      "descriptionAr": "كتابٌ يتناول إدارة الأبحاث التسويقيّة من داخل المؤسسة (جهة العميل): كيف تطلب البحث وتديره وتستثمر نتائجه في القرار، لا أن تكتفي بتسلّم تقاريره."
+    },
+    {
+      "titleAr": "دليل تصميم الاستبيانات",
+      "titleEn": "A Guide to Survey Design",
+      "year": "2013",
+      "cover": "/images/books/survey-design-guide.jpg",
+      "descriptionAr": "مرجعٌ عمليٌّ في تصميم الاستبيانات، ومباحث في أنواع الأسئلة والمقاييس وصياغتها، لتجمع بياناتٍ دقيقةً يُعتمد عليها."
+    },
+    {
+      "titleAr": "رواية الحب الحلال",
+      "titleEn": "Halal Love (a novel)",
+      "year": "2011",
+      "cover": "/images/books/al-hob-al-halal.jpg",
+      "descriptionAr": "روايةٌ اجتماعيّةٌ تتتبّع قصّة خالد على أعتاب الجامعة، وتلامس التوتّر بين الوازع الدينيّ ونداء القلب في مجتمعٍ لم يوازن بين الكفّتين — تأمّلٌ روائيّ في معنى الحبّ الحلال."
+    },
+    {
+      "titleAr": "حديث الروح",
+      "titleEn": "Whispers of the Soul (reflections)",
+      "year": "2009",
+      "cover": "/images/books/hadith-al-rooh.jpg",
+      "descriptionAr": "مجموعةٌ من الخواطر والتأمّلات الرّوحيّة والوجدانيّة؛ نصوصٌ قصيرةٌ في الإيمان والنفس ومعاني الحياة، من باكورة أعماله الأدبيّة."
+    }
   ]
 }
