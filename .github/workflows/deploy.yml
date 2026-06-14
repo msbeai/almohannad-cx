@@ -1,0 +1,41 @@
+name: Build & Deploy to Netlify
+
+# Runs on every push to main (including saves from Pages CMS) and on manual trigger.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Never let two deploys run at once; cancel an in-progress one if a newer push lands.
+concurrency:
+  group: deploy-main
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site (Astro + Pagefind)
+        run: npm run build
+
+      - name: Deploy to Netlify
+        run: >-
+          npx netlify-cli@latest deploy
+          --prod
+          --dir dist
+          --site 93321ec1-ade7-4c8a-b0ea-8c6d3a4b09e1
+          --message "GitHub Action: ${{ github.sha }}"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
