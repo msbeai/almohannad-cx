@@ -113,7 +113,12 @@ const allSchema = [personSchema, websiteSchema, ...schema];
         <a class="brand" href={homeHref}><img class="brand-avatar" src="/images/avatar.jpg" alt="" width="32" height="32" /><span class="brand-name">almohannad<span class="tld">.cx</span></span></a>
         <nav class="site-nav" aria-label={lang === 'ar' ? 'التنقل الرئيسي' : 'Main navigation'}>
           {t.nav.map((item) => (
-            <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a>
+            <a
+              href={item.href}
+              target={item.href.startsWith('http') ? '_blank' : undefined}
+              rel={item.href.startsWith('http') ? 'noopener' : undefined}
+              aria-current={current === item.href ? 'page' : undefined}
+            >{item.label}</a>
           ))}
           <a
             class="nav-search"

@@ -10,8 +10,6 @@ export const SITE = {
     'Personal site of Almohannad Alsbeai — articles, books, and podcast conversations on customer experience and marketing research.',
   linkedin: 'https://www.linkedin.com/in/almohannadalsbeai',
   linkedinAuthor: 'https://www.linkedin.com/today/author/almohannadalsbeai',
-  // Newsletter: Netlify Forms captures subscribers until an external tool is chosen.
-  // When ready, replace form action/handling in src/components/NewsletterForm.astro.
 };
 
 export const THEMES = {
@@ -28,7 +26,7 @@ export const T = {
       { href: '/articles', label: 'المقالات' },
       { href: '/books', label: 'الكتب' },
       { href: '/podcasts', label: 'البودكاست' },
-      { href: '/newsletter', label: 'النشرة' },
+      { href: 'https://blog.almohannad.cx', label: 'المدونة' },
       { href: '/about', label: 'عنّي' },
     ],
     switchLabel: 'English',
