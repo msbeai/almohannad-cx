@@ -18,6 +18,12 @@ const themeParam = Astro.url.searchParams.get('theme');
       </p>
     </header>
 
+    <a class="cx-guide-callout" href="/تجربة-العميل">
+      <span class="tag">ابدأ من هنا</span>
+      <span class="cx-guide-text">الدليل الشامل لتجربة العميل — تعريفها، وعناصرها، ومقاييسها، وكيف تُدار</span>
+      <span class="cx-guide-arrow" aria-hidden="true">←</span>
+    </a>
+
     <nav class="filter-row" aria-label="تصفية حسب المحور" id="filters">
       <a href="/articles" data-theme="all" aria-current="true">الكل ({all.length})</a>
       <a href="/articles?theme=cx" data-theme="cx">{THEMES.cx.ar} ({all.filter((a) => a.data.theme === 'cx').length})</a>
