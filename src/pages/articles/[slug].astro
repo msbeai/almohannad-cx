@@ -62,6 +62,13 @@ const articleSchema = {
     </div>
 
     <footer class="article-foot measure">
+      {article.data.theme === 'cx' && (
+        <a class="cx-guide-callout" href="/تجربة-العميل" style="margin-bottom: 1.6rem">
+          <span class="tag">دليلٌ شامل</span>
+          <span class="cx-guide-text">الدليل الكامل لتجربة العميل — تعريفها، وعناصرها، ومقاييسها، وكيف تُدار</span>
+          <span class="cx-guide-arrow" aria-hidden="true">←</span>
+        </a>
+      )}
       <a href="/articles">← كل المقالات</a>
     </footer>
   </article>
