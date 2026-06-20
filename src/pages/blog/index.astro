@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+// Recovery render of the write-first blog backup. Hidden (noindex, not in nav,
+// excluded from sitemap) — ready to surface in minutes if Thmanyah goes down.
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+const fmt = (d: Date) =>
+  d.toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base
+  lang="ar"
+  title="المدونة (نسخة احتياطية) — المهند السبيعي"
+  current="/blog"
+  altPath="/en"
+  altExact={false}
+  noindex
+>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>المدونة</h1>
+      <p>نسخةٌ احتياطيّةٌ من منشورات المدوّنة، محفوظةٌ في المستودع. ({posts.length})</p>
+    </header>
+
+    <div class="card-grid" style="margin-bottom: 4rem">
+      {posts.map((p) => (
+        <a class="card" href={`/blog/${p.id.replace(/\.md$/, '')}`}>
+          <div class="card-body">
+            <span class="meta">
+              <span>{fmt(p.data.date)}</span>
+              {p.data.draft && <span class="tag">مسوّدة</span>}
+            </span>
+            <h3>{p.data.title}</h3>
+            {p.data.description && <p>{p.data.description}</p>}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

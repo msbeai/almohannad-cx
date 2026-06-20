@@ -20,6 +20,8 @@ export default defineConfig({
   trailingSlash: 'ignore',
   integrations: [
     sitemap({
+      // keep the backup/recovery blog out of the sitemap (it's noindex)
+      filter: (page) => !page.includes('/blog'),
       i18n: {
         defaultLocale: 'ar',
         locales: { ar: 'ar', en: 'en' },

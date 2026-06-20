@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.id.replace(/\.md$/, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const fmt = (d: Date) =>
+  d.toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base
+  lang="ar"
+  title={`${post.data.title} — المهند السبيعي`}
+  description={post.data.description}
+  current="/blog"
+  altPath="/en"
+  altExact={false}
+  ogType="article"
+  noindex
+>
+  <article class="wrap">
+    <header class="article-head">
+      {post.data.draft && <span class="tag">مسوّدة</span>}
+      <h1>{post.data.title}</h1>
+      <div class="meta"><span>{fmt(post.data.date)}</span></div>
+    </header>
+
+    <div class="prose measure">
+      <Content />
+    </div>
+
+    <footer class="article-foot measure">
+      {post.data.thmanyahUrl && (
+        <a href={post.data.thmanyahUrl} target="_blank" rel="noopener">المنشور على ثمانية ←</a>
+      )}
+      <a href="/blog">← كل المنشورات</a>
+    </footer>
+  </article>
+</Base>

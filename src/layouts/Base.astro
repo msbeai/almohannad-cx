@@ -15,9 +15,11 @@ interface Props {
   ogType?: 'website' | 'article';
   /** extra JSON-LD blocks (e.g. Article schema) */
   schema?: object[];
+  /** emit noindex (for backup/recovery pages not meant for Google) */
+  noindex?: boolean;
 }
 
-const { lang, title, description, altPath, altExact = true, current, ogType = 'website', schema = [] } = Astro.props;
+const { lang, title, description, altPath, altExact = true, current, ogType = 'website', schema = [], noindex = false } = Astro.props;
 const t = T[lang];
 const dir = lang === 'ar' ? 'rtl' : 'ltr';
 const desc = description ?? (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn);
@@ -69,6 +71,7 @@ const allSchema = [personSchema, websiteSchema, ...schema];
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={desc} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     {altUrl && altExact && (
       <>

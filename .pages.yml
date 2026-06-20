@@ -8,6 +8,26 @@ media:
   output: /images
 
 content:
+  - name: blog
+    label: مدونة (نسخة احتياطية)
+    type: collection
+    path: src/content/blog
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [date, title]
+    fields:
+      - { name: title, label: العنوان, type: string, required: true }
+      - { name: date, label: التاريخ, type: date, required: true }
+      - { name: description, label: وصف مختصر, type: text }
+      - { name: cover, label: صورة الغلاف, type: image }
+      - { name: tags, label: وسوم, type: string, list: true }
+      - { name: thmanyahUrl, label: رابط المنشور في ثمانية, type: string }
+      - { name: draft, label: مسوّدة (لم تُنشر بعد), type: boolean }
+      - { name: body, label: المحتوى, type: rich-text }
+
   - name: articles_ar
     label: المقالات (عربي)
     type: collection
