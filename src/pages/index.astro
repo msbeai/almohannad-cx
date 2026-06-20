@@ -15,7 +15,7 @@ const featured = articles.slice(0, 6);
         <p class="kicker">تجربة العميل · الأبحاث التسويقية · الكتابة</p>
         <h1>المهند السبيعي</h1>
         <p class="lede">
-          قائد تجربة عملاء، مؤلف ومتحدث. أمضيت أكثر من ١٧ عامًا في الأبحاث التسويقية وتجربة
+          قائد تجربة عملاء، مؤلف ومتحدث. أمضيت أكثر من ٢٠ عامًا في الأبحاث التسويقية وتجربة
           العميل، وأكتب بالعربية عمّا أتعلمه: قصص من الواقع، وأدوات تُستخدم لا تُؤطَّر، ورأي
           صريح في ممارسات المهنة — {articles.length} مقالًا حتى الآن، والقادم أكثر.
         </p>
@@ -27,6 +27,15 @@ const featured = articles.slice(0, 6);
       <div class="hero-figure">
         <img src="/images/almohannad-hero.jpg" alt="المهند السبيعي" width="760" height="1163" loading="eager" />
       </div>
+    </div>
+  </section>
+
+  <section class="stats-strip">
+    <div class="wrap stats-grid">
+      <div class="stat"><span class="stat-num">+٢٠</span><span class="stat-label">عامًا في تجربة العميل والأبحاث</span></div>
+      <div class="stat"><span class="stat-num">٥</span><span class="stat-label">كتب منشورة</span></div>
+      <div class="stat"><span class="stat-num">٦</span><span class="stat-label">حوارات بودكاست</span></div>
+      <div class="stat"><span class="stat-num">{articles.length.toLocaleString('ar-EG')}</span><span class="stat-label">مقالًا</span></div>
     </div>
   </section>
 

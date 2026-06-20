@@ -1,5 +1,5 @@
 ---
-import { THEMES, type Lang } from '../site';
+import type { Lang } from '../site';
 
 interface Props {
   lang: Lang;
@@ -23,7 +23,6 @@ const dateStr = date?.toLocaleDateString(lang === 'ar' ? 'ar-SA' : 'en-US', {
   <img class="card-cover" src={cover} alt="" loading="lazy" decoding="async" width="1200" height="630" />
   <div class="card-body">
     <span class="meta">
-      <span class="tag">{THEMES[theme][lang]}</span>
       {dateStr && <span>{dateStr}</span>}
     </span>
     <h3>{title}</h3>
