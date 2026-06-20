@@ -164,6 +164,7 @@ const allSchema = [personSchema, websiteSchema, ...schema];
         <span>© {new Date().getFullYear()} {name} — {t.rights}</span>
         <span class="footer-links">
           <a href={SITE.linkedin} rel="me noopener" target="_blank">LinkedIn</a>
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
           <a href={rssHref}>{t.rss}</a>
         </span>
       </div>

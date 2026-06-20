@@ -10,6 +10,7 @@ export const SITE = {
     'Personal site of Almohannad Alsbeai — articles, books, and podcast conversations on customer experience and marketing research.',
   linkedin: 'https://www.linkedin.com/in/almohannadalsbeai',
   linkedinAuthor: 'https://www.linkedin.com/today/author/almohannadalsbeai',
+  email: 'hey@almohannad.cx',
 };
 
 export const THEMES = {
