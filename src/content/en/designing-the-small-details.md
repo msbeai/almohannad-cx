@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/O6thU3"
 date: 2016-08-07
 ---
 
-![](/images/articles/image7.png)
+![Rolex Day-Date watch with an ice-blue dial showing the day "Monday" and the date 28](/images/articles/image7.png)
 
 
 ## Introduction

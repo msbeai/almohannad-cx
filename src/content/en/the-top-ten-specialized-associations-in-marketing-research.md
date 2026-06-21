@@ -39,7 +39,7 @@ http://www.mrs.org.uk/
 **Council of American Survey Research Organizations (CASRO)**
 http://www.casro.org/
 
-![](/images/articles/image23.jpg)
+![ESOMAR research association logo](/images/articles/image23.jpg)
 
 
 **American Association for Public Opinion Research (AAPOR)**
@@ -48,7 +48,7 @@ http://www.aapor.org/
 **Alliance Of International Market Research Institutes (AIMRI)**
 http://www.aimri.net/
 
-![](/images/articles/image16.png)
+![Market Research Society (MRS) logo](/images/articles/image16.png)
 
 
 **Association of Market and Social Research Organisations (AMSRO)**
@@ -57,7 +57,7 @@ http://www.amsro.com.au/
 **Marketing Research Association (MRA)**
 http://www.mra-net.org/
 
-![](/images/articles/image46.png)
+![CASRO survey research organizations logo](/images/articles/image46.png)
 
 
 **Advertising Research Foundation (ARF)**
@@ -65,7 +65,7 @@ http://thearf.org/research
 
 The next two associations specialize in qualitative or descriptive research:
 
-![](/images/articles/image25.png)
+![AAPOR public opinion research association logo](/images/articles/image25.png)
 
 
 **Association for Qualitative Research (AQR)**
@@ -74,7 +74,7 @@ http://www.aqr.org.uk/
 **Qualitative Research Consultant Association (QRCA)**
 http://www.qrca.org/
 
-![](/images/articles/image32.png)
+![AIMRI market research institutes alliance logo](/images/articles/image32.png)
 
 
 ## Closing
@@ -83,7 +83,7 @@ In the end, I recommend following these associations on social networks and sign
 
 I also hope that one day a specialized marketing-research association will be established in the Kingdom of Saudi Arabia to adopt the role of localizing global codes of conduct and tailoring them to fit local culture. Later, this association could be a force pressuring all the agencies working here to deliver better quality.
 
-![](/images/articles/image33.png)
+![AMSRO market and social research organisations logo](/images/articles/image33.png)
 
 
 ---
@@ -94,7 +94,7 @@ I also hope that one day a specialized marketing-research association will be es
 
 I came across many names who contributed to the emergence of marketing research — such as Karl Pearson, Harold Lazarsfeld, Albert Cantril, and Ernest Dichter. But most of them were paving the road and laying some stones in it, until Charles Coolidge Parlin completed it. So who was this man, who was later called the father of marketing research?
 
-![](/images/articles/image62.jpg)
+![Marketing Research Association (MRA) logo](/images/articles/image62.jpg)
 
 
 ### The Father of the Marketing-Research Industry
@@ -103,7 +103,7 @@ Every science or branch in this world has a father credited with discovering it 
 
 The first (multi-stage) marketing research he conducted was in the early 19th century for **Curtis Publishing Company**. The goal was to gather information about customers and the market to help the company sell more advertising in its magazine *The Saturday Evening Post*. Other sources mention that his first research was in the field of agricultural applications in 1911. He's the author of the famous quote: *"The customer is King."*
 
-![](/images/articles/image9.png)
+![Advertising Research Foundation (ARF) logo](/images/articles/image9.png)
 
 
 In 1945, an annual award bearing his name was established by the American Marketing Association and the Wharton School in cooperation with Curtis Publishing — in tribute to his great contributions. This award is considered the oldest and most distinguished among the awards given annually in marketing-research circles. Thousands of people from around the world apply for it each year. It is awarded based on criteria and priorities focused on the degree of the contribution's impact on the field as a whole, and the extent of change or improvement that will accrue to the industry and help it grow.
@@ -114,14 +114,14 @@ On the article's cover image, I've placed a picture of the father of marketing r
 
 Even if the first wasn't successful in their attempt, the first to honor the attempt of anything stands out and is remembered just for being first. Which of the readers hasn't heard of Abbas ibn Firnas, despite his failed attempt at flight? But because it was the first … it set him apart from later attempts.
 
-![](/images/articles/image30.jpg)
+![Association for Qualitative Research (AQR) logo](/images/articles/image30.jpg)
 
 
 There has been disagreement about the first company to apply market research, but the majority attribute the first initiative to **British Nurse Florence Nightingale**. This was mentioned in one of ESOMAR's books which we discussed in the previous article. The title of the book for those who want to read more: *Market Research Explained*.
 
 This nurse made significant contributions to statistics and pioneered combining medical data with statistics — developing statistical medical applications and developing charts to present medical data in an easy-to-read way. Her work wasn't limited to nursing as her name suggests; she used her statistical expertise to measure and collect data from clinical operations and developed charts to present her data in a way that gained the understanding and satisfaction of clients.
 
-![](/images/articles/image6.jpg)
+![Qualitative Research Consultant Association (QRCA) logo](/images/articles/image6.jpg)
 
 
 ### Other Miscellaneous Events
@@ -136,7 +136,7 @@ In 1941, **Robert Merton** and his colleague **Paul Lazarsfeld** invented **focu
 
 For those wanting to dig into the history of this industry, I recommend the following book:
 
-![](/images/articles/image92.png)
+![Portrait of Charles Coolidge Parlin beside the Parlin Marketing Research Award crest](/images/articles/image92.png)
 
 
 > *A New Brand of Business: Charles Parlin, Curtis Publishing Company, and the Origins of Market Research* by Douglas B. Ward | Temple University Press, Philadelphia, 2010
@@ -197,22 +197,22 @@ The incentive is in the end required in certain cases and must be offered based 
 And God knows best; to God belongs the right path.
 
 
-![](/images/articles/image8.png)
+![Three paper notes pinned to a line with happy, sad and neutral faces](/images/articles/image8.png)
 
 
-![](/images/articles/image51.png)
+![Net Promoter Score diagram: detractors 0-6, passives 7-8, promoters 9-10, with NPS formula](/images/articles/image51.png)
 
 
-![](/images/articles/image42.png)
+![Vintage blue-ink illustration of a locust](/images/articles/image42.png)
 
 
-![](/images/articles/image91.png)
+![Empty squeezed tube labelled "أفكار IDEAS"](/images/articles/image91.png)
 
 
-![](/images/articles/image84.png)
+![Vintage sign reading "We welcome your problems with enthusiasm" with a grinning face](/images/articles/image84.png)
 
 
-![](/images/articles/image86.png)
+![Cover of the book "A New Brand of Business" by Douglas B. Ward](/images/articles/image86.png)
 
 ---
 ← Articles MOC

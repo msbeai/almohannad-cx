@@ -8,7 +8,7 @@ linkedin: "https://bit.ly/359GEzS"
 date: 2019-05-19
 ---
 
-![](/images/articles/image57.png)
+![Article title image with the words Customer Experience Champions, a CX logo, and small figurines](/images/articles/image57.png)
 
 
 ## Introduction
@@ -17,7 +17,7 @@ Many practitioners in customer experience (the target audience of this article) 
 
 An example to bring the idea closer: if you brought in a battered car — let's assume this car represents the maturity level of customer experience in a company — would it be enough to feed it the best oils, change its tires, and fill it with the purest fuel for it to work? Of course not. It won't move an inch, and that's what will happen to a company that has set up a customer experience function. Without sufficient empowerment and authority, they won't be able to change the situation much, because this battered car needs many rusted and broken parts changed. Forming a customer experience ambassadors team helps accelerate this car's repair and renew it piece by piece until it returns to its former state. That team is what I'll discuss in this article.
 
-![](/images/articles/image99.jpg)
+![An old, rusty, battered car parked on a street, a metaphor for low customer experience maturity](/images/articles/image99.jpg)
 
 
 ## What Is a Customer Experience Ambassadors Team?

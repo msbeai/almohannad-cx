@@ -16,7 +16,7 @@ What draws a person to settle in any city on this planet? What makes people emig
 
 The secret of any distinguished city lies in an integrated, interconnected ecosystem in which the citizen encounters a distinguished experience at every element of interaction. Anyone wanting to move and live anywhere will think about a host of things, including but not limited to: the ability to practice their religious beliefs, good education for their children, the availability of good healthcare services, a good and sustainable economy, less environmental and noise pollution, smooth and fast government services, a transparent government with low corruption, leisure facilities, easy transportation with multiple options, a fertile investment environment, simplified and fast government regulations, electronic government services, distinguished security agencies, an independent judicial system, high readiness to handle potential environmental disasters, the reputation of local residents and how open they are to newcomers and to strangers.
 
-![](/images/articles/image53.jpg)
+![Dubai Police welcome letter addressed to a visiting driver who committed a traffic violation](/images/articles/image53.jpg)
 
 
 Most of what was mentioned above are aspects that countries leverage to market themselves through the practices of city marketing. These countries pay millions of dollars to global PR firms to improve their external reputation. Don't forget that this new generation gets its information through the internet and social networks, and learning about any city or country before moving there has become incredibly easy given the openness of information, the abundance of social networks, and review sites and forums where people express their personal experiences.
@@ -31,7 +31,7 @@ The image below is from Britain, which, along with Japan, is considered a leader
 
 And while we're on the topic of streets, how would you describe the clarity of building signs as you drive along the street looking for a particular place? Are they uniform or random? Are they easy for a driver to see clearly, or must they get out of the car to see them?
 
-![](/images/articles/image94.jpg)
+![LOOK LEFT and LOOK RIGHT markings painted on a London street to guide pedestrians at a crossing](/images/articles/image94.jpg)
 
 
 On a visit of mine to a government building in one of the countries, despite using Google Maps I got lost when I arrived — there was no sign at the entrance indicating that it was the entrance to such-and-such government entity. When I went in, I discovered it was a different government building directly next door, which delayed me for my appointment and embarrassed me in front of the person I had promised to meet.
@@ -40,7 +40,7 @@ Additional questions: In all government offices, are there considerations for pe
 
 Let's think for a moment about noise pollution. Switzerland closes most of its airports to incoming aircraft from 11 PM until 6 AM to reduce noise so that residents living near the airports can enjoy comfortable sleep. By contrast, I filed a complaint in one Arab city about excavation work that began at 10:30 PM and continued until the following morning. I didn't get any response to the complaint until twelve days later — by which time the excavation work had ended after lasting more than a week, and I had developed sleep problems.
 
-![](/images/articles/image12.jpg)
+![Wheelchair platform lifts on staircases in two Swedish government buildings for accessibility](/images/articles/image12.jpg)
 
 
 ## Case Studies: Who Is Responsible?
@@ -69,7 +69,7 @@ We unfortunately, at the company level (let alone the city level), do not have t
 
 Additional questions on the digital experience for government websites: How easy is it to access a particular piece of information? How accurate is that information? Will this information conflict with another government source providing the same information? This integration reflects the government's maturity in managing information and easing access to it. The [British](https://www.gov.uk/) and [New Zealand](https://www.govt.nz/) experiences offer lessons — I find them leaders in this area. Saudi Arabia, too, has a notable achievement in this area with [the National Portal (Saudi)](https://www.saudi.gov.sa/).
 
-![](/images/articles/image75.jpg)
+![A British Civil Enforcement Officer in uniform standing by his motorbike on the street](/images/articles/image75.jpg)
 
 
 ## Closing
@@ -85,7 +85,7 @@ Will we one day see attention to the human experience? Will countries establish 
 Until that time, I wish you all a good life and warm regards.
 
 
-![](/images/articles/image11.png)
+![The author being interviewed on the Iktishaf program, discussing the market research profession](/images/articles/image11.png)
 
 ---
 ← Articles MOC

@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/Tcg4Xg"
 date: 2017-07-05
 ---
 
-![](/images/articles/image71.png)
+![Logos of customer review platforms: Amazon, TripAdvisor, IMDb, Google Reviews, and Goodreads](/images/articles/image71.png)
 
 
 ## Introduction
@@ -17,7 +17,7 @@ Customer behavior — particularly that of Millennials (those born between 1976 
 
 Personally, I rate and write reviews about everything I'm able to — a tourist landmark, a restaurant, a book I've read, a mobile app I've tried. Why do I do this? The behavior is driven by several motives. One may be the desire to benefit others, either by recommending an experience I enjoyed or warning them away from a bad one. I also feel that my voice matters, and that we as customers form a counterweight to organizations that think only about profit, pushing them to make their work customer-centric.
 
-![](/images/articles/image29.png)
+![Amazon book page showing a 4.9 out of 5 star rating and star breakdown for I Forgot to Die](/images/articles/image29.png)
 
 
 ## What Are Customer Ratings and Reviews?
@@ -55,10 +55,10 @@ I hope this article inspires business owners and successfully reinforces the imp
 For related work, see Voice of Customer (VoC) and Closed-Loop Feedback.
 
 
-![](/images/articles/image70.png)
+![Two playing cards contrasting customer experience (heart) with customer service (club)](/images/articles/image70.png)
 
 
-![](/images/articles/image41.jpg)
+![Restaurant table sign asking customers to rate it on Foursquare for a free tea or coffee](/images/articles/image41.jpg)
 
 ---
 ← Articles MOC

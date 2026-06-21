@@ -20,7 +20,7 @@ The term was first introduced into the business world by Swedish academic and ma
 
 That book, full of valuable leadership lessons by its author Jan Carlzon, describes these moments as the instances in which a company proves whether it is succeeding or failing — the moments in which we prove to our customers that we are the best option available to them.
 
-![](/images/articles/image37.jpg)
+![Cover of the book "Moments of Truth" by Jan Carlzon](/images/articles/image37.jpg)
 
 
 You will also find many other definitions that, together, give you a sound understanding of the concept. I even found a colloquial use of the term: one dictionary defines it as the critical moment that could cost a bullfighter his life if he doesn't act wisely — meaning the moment the bull collides with the red cape held by the matador.

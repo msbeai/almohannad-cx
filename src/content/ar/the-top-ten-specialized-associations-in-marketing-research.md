@@ -29,49 +29,49 @@ date: 2016-01-16
 
 قائمة الجمعيات
 
-![](/images/articles/image23.jpg)
+![شعار جمعية إيسومار للأبحاث ESOMAR](/images/articles/image23.jpg)
 
 The European Society for Opinion and Marketing Research
 
 http://www.esomar.org/
 
-![](/images/articles/image16.png)
+![شعار جمعية أبحاث السوق البريطانية MRS](/images/articles/image16.png)
 
 The Market Research Society
 
 http://www.mrs.org.uk/
 
-![](/images/articles/image46.png)
+![شعار مجلس منظمات أبحاث المسح الأمريكية CASRO](/images/articles/image46.png)
 
 Council of American Survey Research Organizations
 
 [http://www.casro.org/](http://www.casro.org/)
 
-![](/images/articles/image25.png)
+![شعار الجمعية الأمريكية لأبحاث الرأي العام AAPOR](/images/articles/image25.png)
 
 American Association for Public Opinion Research (AAPOR)
 
 http://www.aapor.org/
 
-![](/images/articles/image32.png)
+![شعار تحالف معاهد أبحاث السوق الدولية AIMRI](/images/articles/image32.png)
 
 Alliance Of International Market Research Institutes
 
 http://www.aimri.net/
 
-![](/images/articles/image33.png)
+![شعار جمعية منظمات أبحاث السوق والأبحاث الاجتماعية AMSRO](/images/articles/image33.png)
 
 Association of Market and Social Research Organisations
 
 http://www.amsro.com.au/
 
-![](/images/articles/image62.jpg)
+![شعار جمعية الأبحاث التسويقية MRA](/images/articles/image62.jpg)
 
 Marketing Research Association
 
 http://www.mra-net.org/
 
-![](/images/articles/image9.png)
+![شعار مؤسسة أبحاث الإعلان ARF](/images/articles/image9.png)
 
 Advertising Research Foundation
 
@@ -79,13 +79,13 @@ http://thearf.org/research
 
 الجمعيتين التاليتين متخصصة بالأبحاث النوعية أو الوصفية
 
-![](/images/articles/image30.jpg)
+![شعار جمعية الأبحاث النوعية AQR](/images/articles/image30.jpg)
 
 Association for Qualitative Research
 
 http://www.aqr.org.uk/
 
-![](/images/articles/image6.jpg)
+![شعار جمعية مستشاري الأبحاث النوعية QRCA](/images/articles/image6.jpg)
 
 Qualitative Research Consultant Association
 
@@ -95,7 +95,7 @@ http://www.qrca.org/
 
 كما أتمنى يوما من الأيام أن يتم إنشاء جميعة متخصصة في الأبحاث التسويقية في المملكة العربية السعودية لتتبنى دور تعريب قواعد السلوك العالمية وقولبتها للتتناسب مع الثقافة المحلية ولاحقا يمكن أن تكون هذه الجمعية قوة ضاغطة على جميع الوكالات التي تعمل هنا من أجل تقديم جودة أفضل
 
-![](/images/articles/image92.png)
+![صورة شارلز كوليدج بارلين أبو الأبحاث التسويقية وشعار جائزة بارلين](/images/articles/image92.png)
 
 لمحة تاريخية عن صناعة الأبحاث التسويقية
 ## تمهيد
@@ -167,7 +167,7 @@ Likert Scale
 
 لمن أراد التبحر في تاريخ هذه الصناعة، أنصحه بالكتاب التالي
 
-![](/images/articles/image86.png)
+![غلاف كتاب A New Brand of Business لدوغلاس وارد](/images/articles/image86.png)
 
 A New Brand of Business
 
@@ -231,7 +231,7 @@ B2B Research or B2G Research
 
 هذا والله أعلم وعلى الله قصد السبيل
 
-![](/images/articles/image84.png)
+![لافتة قديمة مكتوب عليها "نرحب بمشاكلكم بكل حماس" برسم وجه باسم](/images/articles/image84.png)
 
 بضع وسبعون فائدة نحو خدمة عملاء أفضل
 ## تمهيد
@@ -341,7 +341,7 @@ B2B Research or B2G Research
 
 هذا والله أعلم وعلى الله قصد السبيل
 
-![](/images/articles/image91.png)
+![أنبوب فارغ معصور مكتوب عليه "أفكار IDEAS"](/images/articles/image91.png)
 
 أفكار خدمية صغيرة لانطباعات إيجابية كبيرة
 ## تمهيد
@@ -403,7 +403,7 @@ https://www.google.com/alerts
 
 أعتذر مجددا على محاذاة النص في الوسط، فخيار المحاذة إلى اليمين غير متوفر، وأتواصل حاليا مع الدعم الفني الخاص بموقع لينكدإن لحل هذه المعضلة
 
-![](/images/articles/image42.png)
+![رسم قديم لجرادة بالحبر الأزرق](/images/articles/image42.png)
 
 قصة وعبرة يرويها الشيخ سليمان الراجحي
 
@@ -431,7 +431,7 @@ https://www.google.com/alerts
 
 ماذا وجدت أخي القارئ في هذه القصة من عبر؟ شاركنا برأيك
 
-![](/images/articles/image51.png)
+![مخطط صافي مؤشر المروجين: المنتقدون 0-6 والمحايدون 7-8 والمروجون 9-10 ومعادلة الحساب](/images/articles/image51.png)
 
 صافي مؤشر المروجين
 
@@ -537,7 +537,7 @@ NPS®, Net Promoter® & Net Promoter® Score are registered trademarks of Satmet
 
 أرجو أن تكون أخي القارئ قد استفدت من هذه المقدمة المختصرة عن هذا المقياس، وفي حال كان لديك أي سؤال فلا تتردد بمراسلتي أو بطرحه ضمن التعليقات
 
-![](/images/articles/image8.png)
+![ثلاث أوراق معلقة برسوم وجه سعيد وحزين ومحايد ترمز لرضا العملاء](/images/articles/image8.png)
 
 هل يستحق صافي مؤشر المروجين كل هذا التقدير؟
 

@@ -53,10 +53,10 @@ I hope companies will keep these facts front of mind. The customer is not always
 I'd love anyone who enjoyed the article to share some personal experiences they've been through, particularly customer service and complaints staff and those working in retail.
 
 
-![](/images/articles/image44.png)
+![LinkedIn industry filter showing a Market Research category while Marketing Research returns no results](/images/articles/image44.png)
 
 
-![](/images/articles/image81.png)
+![Cardboard figures with candles illustrating the phrase: Market research or Marketing research](/images/articles/image81.png)
 
 ---
 ← Articles MOC

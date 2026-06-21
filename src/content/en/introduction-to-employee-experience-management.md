@@ -100,7 +100,7 @@ It's naïve to think an employee's resignation is the end of the relationship. I
 
 When employees start describing the HR department as the lawyer who will help and rescue them from any problem they face, it means that department has succeeded in providing a distinguished employee experience. Ask any employee in Arab companies about HR, and you will rarely hear positive answers.
 
-![](/images/articles/image87.png)
+![An iceberg floating at sea with most of its mass hidden below the waterline](/images/articles/image87.png)
 
 
 ## Closing

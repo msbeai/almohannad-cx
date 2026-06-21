@@ -126,4 +126,4 @@ date: 2015-08-10
 
 وعلى الله قصد السبيل
 
-![](/images/articles/image73.png)
+![سحابة كلمات حول مفهوم المقارنة المرجعية (Benchmarking) ومصطلحات الأداء والمعايير](/images/articles/image73.png)

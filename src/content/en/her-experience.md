@@ -32,7 +32,7 @@ Offering products specifically for women requires a gender balance in the workfo
 
 In her [book](https://www.amazon.com/Winning-Her-Business-Transform-Experience/dp/1400209978/), one author argues that the concept of "feminization" should extend to the external parties a company works with — advertising agencies, web and mobile app design firms — so that they deliver a product suited to women.
 
-![](/images/articles/image63.jpg)
+![A mother shopping in a grocery aisle while her children make a mess, scattering boxes on the floor](/images/articles/image63.jpg)
 
 
 ## Training Male Employees to Engage With Women
@@ -76,10 +76,10 @@ There are many gender-neutral industries — they offer their services to both g
 Before closing, I'd like to thank both [@Omnia Negm](https://www.linkedin.com/in/omnia-negm-b39a6342/) & [@Abdullah Elbadawi](https://www.linkedin.com/in/abadawy/) for their valuable input on this article.
 
 
-![](/images/articles/image79.png)
+![Bank Audi "shine" women's credit card with a pink design](/images/articles/image79.png)
 
 
-![](/images/articles/image34.png)
+![Logo of Vodafone Egypt's "Red Her" package for women](/images/articles/image34.png)
 
 ---
 ← Articles MOC

@@ -93,7 +93,7 @@ The level of organization, research, and statistics they provide will astonish y
 Related framework notes: Voice of Customer (VoC), NPS, CSAT, CES, Moments That Matter
 
 
-![](/images/articles/image28.png)
+![Cover of a guide on customer/visitor comment cards as a marketing-research method, authored by Almohannad Alsbeai](/images/articles/image28.png)
 
 ---
 ← Articles MOC

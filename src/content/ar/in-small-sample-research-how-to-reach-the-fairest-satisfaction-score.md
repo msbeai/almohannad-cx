@@ -68,4 +68,4 @@ Composite score Or Weighted score
 
 [https://www.linkedin.com/grp/post/1772348-242747960](https://www.linkedin.com/grp/post/1772348-242747960)
 
-![](/images/articles/image55.png)
+![إعلان أداة Pulse for Research للأبحاث الفورية لأي حجم عينة مجانا](/images/articles/image55.png)

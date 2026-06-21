@@ -14,7 +14,7 @@ Do you know the details of your customer's journey if you own a business that pr
 
 Remember the snakes-and-ladders game? Your customers' situation may resemble it: the player advances along a path according to a dice roll, only to find themselves back in territory they had already covered if luck turns sour and they land on a snake. That is exactly what happens to your customers when there are no agreed-upon, formal journey maps — some of your employees, whether out of ignorance or intent, may play the role of the snake, sending the customer into a maze and back to stages they had no need to revisit.
 
-![](/images/articles/image90.jpg)
+![A snakes-and-ladders board, used as a metaphor for a customer slipping back to earlier journey stages](/images/articles/image90.jpg)
 
 
 ## What It Is and What It Does
@@ -88,7 +88,7 @@ Make sure the workshop has an agenda that includes, at minimum, a glossary of ke
 
 The workshop should include discussion of the identified touchpoints and asking attendees to share their views, or vote, on the most sensitive among them. Then discuss the opportunities to improve the experience by digging into the pain points and their root causes. You can also discuss competitors' practices at each pain point. Try to discover with the attendees any inefficiencies in resource use or places where double or duplicated effort happens across multiple units in the organization.
 
-![](/images/articles/image17.jpg)
+![A customer journey map built on a wall with colored sticky notes arranged by stage and emotion](/images/articles/image17.jpg)
 
 
 It's important that the workshop include a section for brainstorming ideas to help improve the experience, ideas that help break down barriers, and ideas that help motivate transformation. Rebelling against industry norms and prior decisions is critical for generating a greater quantity of ideas. Sticky notes can be used to record ideas and stick them on the printed draft map hanging on the wall. Color-coding can help associate an idea with a particular aspect.

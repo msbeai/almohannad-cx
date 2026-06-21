@@ -112,7 +112,7 @@ NPS®, Net Promoter® & Net Promoter® Score are registered trademarks of Satmet
 
 قد يهمك الاطلاع على مقال: [هل](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[يستحق](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[مؤشر](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[صافي](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[المروجين](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[كل](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[هذا](/articles/net-promoter-score-nps)[](/articles/net-promoter-score-nps)[التقدير](/articles/net-promoter-score-nps)
 
-![](/images/articles/image18.png)
+![رسم يقارن قدرة المؤشرات على التنبؤ، يظهر تفوّق مؤشر جهد العميل على NPS وCSAT](/images/articles/image18.png)
 
 مقدمة
 
@@ -146,13 +146,13 @@ Stop Delighting Your Customers
 
 الإصدار القديم من السؤال
 
-![](/images/articles/image47.png)
+![الإصدار القديم من سؤال مؤشر جهد العميل بمقياس من خمس نقاط من جهد كبير جدًا إلى جهد قليل جدًا](/images/articles/image47.png)
 
 لو كنت ضليعا في تصميم الاستبيانات ستلاحظ مشكلة في المقياس أعلاه وتحديدا في قطبي المقياس، فعادة ما يكون الوصف الكتابي للنقطة واحد في المقياس سلبي والنقطة خمسة إيجابي ولكن في هذا المقياس كان الأمر معكوسا مما أدرى لظهور مشاكل مع المجيبين في فهم المقياس الذين غلبتهم قوة العادة، سيقول القارئ الأمر بسيط، دعونا نعكس أوصاف القطبين وانتهى ... نعم هذا صحيح ولكن لم تكن تلك المشكلة الوحيدة الدي دفعت بمخترعي المقياس إلى تغيره بل إن كلمة جهد أيضا كان هناك صعوبات في فهمها لدى بعض الثقافات حينما تمت ترجمتها إلى لغتهم المحلية وبدلا من أن أطيل عليكم دعوني أعرض لكم النسخة المحسنة من هذا المقياس
 
 الإصدار الحديث من السؤال
 
-![](/images/articles/image27.png)
+![الإصدار الحديث من سؤال مؤشر جهد العميل بمقياس من سبع نقاط من لا أوافق تمامًا إلى أوافق تمامًا](/images/articles/image27.png)
 
 طبعا من ناحية علم تصميم الاستبيانات المقياس الحديث أفضل بكثير من سابقة من حيث تسمية الأقطاب وكذلك من كونه مكون من سبع نقاط فذلك سيضمن توزيع متنوع أكثر للإجابات
 

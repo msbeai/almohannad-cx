@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/XpUZAq"
 date: 2015-08-29
 ---
 
-![](/images/articles/image48.png)
+![American Customer Satisfaction Index (ACSI) logo](/images/articles/image48.png)
 
 
 ## Introduction
@@ -49,7 +49,7 @@ Complaints have a negative relationship with satisfaction. They are measured as 
 
 A leading indicator of profitability. Loyalty in this model is measured by the likelihood of the customer repurchasing from the same provider in the future, and their willingness to purchase that provider's products or services at different price points.
 
-![](/images/articles/image82.png)
+![ACSI model diagram: cause-and-effect links between quality, value, expectations, satisfaction, complaints, and loyalty](/images/articles/image82.png)
 
 
 The model components that, when processed, lead to the satisfaction index can vary from industry to industry — I'm referring here to perceived quality, perceived value, and customer expectations. For example, the following components are part of a model designed specifically for banks: ATM locations, branch locations, customer service representatives, fees and tariffs, the website, and certain premium products.
@@ -84,7 +84,7 @@ In closing: I welcome any reader's critique. Constructive criticism ripens ideas
 Related framework notes: NPS, CSAT, CES, Voice of Customer (VoC)
 
 
-![](/images/articles/image68.jpg)
+![ACSI introductory seminar at a Jeddah hotel, two speakers on stage and a presentation on screen](/images/articles/image68.jpg)
 
 ---
 ← Articles MOC

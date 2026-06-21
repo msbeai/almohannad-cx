@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/xJyQ6F"
 date: 2017-01-17
 ---
 
-![](/images/articles/image10.png)
+![مصفوفة آيزنهاور بأربعة أرباع حسب الأهمية والإلحاح: قم به الآن، قرر متى، فوّض، تجاهل](/images/articles/image10.png)
 
 4D's time management model
 
@@ -42,4 +42,4 @@ Dump it
 
 تابع [صفحتي](http://www.linkedin.com/today/author/almohannadalsbeai)[](http://www.linkedin.com/today/author/almohannadalsbeai)لتصلك أحدث مقالاتي ذات العلاقة بتجربة العميل أو أبحاث السوق
 
-![](/images/articles/image15.png)
+![روبرت مكنمارا ومقولته عن مغالطة الاكتفاء بقياس ما يسهل قياسه](/images/articles/image15.png)

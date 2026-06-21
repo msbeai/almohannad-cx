@@ -8,7 +8,7 @@ linkedin: ""
 date: 2016-03-14
 ---
 
-![](/images/articles/image96.jpg)
+![Scrabble tiles spelling the word "BANK" on a wooden rack](/images/articles/image96.jpg)
 
 
 In this article I'll cover marketing research in banking, its historical evolution, how it has developed alongside customers' evolving needs over the years, and what direction it is expected to take in the future. Some of my readers ask why I am so interested in the history of whatever I write about. Honestly, understanding history helps us extrapolate the future. Also, when I lay out historical phases, I am usually drawing on developed economies — and what counts as history for them may still be the present for us as developing countries. That's why I see the need to address the origins and evolution of anything I write about.

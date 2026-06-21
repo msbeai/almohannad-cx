@@ -111,4 +111,4 @@ https://blog.revolut.com/why-we-tore-up-our-terms-and-conditions/
 
 -------------------------------------------------------------
 
-![](/images/articles/image88.png)
+![لافتة «تجربة المريض بعيون الطبيب الإنسان» للدكتور محمدبسام بن ماجد السبيعي](/images/articles/image88.png)

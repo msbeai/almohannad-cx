@@ -24,7 +24,7 @@ The American Customer Satisfaction Index: Nature, Purpose, and Findings
 
 مكونات النموذج
 
-![](/images/articles/image82.png)
+![مخطط نموذج ACSI: علاقات السبب والنتيجة بين الجودة والقيمة والتوقعات ورضا العملاء والشكاوى والولاء](/images/articles/image82.png)
 
 الجودة الملموسة
 
@@ -72,7 +72,7 @@ The American Customer Satisfaction Index: Nature, Purpose, and Findings
 
 دخول المملكة العربية السعودية
 
-![](/images/articles/image68.jpg)
+![ندوة تعريفية بمؤشر ACSI في فندق بجدة، متحدثان على المنصة وعرض تقديمي على الشاشة](/images/articles/image68.jpg)
 
 في الثاني عشر من شهر مارس لهذا العام، تم عقد ندوة تعريفية في فندق حياة بارك في مدينة جدة أعلن من خلالها عن إمكانية الاستفادة من تطبيقات هذا النموذج هنا في المملكة العربية السعودية، وقد تم تنظيم الندوة من قِبل [شركة](http://dna.com.sa/dna/#)[](http://dna.com.sa/dna/#)[خطة](http://dna.com.sa/dna/#)[](http://dna.com.sa/dna/#)[وتحليل](http://dna.com.sa/dna/#) لصاحبها [مصطفى](https://www.google.com.sa/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiVupKuqMzHAhULuxQKHTdcAX0&url=https%3A%2F%2Fsa.linkedin.com%2Fpub%2Fmustafa-naqwi%2F1%2F6b4%2F5b7&ei=F5zgVdXSGov2Ure4hegH&usg=AFQjCNH1S389I9KEOIX4mX60_QDAqkUbQQ&sig2=nBZIzUsqzDeQ8CHhRLEzOA)[](https://www.google.com.sa/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiVupKuqMzHAhULuxQKHTdcAX0&url=https%3A%2F%2Fsa.linkedin.com%2Fpub%2Fmustafa-naqwi%2F1%2F6b4%2F5b7&ei=F5zgVdXSGov2Ure4hegH&usg=AFQjCNH1S389I9KEOIX4mX60_QDAqkUbQQ&sig2=nBZIzUsqzDeQ8CHhRLEzOA)[نقوي](https://www.google.com.sa/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiVupKuqMzHAhULuxQKHTdcAX0&url=https%3A%2F%2Fsa.linkedin.com%2Fpub%2Fmustafa-naqwi%2F1%2F6b4%2F5b7&ei=F5zgVdXSGov2Ure4hegH&usg=AFQjCNH1S389I9KEOIX4mX60_QDAqkUbQQ&sig2=nBZIzUsqzDeQ8CHhRLEzOA) المخضرم في مجال الأبحاث التسويقية وأحد أقدم العاملين في هذا المجال في السعودية،  يقع مكتب الشركة الرئيسي في مدينة جدة وهي التي حصلت على عقد حصري مع القائمين على هذا النموذج في الولايات المتحدة لتشغيله في السعودية دون غيرهم، فأي عميل يرغب باستخدام هذا النموذج يجب أن يتعامل مع الشركة المذكورة من أجل ذلك، علما أن تنفيذ البحث التسويقي، جانب إجراء المقابلات والعمل الميداني سيتم من خلال الشركة بينما في معظم الأحيان يكون تحليل البيانات واستخراج النتائج لهذا النوع من النماذج في البلد الأم لأصحاب النموذج في الولايات المتحدة الأمريكية في الصندوق الأسود الذي تكلمت عنه سابقا ولست على يقين من أن ذلك ينطبق على هذا النموذج أيضا ولكن هذا ما أتوقعه
 

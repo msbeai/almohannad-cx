@@ -91,4 +91,4 @@ SLG OR PLG OR CLG | (Sales/Product/Customer)-Led Growth?
 
 إلى صديقي[](https://www.linkedin.com/in/aymanezzat/)[أيمن](https://www.linkedin.com/in/aymanezzat/)[](https://www.linkedin.com/in/aymanezzat/)[عزت](https://www.linkedin.com/in/aymanezzat/)، الذي حمل همّ العميل في قلبه قبل أن يتسع فريقه أو تتسع ميزانيته… أهدي هذا المقال وأتمنى لك ولشركتك كل النجاح، وأن تبقى احتياجات العميل هي البوصلة التي تقودكم في كل مرحلة من رحلتكم. فالموارد قد تكبر مع الوقت، لكن العقلية المتمحورة حول العميل هي رأس المال الحقيقي التي يجب أن تستثمر بها كل الشركات منذ اليوم الأول
 
-![](/images/articles/image61.png)
+![صيادون يحملون سمكة تونة ضخمة، كتشبيه لملف العميل المثالي (ICP) في شركات SaaS للأعمال](/images/articles/image61.png)

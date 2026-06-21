@@ -51,7 +51,7 @@ Benchmarks
 
 بالختام: أرجو من كل قارئ أن ينتقد أي فقرة لا يتفق معها، وبالحوار تنضج الأفكار وعلى الله قصد السبيل
 
-![](/images/articles/image48.png)
+![شعار مؤشر رضا العملاء الأمريكي ACSI](/images/articles/image48.png)
 
 مؤشر رضا العملاء الأمريكي
 
@@ -71,7 +71,7 @@ The American Customer Satisfaction Index: Nature, Purpose, and Findings
 
 مكونات النموذج
 
-![](/images/articles/image82.png)
+![مخطط نموذج ACSI: علاقات السبب والنتيجة بين الجودة والقيمة والتوقعات ورضا العملاء والشكاوى والولاء](/images/articles/image82.png)
 
 الجودة الملموسة
 
@@ -119,7 +119,7 @@ The American Customer Satisfaction Index: Nature, Purpose, and Findings
 
 دخول المملكة العربية السعودية
 
-![](/images/articles/image68.jpg)
+![ندوة تعريفية بمؤشر ACSI في فندق بجدة، متحدثان على المنصة وعرض تقديمي على الشاشة](/images/articles/image68.jpg)
 
 في الثاني عشر من شهر مارس لهذا العام، تم عقد ندوة تعريفية في فندق حياة بارك في مدينة جدة أعلن من خلالها عن إمكانية الاستفادة من تطبيقات هذا النموذج هنا في المملكة العربية السعودية، وقد تم تنظيم الندوة من قِبل [شركة](http://dna.com.sa/dna/#)[](http://dna.com.sa/dna/#)[خطة](http://dna.com.sa/dna/#)[](http://dna.com.sa/dna/#)[وتحليل](http://dna.com.sa/dna/#) لصاحبها [مصطفى](https://www.google.com.sa/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiVupKuqMzHAhULuxQKHTdcAX0&url=https%3A%2F%2Fsa.linkedin.com%2Fpub%2Fmustafa-naqwi%2F1%2F6b4%2F5b7&ei=F5zgVdXSGov2Ure4hegH&usg=AFQjCNH1S389I9KEOIX4mX60_QDAqkUbQQ&sig2=nBZIzUsqzDeQ8CHhRLEzOA)[](https://www.google.com.sa/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiVupKuqMzHAhULuxQKHTdcAX0&url=https%3A%2F%2Fsa.linkedin.com%2Fpub%2Fmustafa-naqwi%2F1%2F6b4%2F5b7&ei=F5zgVdXSGov2Ure4hegH&usg=AFQjCNH1S389I9KEOIX4mX60_QDAqkUbQQ&sig2=nBZIzUsqzDeQ8CHhRLEzOA)[نقوي](https://www.google.com.sa/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiVupKuqMzHAhULuxQKHTdcAX0&url=https%3A%2F%2Fsa.linkedin.com%2Fpub%2Fmustafa-naqwi%2F1%2F6b4%2F5b7&ei=F5zgVdXSGov2Ure4hegH&usg=AFQjCNH1S389I9KEOIX4mX60_QDAqkUbQQ&sig2=nBZIzUsqzDeQ8CHhRLEzOA) المخضرم في مجال الأبحاث التسويقية وأحد أقدم العاملين في هذا المجال في السعودية،  يقع مكتب الشركة الرئيسي في مدينة جدة وهي التي حصلت على عقد حصري مع القائمين على هذا النموذج في الولايات المتحدة لتشغيله في السعودية دون غيرهم، فأي عميل يرغب باستخدام هذا النموذج يجب أن يتعامل مع الشركة المذكورة من أجل ذلك، علما أن تنفيذ البحث التسويقي، جانب إجراء المقابلات والعمل الميداني سيتم من خلال الشركة بينما في معظم الأحيان يكون تحليل البيانات واستخراج النتائج لهذا النوع من النماذج في البلد الأم لأصحاب النموذج في الولايات المتحدة الأمريكية في الصندوق الأسود الذي تكلمت عنه سابقا ولست على يقين من أن ذلك ينطبق على هذا النموذج أيضا ولكن هذا ما أتوقعه
 
@@ -135,7 +135,7 @@ The American Customer Satisfaction Index: Nature, Purpose, and Findings
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image89.jpg)
+![جدارية من وجوه مبتسمة ملونة تشكّل كلمة HAPPINESS](/images/articles/image89.jpg)
 
 مؤشر السعادة  | Happiness index
 ## تمهيد
@@ -157,7 +157,7 @@ http://www.prosperity.com/
 
 من الجدير بالذكر أن من اخترع هذا المؤشر دولة بوتان ترتيبها ضمن هذا التقرير التاسعة والسبعين على العالم، من التقرير اقتبست لكم ترتيب الدول العربية التي تم شملها بالدراسة بحسب الترتيب العالمي
 
-![](/images/articles/image95.png)
+![رسم بياني يرتّب الدول العربية في مؤشر السعادة عالميًا، تتصدره الإمارات وتذيّله سوريا](/images/articles/image95.png)
 
 دولة الإمارات العربية المتحدة – حالة دراسية
 
@@ -179,7 +179,7 @@ http://www.prosperity.com/
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image96.jpg)
+![قطع حروف سكرابل خشبية تشكّل كلمة BANK](/images/articles/image96.jpg)
 
 Financial Marketing research – Historical evolution
 
@@ -219,7 +219,7 @@ Customer Experience Benchmarking Survey
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image98.jpg)
+![تمثال حجري لراهب مبتسم بين أوراق شجر خريفية](/images/articles/image98.jpg)
 
 استخدام مؤشرات الرضا والولاء كمؤشرات أداء رئيسية للموظفين
 ## تمهيد
@@ -335,7 +335,7 @@ Customer Satisfaction Research
 
 بما لاحظته في منطقة الخليج العربي، الغالبية العظمى من المطاعم تعتمد على طريقة تقليدية في قياس رضا عملائها، وهي بطاقات آراء العملاء، نتحدث عن البطاقات الكرتونية التي تملئها ومن ثم تضعها في صناديق تشبه صناديق الاقتراحات، وعيب هذه الطريقة الرئيسي أنك لا تحصل منها على عينة ممثلة للمجتمع فبعض الدراسات أثبتت أن من يعبئ هذه البطاقات عادة هم أحد طرفي النقيض، العملاء الذي شعروا بسعادة غامرة أو الذين شعروا بتعاسة بالغة، بكل حال لمن أراد التعمق في هذا النوع من الأبحاث يمكن الاطلاع على مبحث مفصل لي نشرقبل ست سنوات، تجدوه هنا
 
-![](/images/articles/image28.png)
+![غلاف دليل «بطاقات آراء العملاء/الزوار» مع مقياس وجوه يعبّر عن مستويات الرضا](/images/articles/image28.png)
 
 ظهر كذلك استخدام بعض الأجهزة الالكترونية التي تتضمن أربع وجوه تعبر عن مستوى الرضا للعميل أشهرها مقدم من شركة
 
@@ -431,7 +431,7 @@ The Power of TED* (*The Empowerment Dynamic)
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image76.jpg)
+![دفتر ملاحظات مكتوب بخط اليد عن دعوات اتخاذ الإجراء بجانب قلم](/images/articles/image76.jpg)
 
 مقال : أفضل الممارسات
 
@@ -491,7 +491,7 @@ A Passion for Excellence
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image7.png)
+![وجه ساعة رولكس يعرض يوم الاثنين وتاريخ 28](/images/articles/image7.png)
 
 تصميم التفاصيل الصغيرة
 ## تمهيد
@@ -541,7 +541,7 @@ DoLT : Design of little things
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image50.png)
+![موظف ستاربكس بقبعة العلامة من فلم I Am Sam](/images/articles/image50.png)
 
 تجربة العميل في ستاربكس
 
@@ -587,7 +587,7 @@ Product placement AKA  embedded marketing
 
 بالنسبة لنموذج لاتيه وهو أحد النماذج الذي يتم تدريب الموظفين عليه عند التحاقهم بالعمل لدى ستاربكس والجميل أنه استطاعوا تسمية النموذج على اسم أحد أشهر المشروبات لاتيه، وقد تطرق لهذا النموذج المؤلف تشارلز دويج في كتابه قوة العادة 
 
-![](/images/articles/image59.png)
+![نموذج لاتيه للتعامل مع الشكاوى: Listen, Acknowledge, Take action, Thank, Explain مكتوب على فنجان قهوة](/images/articles/image59.png)
 
 تصميم أدق التفاصيل
 
@@ -611,7 +611,7 @@ Product placement AKA  embedded marketing
 
 *The Green Apron Book*
 
-![](/images/articles/image54.png)
+![كتيب المئزر الأخضر The Green Apron Book من ستاربكس](/images/articles/image54.png)
 
 كتيب يساعد الموظف على بناء الذكاء العاطفي ويعلمه كيف يطفي على علاقته مع العملاء جانبا شخصيا، يتم إعطاء نسخة منه لكل موظف، ولعل من زار أحد مقاهي ستاربكس خصوصا في الغرب لاحظ الفرق الشاسع في طريقة تعامل الموظفين مع العملاء
 

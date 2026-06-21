@@ -39,7 +39,7 @@ Companies that aim to deliver a distinguished customer experience don't let anyt
 See also: Customer-Centric Operating Model
 
 
-![](/images/articles/image14.png)
+![A vintage black-and-white photo of a nurse taking an oath before an officer and another nurse](/images/articles/image14.png)
 
 ---
 ← Articles MOC

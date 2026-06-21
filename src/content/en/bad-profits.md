@@ -89,7 +89,7 @@ I ask esteemed readers to add some examples they've personally experienced of ba
 A related article of mine: [Fairness in Customer and Employee Experience](/en/articles/fairness-in-customer-and-employee-experience).
 
 
-![](/images/articles/image101.jpg)
+![Apple's Pro Display XDR stand shown alone on a table, an example of charging extra for a separately sold accessory](/images/articles/image101.jpg)
 
 ---
 ← Articles MOC

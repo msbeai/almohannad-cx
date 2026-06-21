@@ -117,7 +117,7 @@ If I have erred, that is from me; if I have gotten it right, that is from God.
 To God belongs the right path.
 
 
-![](/images/articles/image73.png)
+![A word cloud centered on "Benchmarking" with related performance and metrics terms](/images/articles/image73.png)
 
 ---
 ← Articles MOC

@@ -50,7 +50,7 @@ This document does not impose any legal obligation on the entity issuing it — 
 
 As mentioned earlier, service levels are monitored using several sources — including indicators from operational systems and Voice of Customer (VoC) programs of all types — to make sure the promises stated in this charter are being kept. An updated version of the charter is issued as the company's ability to improve service progresses to more distinguished levels. Some sources mention that an updated version is issued every three years, but that's not a fixed rule, because the pace of evolution in some industries is very fast and may require updated versions every year or even less.
 
-![](/images/articles/image56.png)
+![easyJet customer charter titled "our promise to you" listing five service commitments](/images/articles/image56.png)
 
 
 ## The Relationship Between the Customer Charter and Customer Experience
@@ -68,7 +68,7 @@ In this era, competition over satisfying the customer and providing them with a 
 This article is no more than an introduction to the topic — it doesn't substitute for consulting additional sources or experts. The cover image carries an embedded message expressing how the charter resembles the oath taken in some professions, like medicine and law.
 
 
-![](/images/articles/image39.png)
+![Cracked egg drawn with a worried face symbolizing the fragility of honoring charter promises](/images/articles/image39.png)
 
 ---
 ← Articles MOC

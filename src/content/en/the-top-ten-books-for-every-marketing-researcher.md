@@ -14,7 +14,7 @@ Seven years ago, I started working in marketing research. I had a hard time defi
 
 In my personal view, this is the best reference for any marketing researcher in terms of conciseness. The latest, 5th edition, exceeds 600 pages and is enough to give you something on everything. It's also the best reference when you want to learn about a type of research you haven't yet had the chance to work on. It was authored by several members of the European Society for Opinion and Marketing Research.
 
-![](/images/articles/image78.jpg)
+![Cover of Market Research Handbook, Fifth Edition, by ESOMAR](/images/articles/image78.jpg)
 
 
 ## Book 2: The Handbook of Online and Social Media Research — by ESOMAR
@@ -29,7 +29,7 @@ One of the most important skills, and one of the earliest tasks assigned to thos
 
 Questionnaire design is one of the hardest and most sensitive skills, and the least mastered among researchers. I read more than ten books in this area, took two online courses, and summarized my entire experience in this book. It hasn't reached maturity yet, but at the first opportunity I get some free time I plan to publish the fifth and final electronic edition and, by God's grace, release it officially in public libraries.
 
-![](/images/articles/image22.jpg)
+![Cover of The Handbook of Online and Social Media Research by Ray Poynter](/images/articles/image22.jpg)
 
 
 ## Book 5: [Questionnaire Design — by Ian Brace](http://www.amazon.com/Questionnaire-Design-Structure-Material-Effective/dp/0749467797/ref=sr_1_17?s=books&ie=UTF8&qid=1447783364&sr=1-17&keywords=esomar)
@@ -46,7 +46,7 @@ Books 6 and 7 are applied books that help marketing researchers project their th
 
 This book is a gift to non-specialist readers. It distills the most important research methodologies, and its main goal is to break the myth that marketing research can only be done through global agencies — which really is a myth. This book teaches you, step by step, how to do marketing research yourself without relying on external agencies.
 
-![](/images/articles/image97.jpg)
+![Cover of Say It With Charts by Gene Zelazny](/images/articles/image97.jpg)
 
 
 ## Book 9: Qualitative Data Analysis from Start to Finish — by Jamie Harding
@@ -57,23 +57,23 @@ Since I spoke about quantitative-research report writing, I had to include a boo
 
 In closing, I hope readers will share books they believe are important to read in this field. In my next article, I will cover the most important professional courses in marketing research — so please don't hesitate to message me about that on my personal email.
 
-![](/images/articles/image21.png)
+![Cover of A Guide to Questionnaire Design by Almohannad Alsbeai](/images/articles/image21.png)
 
 
 
-![](/images/articles/image64.jpg)
+![Cover of Qualitative Data Analysis from Start to Finish by Jamie Harding](/images/articles/image64.jpg)
 
 
-![](/images/articles/image65.jpg)
+![Cover of More Guerrilla Marketing Research](/images/articles/image65.jpg)
 
 
-![](/images/articles/image38.jpg)
+![Cover of Market Research in Practice by Paul Hague, Nick Hague and Carol-Ann Morgan](/images/articles/image38.jpg)
 
 
-![](/images/articles/image49.jpg)
+![Cover of Marketing Research: An Applied Orientation by Naresh K. Malhotra](/images/articles/image49.jpg)
 
 
-![](/images/articles/image93.jpg)
+![Cover of Questionnaire Design by Ian Brace](/images/articles/image93.jpg)
 
 ---
 ← Articles MOC

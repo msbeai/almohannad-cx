@@ -14,7 +14,7 @@ Customer experience is defined as: "The impressions and feelings produced by a c
 
 Someone will ask, "Why bother?" My answer is that no sensible company wants to keep digging in the wrong place, wasting its resources on things that don't pay off, watching its market share shrink to competitors day after day, and ultimately finding itself forced to close its doors, as happened to more than 88% of the Fortune 500 companies between 1955 and 2017, despite those being the 500 highest-revenue companies in the United States. Multiple sources confirm that many of these giants won't survive, for a range of reasons, with customer experience being among the most important. See also CX Maturity Model.
 
-![](/images/articles/image26.jpg)
+![Cartoon of the Experience Expectations Gap between what customers want and what we deliver, drawn as the "Valley of Business Death"](/images/articles/image26.jpg)
 
 
 ## The "Meet the Expectations" School

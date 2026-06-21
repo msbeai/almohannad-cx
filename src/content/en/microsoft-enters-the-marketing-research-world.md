@@ -10,7 +10,7 @@ date: 2015-08-08
 
 Microsoft recently launched a new product. You can watch the teaser video at this link.
 
-![](/images/articles/image67.png)
+![Microsoft Bing Pulse service logo](/images/articles/image67.png)
 
 
 I seized the opportunity and signed up for this service, since registering and using it is currently free.
@@ -27,7 +27,7 @@ After defining the required demographic questions comes the stage of specifying 
 
 After finishing the required questions, you need to activate the link before presenting it to the audience. The site offers integration with social networks as well as an **API** for embedding the service within your official site or company systems.
 
-![](/images/articles/image72.png)
+![Bing Pulse voting question with a five-point scale from strongly disagree to strongly agree](/images/articles/image72.png)
 
 
 What's nice is that results are displayed live, and you as account admin can review the results by participating demographics live too — to read voting differences between genders, education levels, age groups, etc.
@@ -45,7 +45,7 @@ It can be used in classrooms at all levels to run short quizzes, or to monitor s
 In any case, the service is still in trial mode and many changes are likely to be made to it, especially on the marketing-research side.
 
 
-![](/images/articles/image40.png)
+![Arabic calligraphy reading: Arabic is the language of the Holy Quran](/images/articles/image40.png)
 
 ---
 ← Articles MOC

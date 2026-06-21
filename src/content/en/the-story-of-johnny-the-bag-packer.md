@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/5duSFi"
 date: 2019-01-03
 ---
 
-![](/images/articles/image83.jpg)
+![Storyteller Barbara Glanz with Johnny, the young bag packer with Down syndrome](/images/articles/image83.jpg)
 
 
 This is a true story about a young man with [Down syndrome](https://www.mayoclinic.org/ar/diseases-conditions/down-syndrome/symptoms-causes/syc-20355977) who created a transformation in customer service at the store where he worked (the cover image shows the young man with the storyteller). This story inspired the person who lived it to write a book titled:
@@ -33,7 +33,7 @@ Barbara closes her story: Johnny's idea wasn't so much creative as it was genuin
 
 The story has been translated and republished with permission from the author. Source and copyright details are below.
 
-![](/images/articles/image69.jpg)
+![Johnny embracing book author Barbara Glanz at a meeting between them](/images/articles/image69.jpg)
 
 
 > "Reprinted with permission from 'The Simple Truths of Service' by Ken Blanchard and Barbara Glanz" © Barbara Glanz Communications, Inc. 2018. All Rights Reserved. www.barbaraglanz.com

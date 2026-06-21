@@ -66,4 +66,4 @@ Standardization trap
 
 *      *      *      *      *      *      *
 
-![](/images/articles/image87.png)
+![جبل جليدي يطفو في البحر يظهر جزؤه الأكبر تحت سطح الماء](/images/articles/image87.png)

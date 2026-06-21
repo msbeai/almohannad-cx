@@ -8,7 +8,7 @@ linkedin: ""
 date: 2016-03-27
 ---
 
-![](/images/articles/image98.jpg)
+![A serene smiling stone statue among autumn leaves](/images/articles/image98.jpg)
 
 
 ## Introduction

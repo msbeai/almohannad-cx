@@ -62,7 +62,7 @@ For those wanting to share this discussion in English, you can find it at the li
 https://www.linkedin.com/grp/post/1772348-242747960
 
 
-![](/images/articles/image55.png)
+![Banner ad for "Pulse for Research", offering instant research for any sample size for free](/images/articles/image55.png)
 
 ---
 ← Articles MOC

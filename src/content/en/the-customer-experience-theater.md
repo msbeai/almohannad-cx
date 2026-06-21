@@ -40,7 +40,7 @@ The stage can be considered any platform on which you serve customers — whethe
 
 The performance itself is embodied in any interaction that takes place between the audience and the actors on the stage.
 
-![](/images/articles/image13.jpg)
+![Cover of the book "The Experience" by Bruce Loeffler and Brian Church on Disney's 5 service principles](/images/articles/image13.jpg)
 
 
 Costumes have their own character in every play, just as the uniforms some companies require employees to wear have a major impact on customer impressions — particularly in hospitality industries such as hotels, airlines, and restaurants.

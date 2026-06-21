@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/WJNdeF"
 date: 2017-12-18
 ---
 
-![](/images/articles/image80.png)
+![Still from a Japanese ice cream company's video apologizing for raising the price from 60 to 70 yen](/images/articles/image80.png)
 
 
 ## Introduction
@@ -29,7 +29,7 @@ Recently, Saudi telecom companies applied a fair-use policy on unlimited package
 
 Don't assume your customers are all at the same level of knowledge. Don't assume they're familiar with every detail of government decisions, or at least with the impact those decisions have had on your business and profitability. You must take responsibility for explaining this to them with complete transparency. The more the customer senses your genuine need to do what you're about to do, the better they'll accept your honesty. Conversely, the more they sense you're making excuses and shifting blame, the greater their resistance will be. So tell the customer the bad news and explain why with complete transparency (why you were forced to do what you're going to do). Remember: honesty is salvation.
 
-![](/images/articles/image19.jpg)
+![A NOT ANY MORE stamp with a red X crossing out the Arabic for open internet and unlimited package](/images/articles/image19.jpg)
 
 
 ### Don't Ignore

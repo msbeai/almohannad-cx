@@ -24,12 +24,12 @@ I went in early and sat in the middle to observe those around me. I noticed two 
 
 The call to the khutbah began, and its text appeared translated on the two screens.
 
-![](/images/articles/image100.png)
+![Interior of Al-Bassam Grand Mosque with worshippers seated on the carpet and two large screens flanking the pulpit](/images/articles/image100.png)
 
 
 But what happened next absolutely astounded me.
 
-![](/images/articles/image31.png)
+![Mosque screen showing the Shahada translated into English and Urdu during the call to prayer](/images/articles/image31.png)
 
 
 The khutbah was being translated live into English and Urdu, in large fonts that even those at the very back of the mosque, in the last row, could easily read.
@@ -61,7 +61,7 @@ Designing an outstanding worship experience requires a deep understanding of the
 The practices of this mosque are worth replicating across all the mosques of large neighbourhoods. To those who operate and fund it, I ask God to bless them and reward them with the best reward. They have done good, they have created, and they have mastered.
 
 
-![](/images/articles/image43.png)
+![Young Saudi professionals working on laptops, captioned about startups with a customer-centric mindset](/images/articles/image43.png)
 
 ---
 ← Articles MOC

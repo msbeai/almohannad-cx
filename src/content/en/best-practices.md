@@ -11,7 +11,7 @@ linkedin: ""
 
 Think about resource-poor countries that are economically thriving. Look for the reasons behind their success and excellence. What made a country like Switzerland the world's leader in chocolate production? What made a country like the Netherlands the best at producing cheeses, despite having only a small number of cows and scarce land? The secret lies in learning and continuous improvement — and this is what the term "best practices" is all about, a term that appears constantly in the business world. So what does it mean? On what basis is a given practice classified as a best practice? Why should we care about adopting best practices? Where can we find them? And does adopting them guarantee certain success? These are the questions probably running through many readers' minds — questions I'll address in this article, God willing.
 
-![](/images/articles/image76.jpg)
+![Hand-drawn sketch-notes in a notebook on designing call-to-action buttons](/images/articles/image76.jpg)
 
 
 ## Definition of Best Practices

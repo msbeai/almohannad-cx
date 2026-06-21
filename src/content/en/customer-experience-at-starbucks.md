@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/yh7XVU"
 date: 2016-08-25
 ---
 
-![](/images/articles/image50.png)
+![A barista in a Starbucks cap, a still from the 2001 film I Am Sam](/images/articles/image50.png)
 
 
 The success that Starbucks has achieved, and the wide spread of its branches around the world, invites reflection. What made coffee — a drink humans have been consuming for hundreds of years — sell at Starbucks for ten times its actual cost? What draws frequent visitors back, time and again? Is it really true, as the Arabic saying goes, that "a water vendor's partner never loses"? Yes, the saying is true to a degree — but why haven't all cafés achieved the success Starbucks has? Some readers might shrug it off, saying "it's just coffee." But I promise you your view will change once you finish this article.
@@ -81,7 +81,7 @@ There's a vast difference in performance between companies whose employees do wh
 
 Let me get ahead of things and dedicate this paragraph to anyone who might object to my writing about a café rumored to support Israel. I'm not here to prove or deny that, and I don't really care — behind the scenes, nearly all the world's companies support the Zionist entity. The point of the article is to highlight a success story and benefit from the successful practices Starbucks has pursued — not to promote the café itself; I'm personally not even a frequent visitor. Wisdom is the lost property of the believer.
 
-![](/images/articles/image59.png)
+![The LATTE model written over latte art: Listen, Acknowledge, Take action, Thank, Explain](/images/articles/image59.png)
 
 
 There are more than thirty books authored about this café chain. Imagine the size of the success that came from their good practice — and the size of the inspiration that drove more than thirty authors to write about them.
@@ -89,7 +89,7 @@ There are more than thirty books authored about this café chain. Imagine the si
 Related framework notes: Voice of Customer (VoC), Moments That Matter, Customer-Centric Operating Model, Closed-Loop Feedback
 
 
-![](/images/articles/image54.png)
+![Cover of Starbucks' employee handbook, The Green Apron Book](/images/articles/image54.png)
 
 ---
 ← Articles MOC

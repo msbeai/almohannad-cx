@@ -144,13 +144,13 @@ Claims and debates will continue around these various indicators and the special
 See also: NPS, CSAT, CES, Voice of Customer (VoC).
 
 
-![](/images/articles/image27.png)
+![New 7-point Customer Effort Score survey question, from strongly disagree to strongly agree](/images/articles/image27.png)
 
 
-![](/images/articles/image47.png)
+![Old 5-point Customer Effort Score survey question, from very high effort to very low effort](/images/articles/image47.png)
 
 
-![](/images/articles/image18.png)
+![Chart comparing metrics' predictive power, showing Customer Effort Score outperforming NPS and CSAT](/images/articles/image18.png)
 
 ---
 ← Articles MOC

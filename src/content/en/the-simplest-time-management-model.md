@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/xJyQ6F"
 date: 2017-01-17
 ---
 
-![](/images/articles/image10.png)
+![Eisenhower matrix: four quadrants by importance and urgency — Do it now, Decide when, Delegate, Dump](/images/articles/image10.png)
 
 
 ## The 4 D's Time Management Model
@@ -36,7 +36,7 @@ Delegation is a discipline of its own. It requires balance, and not everything c
 Something landed on your desk that has nothing to do with your goals or the projects you're working on; an invitation to a meeting that doesn't concern you (they want you to attend voluntarily); an invitation to a conference; a survey from some research study. In any of the above cases, if you don't have the time — simply dump it.
 
 
-![](/images/articles/image15.png)
+![Robert McNamara and his quote on the McNamara fallacy of measuring only what is easily measured](/images/articles/image15.png)
 
 ---
 ← Articles MOC

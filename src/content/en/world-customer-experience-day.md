@@ -12,7 +12,7 @@ date: 2020-09-30
 
 The first Tuesday of October each year marks World Customer Experience Day — this year, October 6. Devoting a specific day of the year to a cause or product is a long-standing tradition; the primary aim is to remind the world of something and raise awareness about it. Earth Day reminds us of the importance of the environment and preserving it; Earth Hour is when we switch off the lights in our homes; and there are many other observances designated by global organizations — you'll find a list [here](https://en.wikipedia.org/wiki/List_of_minor_secular_observances). So why a World Customer Experience Day? That's what this article is about, and it's directed at fellow practitioners: customer experience professionals.
 
-![](/images/articles/image85.png)
+![Happy CX Day badge: a heart and the #CXDay hashtag over a globe](/images/articles/image85.png)
 
 
 ## Who Created World Customer Experience Day?

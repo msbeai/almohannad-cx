@@ -95,7 +95,7 @@ I return to that conversation that was the initial spark for writing these lines
 To my friend [Ayman Ezzat](https://www.linkedin.com/in/aymanezzat/), who carried the customer's concern in his heart before his team or budget grew, I dedicate this article and wish you and your company all success, and that the customer's needs remain the compass that guides you at every stage of your journey. Resources may grow over time, but the customer-centric mindset is the real capital that every company should invest in from day one.
 
 
-![](/images/articles/image61.png)
+![Fishermen holding a large tuna, illustrating the Ideal Customer Profile (ICP) in B2B SaaS](/images/articles/image61.png)
 
 ---
 ← Articles MOC

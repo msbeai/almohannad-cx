@@ -12,7 +12,7 @@ date: 2015-11-17
 
 الكتاب الأول
 
-![](/images/articles/image78.jpg)
+![غلاف كتاب Market Research Handbook الإصدار الخامس من ESOMAR](/images/articles/image78.jpg)
 
 Market Research Handbook | by ESOMAR
 
@@ -20,7 +20,7 @@ Market Research Handbook | by ESOMAR
 
 الكتاب الثاني
 
-![](/images/articles/image22.jpg)
+![غلاف كتاب The Handbook of Online and Social Media Research لراي بوينتر](/images/articles/image22.jpg)
 
 The Handbook of Online and Social Media Research | by ESOMAR
 
@@ -28,7 +28,7 @@ The Handbook of Online and Social Media Research | by ESOMAR
 
 الكتاب الثالث
 
-![](/images/articles/image97.jpg)
+![غلاف كتاب Say It With Charts لجين زيلازني](/images/articles/image97.jpg)
 
 Say It With Charts | by Gene Zelazny
 
@@ -36,7 +36,7 @@ Say It With Charts | by Gene Zelazny
 
 الكتاب الرابع
 
-![](/images/articles/image21.png)
+![غلاف كتاب دليل تصميم الاستبيانات للمهنّد بن حسّان السبيعي](/images/articles/image21.png)
 
 دليل تصميم الاستبيانات | بقلم: المهند السبيعي
 
@@ -44,7 +44,7 @@ Say It With Charts | by Gene Zelazny
 
 الكتاب الخامس
 
-![](/images/articles/image93.jpg)
+![غلاف كتاب Questionnaire Design لإيان بريس](/images/articles/image93.jpg)
 
 [Questionnaire Design | by Ian Brace](http://www.amazon.com/Questionnaire-Design-Structure-Material-Effective/dp/0749467797/ref=sr_1_17?s=books&ie=UTF8&qid=1447783364&sr=1-17&keywords=esomar)
 
@@ -52,13 +52,13 @@ Say It With Charts | by Gene Zelazny
 
 الكتاب السادس
 
-![](/images/articles/image49.jpg)
+![غلاف كتاب Marketing Research: An Applied Orientation لناريش مالهوترا](/images/articles/image49.jpg)
 
 Marketing Research: An Applied Orientation | by Naresh K Malhotra
 
 الكتاب السابع
 
-![](/images/articles/image38.jpg)
+![غلاف كتاب Market Research in Practice لبول هيغ وزملائه](/images/articles/image38.jpg)
 
 Market Research in Practice | by Paul Hague, Nick Hague, Carol-Ann Morgan
 
@@ -66,7 +66,7 @@ Market Research in Practice | by Paul Hague, Nick Hague, Carol-Ann Morgan
 
 الكتاب الثامن
 
-![](/images/articles/image65.jpg)
+![غلاف كتاب More Guerrilla Marketing Research](/images/articles/image65.jpg)
 
 More Guerrilla Marketing Research | by by Robert J. Kaden, Gerald Linda, Jay Conrad Levinson
 
@@ -74,7 +74,7 @@ More Guerrilla Marketing Research | by by Robert J. Kaden, Gerald Linda, Jay Con
 
 الكتاب التاسع
 
-![](/images/articles/image64.jpg)
+![غلاف كتاب Qualitative Data Analysis from Start to Finish لجيمي هاردينغ](/images/articles/image64.jpg)
 
 Qualitative Data Analysis from Start to Finish | by Jamie Harding
 

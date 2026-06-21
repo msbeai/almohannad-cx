@@ -16,7 +16,7 @@ In recent years, I've noticed that the situation has begun to change noticeably 
 
 I then read two books about UX writing and discovered the growing interest in it from many global companies in tandem with the rising interest in digitisation and digital experiences.
 
-![](/images/articles/image74.jpg)
+![Horizon Forbidden West game cover with its Arabic-localised title](/images/articles/image74.jpg)
 
 
 In this article I'll give you a brief introduction to the field, the difference between UX writing and other kinds of writing, its relationship to user experience and customer experience, and how this specialty has become one of the most in-demand career paths.
@@ -69,7 +69,7 @@ The artistic side of the specialty depends on producing texts in a tone of voice
 
 > Easy reading is damn hard writing.
 
-![](/images/articles/image35.png)
+![Google ad example: changing copy from Book a room to Check availability raised engagement 17%](/images/articles/image35.png)
 
 
 When you read something and feel that it's simple and easy to understand, rest assured that the person who wrote it spent a long time thinking, writing several drafts, testing, reviewing, revising, then testing and revising all over again before approving the final version that's in your hands. UX writing is an independent and respected specialty. Wrong is anyone who thinks just any person in the company can do it, and wrong is anyone who dumps this responsibility on software engineers, or settles for investing in the English interface and then translating it to Arabic in the traditional way.

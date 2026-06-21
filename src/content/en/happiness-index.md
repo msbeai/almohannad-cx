@@ -7,7 +7,7 @@ order: 18
 linkedin: ""
 ---
 
-![](/images/articles/image89.jpg)
+![Wall mural spelling the word "Happiness" out of rows of colorful smiley faces](/images/articles/image89.jpg)
 
 
 ## Introduction
@@ -40,7 +40,7 @@ From an article he wrote on the occasion of opening this ministry and others, I 
 
 > *The role of governments is to create the environment in which people can achieve their happiness.*
 
-![](/images/articles/image95.png)
+![Stacked bar chart ranking Arab countries on a wellbeing index, UAE highest (6.901) down to Syria (3.006)](/images/articles/image95.png)
 
 
 > *Happy people are more productive, live longer, and lead better economic development, according to studies.*

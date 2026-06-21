@@ -8,7 +8,7 @@ linkedin: "https://goo.gl/5duSFi"
 date: 2019-01-03
 ---
 
-![](/images/articles/image83.jpg)
+![باربرا غلانز راوية القصة مع جوني الشاب المصاب بمتلازمة داون](/images/articles/image83.jpg)
 
 هذه قصة حقيقة لشاب مصاب [بمتلازمة](https://www.mayoclinic.org/ar/diseases-conditions/down-syndrome/symptoms-causes/syc-20355977)[](https://www.mayoclinic.org/ar/diseases-conditions/down-syndrome/symptoms-causes/syc-20355977)[داون](https://www.mayoclinic.org/ar/diseases-conditions/down-syndrome/symptoms-causes/syc-20355977) صنع تحولا في خدمة العملاء على مستوى المتجر الذي يعمل فيه (في صورة الغلاف صورة الشاب مع راوية القصة)، ألهمت هذه القصة من عاشها بتأليف كتاب بعنوان
 
@@ -30,7 +30,7 @@ The simple truths of service
 
 تختم باربرا قصتها قائلة: فكرة جوني لم تكن إبداعية بقدر ما كانت نابعة من القلب ... كانت فكرة أصيلة ولذلك لمست قلوب العملاء وقلوب زملائه وكذلك قلوب القراء الذين قرأوا هذه القصة، الخدمة العظيمة تأتي من القلب، هل ستصبح مثل جوني بداية من اليوم
 
-![](/images/articles/image69.jpg)
+![جوني يحتضن باربرا غلانز مؤلفة الكتاب في لقاء بينهما](/images/articles/image69.jpg)
 
 تم ترجمة القصة وإعادة نشرها بعد إذن من صاحبة القصة، تفاصيل المصدر وحقوق النشر أدناه
 

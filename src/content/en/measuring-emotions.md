@@ -40,7 +40,7 @@ Respondent bias and the response that society accepts rather than the one expres
 
 **More verbal explicit scales (titles only):** RAS (Russell adjective scale), CMQ (current mode questionnaire), POMS (Profile of Mood State), UWIST mood adjective checklist, Brunel mood state, Mood inspection scale, DES (Differential Emotions Scale), MACL (Mood Adjective Checklist).
 
-![](/images/articles/image36.jpg)
+![Wong-Baker Faces Pain Rating Scale, faces from smiling to crying scored 0 to 10](/images/articles/image36.jpg)
 
 
 ### Examples of Image-Based Explicit Scales
@@ -63,7 +63,7 @@ The market research industry has multiple practices on this side, most well-know
 
 This method does not require asking the person whose emotions are being measured directly. From a scientific perspective, some of these methods are more accurate than those that ask the target to express their emotional state, because many of these tools rely on the biological changes that accompany emotion in the human body — in the skin, in heartbeat, in blood flow to specific areas of the brain, and so on. These changes are called the reactions that accompany emotion at the subconscious level. The most common practitioners of this method are neuroscientists and neuromarketers.
 
-![](/images/articles/image45.jpg)
+![PANAS questionnaire worksheet listing twenty feelings each rated on a five-point scale](/images/articles/image45.jpg)
 
 
 ### Advantages of Implicit Measurement Methods
@@ -84,7 +84,7 @@ There's also the **electromyography (EMG)** device, which records the electrical
 
 Some organizations combine the two approaches to obtain more accurate results, or to fill the gap that might be missing in a particular scale by simultaneously using another scale.
 
-![](/images/articles/image66.png)
+![Geneva Emotion Wheel scale arranging twenty emotions in a circle from negative to positive](/images/articles/image66.png)
 
 
 ## Closing
@@ -92,16 +92,16 @@ Some organizations combine the two approaches to obtain more accurate results, o
 The goal of this article is to raise awareness about emotion-measurement scales, not to recommend the use of one scale or one method over another. God knows best the intent.
 
 
-![](/images/articles/image77.jpg)
+![Vintage alarm clock on a red surface symbolizing the timing of measurement](/images/articles/image77.jpg)
 
 
-![](/images/articles/image20.jpg)
+![Facial Action Coding System analyzing a user's expressions, classified as laughing or surprise](/images/articles/image20.jpg)
 
 
-![](/images/articles/image58.jpg)
+![Person wearing an EEG electrode cap facing a screen in an emotion-measurement experiment](/images/articles/image58.jpg)
 
 
-![](/images/articles/image52.jpg)
+![PrEmo scale with fourteen cartoon characters expressing different positive and negative emotions](/images/articles/image52.jpg)
 
 ---
 ← Articles MOC

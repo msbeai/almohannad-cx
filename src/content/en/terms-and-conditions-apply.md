@@ -74,7 +74,7 @@ To the esteemed readers practicing in CX or UX: don't be stingy with more tips o
 Related framework notes: Customer Journey Mapping, Moments That Matter, Voice of Customer (VoC)
 
 
-![](/images/articles/image88.png)
+![Banner reading "Patient Experience Through the Eyes of the Humane Physician" by Dr. Mohammed Bassam Almohannad](/images/articles/image88.png)
 
 ---
 ← Articles MOC

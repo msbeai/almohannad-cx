@@ -10,7 +10,7 @@ date: 2017-12-11
 
 *Customer Experience Centers (CECs)*
 
-![](/images/articles/image24.png)
+![Global examples of customer experience centers: Amsterdam, Hershey's Chocolate World, Legoland and Munich](/images/articles/image24.png)
 
 
 ## Introduction
@@ -62,7 +62,7 @@ My visit to a tea plantation that transformed the place from a production site i
 It seems that marketing methods and approaches to increasing customer engagement with the brand are beginning to shift — toward creating greater interaction between customers and the products or services offered by different brands. This may explain one of the secrets behind Apple Stores being the most successful retail outlets in the world by sales per square meter, compared to any retailer in any industry. These could be called experience centers rather than retail outlets. The question I'll close with: will we witness a shift in how products are displayed and services delivered? Will all retail outlets begin to transform into interactive customer experience centers? Time will tell.
 
 
-![](/images/articles/image60.jpg)
+![Photos from the author's visit to Riyadh's public-transport experience center: city model, a train car and displays](/images/articles/image60.jpg)
 
 ---
 ← Articles MOC
