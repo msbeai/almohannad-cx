@@ -5,6 +5,7 @@ titleEn: "The Difference Between Brand Experience and Customer Experience"
 theme: cx
 order: 38
 linkedin: "https://bit.ly/3GYkkeK"
+date: 2025-05-27
 ---
 
 Brand experience specialists work to make their brand easily distinguishable, so the audience can recognize it through specific traits or through the tone of voice used across the channels where the brand lives and broadcasts varied messages. In this article, I try to plant a seed for a question many have asked: is customer experience the same as brand experience? Are they two sides of the same coin?

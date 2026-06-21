@@ -5,6 +5,7 @@ titleEn: "Deploying AI in Customer Experience"
 theme: cx
 order: 49
 linkedin: ""
+date: 2024-01-27
 ---
 
 ## تمهيد

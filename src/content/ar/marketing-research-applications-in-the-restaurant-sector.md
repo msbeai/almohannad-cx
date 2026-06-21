@@ -5,6 +5,7 @@ titleEn: "Marketing Research Applications in the Restaurant Sector"
 theme: research
 order: 21
 linkedin: ""
+date: 2016-04-16
 ---
 
 ## تمهيد

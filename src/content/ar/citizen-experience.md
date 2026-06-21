@@ -5,6 +5,7 @@ titleEn: "Citizen Experience"
 theme: cx
 order: 13
 linkedin: "https://goo.gl/DPYfay"
+date: 2017-04-10
 ---
 
 ## تمهيد

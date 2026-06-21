@@ -5,6 +5,7 @@ titleEn: "Robert McNamara's Quantitative Fallacy"
 theme: cx
 order: 12
 linkedin: "https://goo.gl/kL3uzd"
+date: 2017-03-03
 ---
 
 ## Introduction

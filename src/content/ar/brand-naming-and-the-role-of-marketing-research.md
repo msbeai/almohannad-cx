@@ -5,6 +5,7 @@ titleEn: "Brand Naming and the Role of Marketing Research"
 theme: research
 order: 9
 linkedin: "https://goo.gl/esLvAf"
+date: 2015-12-12
 ---
 
 “Naming a brand isn't like naming a baby”

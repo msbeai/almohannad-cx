@@ -5,6 +5,7 @@ titleEn: "Microsoft Enters the Marketing Research World"
 theme: research
 order: 14
 linkedin: "https://goo.gl/0722Sw"
+date: 2015-08-08
 ---
 
 أطلقت مؤخرا شركة مايكروسوفت منتج جديدا باسم

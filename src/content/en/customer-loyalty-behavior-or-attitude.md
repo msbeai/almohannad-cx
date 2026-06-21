@@ -5,6 +5,7 @@ titleEn: "Customer Loyalty - Behavior or Attitude"
 theme: cx
 order: 7
 linkedin: "https://goo.gl/9L4POq"
+date: 2016-11-28
 ---
 
 We use many metrics to measure customer loyalty — whether to predict expected growth or to monitor performance compared with competitors. While these metrics are important and there are statistically proven correlations between them and growth, we must distinguish between what is called **attitudinal loyalty** and **behavioral loyalty**.

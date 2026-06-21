@@ -5,6 +5,7 @@ titleEn: "Get Out of Your Ivory Towers"
 theme: cx
 order: 19
 linkedin: "https://bit.ly/2Sv2f0u"
+date: 2018-04-30
 ---
 
 ## تمهيد

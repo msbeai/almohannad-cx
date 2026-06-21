@@ -5,6 +5,7 @@ titleEn: "How Do We Bridge the Generation Gap"
 theme: cx
 order: 46
 linkedin: ""
+date: 2022-10-08
 ---
 
 ## Introduction

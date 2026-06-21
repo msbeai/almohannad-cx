@@ -5,6 +5,7 @@ titleEn: "Ignoring Customers"
 theme: cx
 order: 39
 linkedin: "https://bit.ly/3FciEg6"
+date: 2025-04-23
 ---
 
 It happens that some service providers ignore customers — intentionally or unintentionally — without realizing the danger of this behavior for the future of the relationship between the brand and the customer. The reasons are many. Chief among them is being present on certain channels or platforms without a prior strategy for how to handle customers on that channel. The other reason is a shortage of resources — either human or technical — to manage customer interactions on the channel in the best possible way.

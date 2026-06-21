@@ -5,6 +5,7 @@ titleEn: "Customer Charter"
 theme: cx
 order: 9
 linkedin: "https://goo.gl/nUI59k"
+date: 2016-12-12
 ---
 
 ## What It Is — Definition of the Charter

@@ -5,6 +5,7 @@ titleEn: "American Customer Satisfaction Index"
 theme: research
 order: 17
 linkedin: "https://goo.gl/XpUZAq"
+date: 2015-08-29
 ---
 
 American Customer Satisfaction Index

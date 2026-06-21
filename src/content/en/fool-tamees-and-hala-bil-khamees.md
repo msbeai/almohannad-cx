@@ -5,6 +5,7 @@ titleEn: "Fool, Tamees, and Hala Bil Khamees"
 theme: cx
 order: 20
 linkedin: "https://goo.gl/4Epj2W"
+date: 2018-05-09
 ---
 
 *Note: The title is a colloquial Saudi rhyme referring to the old leisurely public-sector morning routine — fool [fava beans] and tamees [bread] for breakfast, with everyone counting down to Thursday (the weekend). It's shorthand for a complacent government-work mindset.*

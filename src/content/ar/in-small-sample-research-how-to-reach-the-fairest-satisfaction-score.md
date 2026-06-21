@@ -5,6 +5,7 @@ titleEn: "In Small-Sample Research - How to Reach the Fairest Satisfaction Score
 theme: research
 order: 13
 linkedin: "https://goo.gl/aJeZEi"
+date: 2015-08-03
 ---
 
 مقدمة

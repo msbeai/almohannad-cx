@@ -5,6 +5,7 @@ titleEn: "Fool, Tamees, and Hala Bil Khamees"
 theme: cx
 order: 20
 linkedin: "https://goo.gl/4Epj2W"
+date: 2018-05-09
 ---
 
 ## تمهيد

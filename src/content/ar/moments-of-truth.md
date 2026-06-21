@@ -5,6 +5,7 @@ titleEn: "Moments of Truth"
 theme: cx
 order: 1
 linkedin: "https://bit.ly/30UnGuy"
+date: 2015-11-03
 ---
 
 ## تمهيد

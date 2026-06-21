@@ -5,6 +5,7 @@ titleEn: "Fairness in Customer and Employee Experience"
 theme: cx
 order: 16
 linkedin: "https://goo.gl/E3RjtG"
+date: 2017-11-11
 ---
 
 ## Introduction

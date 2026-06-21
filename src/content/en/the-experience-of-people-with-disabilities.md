@@ -5,6 +5,7 @@ titleEn: "The Experience of People with Disabilities"
 theme: cx
 order: 41
 linkedin: "https://bit.ly/3rrvCCW"
+date: 2021-12-02
 ---
 
 A few years ago, I was diagnosed with a herniated disc (slipped disc), and I was advised not to lift anything heavy so that my condition wouldn't worsen. Around that time, while shopping at one of the global furniture retailers, I needed to load a heavy product from the self-service area. I explained my situation to one of the staff and was caught off guard by his complete indifference and an excuse that was uglier than the offence itself. The feelings produced at that touchpoint were extremely negative, and beyond the fact that I will never forget the bad experience, the question has stayed with me from that day to this: what is the experience of people with disabilities really like?

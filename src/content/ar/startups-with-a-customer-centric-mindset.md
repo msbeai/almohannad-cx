@@ -5,6 +5,7 @@ titleEn: "Startups with a Customer-Centric Mindset"
 theme: cx
 order: 51
 linkedin: ""
+date: 2025-08-08
 ---
 
 ## تمهيد

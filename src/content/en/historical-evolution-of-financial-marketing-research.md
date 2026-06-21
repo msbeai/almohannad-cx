@@ -5,6 +5,7 @@ titleEn: "Historical Evolution of Financial Marketing Research"
 theme: research
 order: 19
 linkedin: ""
+date: 2016-03-14
 ---
 
 ![](/images/articles/image96.jpg)

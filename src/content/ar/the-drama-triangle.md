@@ -5,6 +5,7 @@ titleEn: "The Drama Triangle"
 theme: cx
 order: 54
 linkedin: ""
+date: 2016-04-28
 ---
 
 Drama triangle by Dr. Stephen Karpman

@@ -5,6 +5,7 @@ titleEn: "The Top Ten Books for Every Marketing Researcher"
 theme: research
 order: 4
 linkedin: ""
+date: 2015-11-17
 ---
 
 Seven years ago, I started working in marketing research. I had a hard time defining my career path because I didn't, in those early days, have a leader who liked to share knowledge. Sometimes adversity is a hidden blessing — it pushed me to immerse myself in many books, both Arabic and English, to develop my knowledge and sharpen my skills so I could build a full career. I wanted to share with researchers already working in this field — as well as beginners — a shortcut that will, with God's help, secure a thriving future. So here are the ten most important reference books to read to make that happen. A note: I haven't finished some of these books yet because of time constraints.

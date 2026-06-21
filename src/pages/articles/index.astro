@@ -1,11 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { THEMES } from '../../site';
 import { getArticles, excerpt } from '../../lib/articles';
 
 const all = await getArticles('ar');
-const themeParam = Astro.url.searchParams.get('theme');
+const years = [...new Set(all.map((a) => a.data.date?.getFullYear()).filter(Boolean))].sort((a, b) => b - a);
+const yearOf = (a) => (a.data.date ? String(a.data.date.getFullYear()) : 'none');
+const countIn = (y) => all.filter((a) => a.data.date?.getFullYear() === y).length;
+const ar = (n) => n.toLocaleString('ar-EG', { useGrouping: false });
 ---
 
 <Base lang="ar" title="المقالات — المهند السبيعي" altPath="/en/articles" current="/articles">
@@ -13,20 +15,20 @@ const themeParam = Astro.url.searchParams.get('theme');
     <header class="page-head">
       <h1>المقالات</h1>
       <p>
-        {all.length} مقالًا نُشرت أصلًا على لينكدإن، في محورين: تجربة العميل، والأبحاث
-        التسويقية والمؤشرات. اختر محورًا أو تصفّحها كلها.
+        {all.length} مقالًا نُشر أغلبها أصلًا على لينكدإن. تصفّحها كلها أو اختر سنة النشر.
       </p>
     </header>
 
-    <nav class="filter-row" aria-label="تصفية حسب المحور" id="filters">
-      <a href="/articles" data-theme="all" aria-current="true">الكل ({all.length})</a>
-      <a href="/articles?theme=cx" data-theme="cx">{THEMES.cx.ar} ({all.filter((a) => a.data.theme === 'cx').length})</a>
-      <a href="/articles?theme=research" data-theme="research">{THEMES.research.ar} ({all.filter((a) => a.data.theme === 'research').length})</a>
+    <nav class="filter-row" aria-label="تصفية حسب سنة النشر" id="filters">
+      <a href="/articles" data-year="all" aria-current="true">الكل ({ar(all.length)})</a>
+      {years.map((y) => (
+        <a href={`/articles?year=${y}`} data-year={String(y)}>{ar(y)} ({ar(countIn(y))})</a>
+      ))}
     </nav>
 
     <div class="card-grid" style="margin-bottom: 4rem">
       {all.map((a) => (
-        <div data-theme={a.data.theme} style="display: contents">
+        <div data-year={yearOf(a)} style="display: contents">
           <ArticleCard
             lang="ar"
             slug={a.id.replace(/\.md$/, '')}
@@ -41,14 +43,14 @@ const themeParam = Astro.url.searchParams.get('theme');
   </div>
 
   <script>
-    // client-side theme filter (static site, no reload needed)
+    // client-side year filter (static site, no reload needed)
     const apply = () => {
-      const theme = new URLSearchParams(location.search).get('theme') ?? 'all';
-      document.querySelectorAll<HTMLElement>('[data-theme]').forEach((el) => {
+      const year = new URLSearchParams(location.search).get('year') ?? 'all';
+      document.querySelectorAll<HTMLElement>('[data-year]').forEach((el) => {
         if (el.closest('#filters')) {
-          el.setAttribute('aria-current', String(el.dataset.theme === theme));
+          el.setAttribute('aria-current', String(el.dataset.year === year));
         } else {
-          el.style.display = theme === 'all' || el.dataset.theme === theme ? 'contents' : 'none';
+          el.style.display = year === 'all' || el.dataset.year === year ? 'contents' : 'none';
         }
       });
     };

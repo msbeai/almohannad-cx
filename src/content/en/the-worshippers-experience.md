@@ -5,6 +5,7 @@ titleEn: "The Worshipper's Experience"
 theme: cx
 order: 50
 linkedin: "https://bit.ly/3ENVJg4"
+date: 2025-02-14
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ titleEn: "Michelin Stars - The Restaurant Sector"
 theme: cx
 order: 40
 linkedin: "https://bit.ly/3HEtM7w"
+date: 2025-06-01
 ---
 
 The story of the Michelin Guide, the most authoritative restaurant guide in the world, began somewhere between 1888 and 1900, when the brothers André and Édouard Michelin decided to put together a guide for petrol stations. It included information on repairing and changing tyres, plus a few notes on car mechanics. The purpose of the guide was to encourage people to buy cars (at the time, some statistics suggested France had no more than 3,000 cars in total). The goal was purely commercial: more cars on the road meant more tyres sold, and the Michelin tyre factory would prosper.

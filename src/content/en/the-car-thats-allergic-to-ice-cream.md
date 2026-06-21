@@ -5,6 +5,7 @@ titleEn: "The Car That's Allergic to Ice Cream"
 theme: cx
 order: 42
 linkedin: "https://bit.ly/3qlyrU3"
+date: 2025-04-30
 ---
 
 The Pontiac, or "the car that's allergic to ice cream", was one of the car models manufactured and launched by General Motors in 1925, with production eventually ending in 2010. The story began with a complaint sent in by one of the car's owners to the company's customer service department.

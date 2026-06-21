@@ -5,6 +5,7 @@ titleEn: "The Most Common Writing Errors"
 theme: research
 order: 15
 linkedin: "https://goo.gl/lCykWA"
+date: 2015-08-10
 ---
 
 > **Translator's note:** This article addresses common errors in **Arabic** writing. The grammar rules and examples below are specific to Arabic script and morphology and have been preserved in their original form alongside their explanations. They will be most useful to readers of Arabic.

@@ -5,6 +5,7 @@ titleEn: "Designing the Small Details"
 theme: cx
 order: 55
 linkedin: "https://goo.gl/O6thU3"
+date: 2016-08-07
 ---
 
 ## تمهيد

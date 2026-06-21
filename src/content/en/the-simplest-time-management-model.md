@@ -5,6 +5,7 @@ titleEn: "The Simplest Time Management Model"
 theme: cx
 order: 11
 linkedin: "https://goo.gl/xJyQ6F"
+date: 2017-01-17
 ---
 
 ![](/images/articles/image10.png)

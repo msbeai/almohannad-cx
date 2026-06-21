@@ -5,6 +5,7 @@ titleEn: "Managing Expectations"
 theme: cx
 order: 45
 linkedin: ""
+date: 2022-04-15
 ---
 
 ## Introduction

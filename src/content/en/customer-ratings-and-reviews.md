@@ -5,6 +5,7 @@ titleEn: "Customer Ratings and Reviews"
 theme: cx
 order: 14
 linkedin: "https://goo.gl/Tcg4Xg"
+date: 2017-07-05
 ---
 
 ![](/images/articles/image71.png)

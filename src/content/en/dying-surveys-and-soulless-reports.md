@@ -5,6 +5,7 @@ titleEn: "Dying Surveys and Soulless Reports"
 theme: cx
 order: 23
 linkedin: "https://bit.ly/Cx0001"
+date: 2019-04-30
 ---
 
 ## Introduction

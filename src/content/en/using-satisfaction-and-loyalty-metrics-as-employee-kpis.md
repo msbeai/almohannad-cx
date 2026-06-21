@@ -5,6 +5,7 @@ titleEn: "Using Satisfaction and Loyalty Metrics as Employee KPIs"
 theme: research
 order: 20
 linkedin: ""
+date: 2016-03-27
 ---
 
 ![](/images/articles/image98.jpg)

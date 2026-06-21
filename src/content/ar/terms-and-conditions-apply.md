@@ -5,6 +5,7 @@ titleEn: "Terms and Conditions Apply"
 theme: cx
 order: 53
 linkedin: ""
+date: 2022-11-04
 ---
 
 ## تمهيد

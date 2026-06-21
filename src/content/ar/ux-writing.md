@@ -5,6 +5,7 @@ titleEn: "UX Writing"
 theme: cx
 order: 48
 linkedin: ""
+date: 2023-02-01
 ---
 
 ## تمهيد

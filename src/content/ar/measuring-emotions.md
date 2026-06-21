@@ -5,6 +5,7 @@ titleEn: "Measuring Emotions"
 theme: cx
 order: 10
 linkedin: "https://goo.gl/K6eFgz"
+date: 2016-12-20
 ---
 
 ## تمهيد

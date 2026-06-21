@@ -5,6 +5,7 @@ titleEn: "Ideal Customer Profile (ICP)"
 theme: cx
 order: 52
 linkedin: ""
+date: 2025-09-27
 ---
 
 ## Introduction

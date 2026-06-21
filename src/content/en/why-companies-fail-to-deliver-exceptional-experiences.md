@@ -5,6 +5,7 @@ titleEn: "Why Companies Fail to Deliver Exceptional Experiences"
 theme: cx
 order: 43
 linkedin: "https://bit.ly/3grKr1F"
+date: 2025-05-21
 ---
 
 In this article, I want to talk about why companies and institutions fail to deliver exceptional experiences. But first, you have to know that customer experience is a responsibility that sits on everyone's shoulders, a truth that many companies either don't know or choose to ignore. They dump the entire responsibility onto a single department, and then are surprised when that department's initiatives fail and its talent keeps walking out the door, without ever pausing to ask where the real source of the problem lies.
