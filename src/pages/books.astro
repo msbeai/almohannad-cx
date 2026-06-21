@@ -9,6 +9,7 @@ interface Book {
   descriptionAr?: string;
   link?: string;
   cover?: string;
+  file?: string;
 }
 const books = (booksData.books ?? []) as Book[];
 ---
@@ -37,6 +38,9 @@ const books = (booksData.books ?? []) as Book[];
             <div class="book-meta">{b.year && <span>{b.year}</span>}</div>
             <h3>{b.titleAr}</h3>
             {b.descriptionAr && <p class="book-brief">{b.descriptionAr}</p>}
+            {b.file && (
+              <a class="book-download" href={b.file} download>تحميل الكتاب (PDF) ↓</a>
+            )}
           </article>
         ))}
       </div>
@@ -88,6 +92,21 @@ const books = (booksData.books ?? []) as Book[];
     font-size: 0.93rem;
     line-height: 1.85;
     margin: 0;
+  }
+  .book-download {
+    align-self: flex-start;
+    margin-top: 0.85rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--accent);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.35rem 1rem;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .book-download:hover {
+    border-color: var(--ink-faint);
+    color: var(--ink);
   }
   @media (max-width: 520px) {
     .book-grid {

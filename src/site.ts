@@ -11,6 +11,9 @@ export const SITE = {
   linkedin: 'https://www.linkedin.com/in/almohannadalsbeai',
   linkedinAuthor: 'https://www.linkedin.com/today/author/almohannadalsbeai',
   email: 'hey@almohannad.cx',
+  // Cloudflare Web Analytics beacon token (free, privacy-friendly). Paste the token
+  // from the Cloudflare dashboard (Web Analytics → add almohannad.cx) to switch it on.
+  cfBeaconToken: '',
 };
 
 export const THEMES = {

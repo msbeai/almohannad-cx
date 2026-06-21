@@ -109,6 +109,14 @@ const allSchema = [personSchema, websiteSchema, ...schema];
         document.documentElement.dataset.theme = dark ? 'dark' : 'light';
       })();
     </script>
+    {SITE.cfBeaconToken && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${SITE.cfBeaconToken}"}`}
+      ></script>
+    )}
   </head>
   <body>
     <a class="skip-link" href="#main">{lang === 'ar' ? 'تخطَّ إلى المحتوى' : 'Skip to content'}</a>
