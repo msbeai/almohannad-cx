@@ -568,6 +568,11 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   border-color: var(--ink);
   color: var(--bg);
 }
+.filter-label {
+  align-self: center;
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+}
 
 /* ---------- article page ---------- */
 .article-head {

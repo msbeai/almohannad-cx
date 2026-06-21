@@ -3,10 +3,8 @@ import Base from '../../../layouts/Base.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
 import { getArticles, excerpt } from '../../../lib/articles';
 
-const all = await getArticles('en');
-const years = [...new Set(all.map((a) => a.data.date?.getFullYear()).filter(Boolean))].sort((a, b) => b - a);
-const yearOf = (a) => (a.data.date ? String(a.data.date.getFullYear()) : 'none');
-const countIn = (y) => all.filter((a) => a.data.date?.getFullYear() === y).length;
+const all = await getArticles('en'); // already newest-first
+const isoOf = (a) => (a.data.date ? a.data.date.toISOString().slice(0, 10) : '');
 ---
 
 <Base lang="en" title="Articles — Almohannad Alsbeai" altPath="/articles" current="/en/articles">
@@ -15,20 +13,19 @@ const countIn = (y) => all.filter((a) => a.data.date?.getFullYear() === y).lengt
       <h1>Articles</h1>
       <p>
         {all.length} articles, most originally published in Arabic on LinkedIn and translated to
-        English. Browse them all or pick a year.
+        English, newest first.
       </p>
     </header>
 
-    <nav class="filter-row" aria-label="Filter by publication year" id="filters">
-      <a href="/en/articles" data-year="all" aria-current="true">All ({all.length})</a>
-      {years.map((y) => (
-        <a href={`/en/articles?year=${y}`} data-year={String(y)}>{y} ({countIn(y)})</a>
-      ))}
+    <nav class="filter-row" aria-label="Sort by publication date" id="sort">
+      <span class="filter-label">Sort:</span>
+      <a href="#" data-sort="new" aria-current="true">Newest first</a>
+      <a href="#" data-sort="old">Oldest first</a>
     </nav>
 
     <div class="card-grid" style="margin-bottom: 4rem">
       {all.map((a) => (
-        <div data-year={yearOf(a)} style="display: contents">
+        <div data-date={isoOf(a)} style="display: contents">
           <ArticleCard
             lang="en"
             slug={a.id.replace(/\.md$/, '')}
@@ -43,24 +40,24 @@ const countIn = (y) => all.filter((a) => a.data.date?.getFullYear() === y).lengt
   </div>
 
   <script>
-    const apply = () => {
-      const year = new URLSearchParams(location.search).get('year') ?? 'all';
-      document.querySelectorAll<HTMLElement>('[data-year]').forEach((el) => {
-        if (el.closest('#filters')) {
-          el.setAttribute('aria-current', String(el.dataset.year === year));
-        } else {
-          el.style.display = year === 'all' || el.dataset.year === year ? 'contents' : 'none';
-        }
+    const grid = document.querySelector<HTMLElement>('.card-grid');
+    const items = grid ? [...grid.children] as HTMLElement[] : [];
+    const sortBy = (dir: string) => {
+      const sorted = [...items].sort((a, b) => {
+        const da = a.dataset.date ?? '', db = b.dataset.date ?? '';
+        if (!da && !db) return 0;
+        if (!da) return 1; // undated always last
+        if (!db) return -1;
+        return dir === 'old' ? da.localeCompare(db) : db.localeCompare(da);
       });
+      sorted.forEach((el) => grid!.appendChild(el));
     };
-    document.querySelectorAll('#filters a').forEach((a) =>
+    document.querySelectorAll<HTMLAnchorElement>('#sort a').forEach((a) =>
       a.addEventListener('click', (e) => {
         e.preventDefault();
-        history.pushState({}, '', (a as HTMLAnchorElement).href);
-        apply();
+        document.querySelectorAll('#sort a').forEach((x) => x.setAttribute('aria-current', String(x === a)));
+        sortBy(a.dataset.sort ?? 'new');
       })
     );
-    window.addEventListener('popstate', apply);
-    apply();
   </script>
 </Base>
