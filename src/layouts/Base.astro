@@ -111,10 +111,24 @@ const allSchema = [personSchema, websiteSchema, ...schema];
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#main">{lang === 'ar' ? 'تخطَّ إلى المحتوى' : 'Skip to content'}</a>
     <header class="site-header">
       <div class="wrap">
         <a class="brand" href={homeHref}><img class="brand-avatar" src="/images/avatar.jpg" alt="" width="32" height="32" /><span class="brand-name">almohannad<span class="tld">.cx</span></span></a>
-        <nav class="site-nav" aria-label={lang === 'ar' ? 'التنقل الرئيسي' : 'Main navigation'}>
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label={lang === 'ar' ? 'فتح القائمة' : 'Open menu'}
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path class="nav-toggle-bars" d="M3 6h18M3 12h18M3 18h18"></path>
+            <path class="nav-toggle-x" d="M6 6l12 12M18 6L6 18"></path>
+          </svg>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label={lang === 'ar' ? 'التنقل الرئيسي' : 'Main navigation'}>
           {t.nav.map((item) => (
             <a
               href={item.href}
@@ -155,7 +169,7 @@ const allSchema = [personSchema, websiteSchema, ...schema];
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <slot />
     </main>
 
@@ -176,6 +190,20 @@ const allSchema = [personSchema, websiteSchema, ...schema];
         document.documentElement.dataset.theme = next;
         localStorage.setItem('theme', next);
       });
+      // mobile nav toggle
+      (() => {
+        const btn = document.getElementById('nav-toggle');
+        const nav = document.getElementById('site-nav');
+        if (!btn || !nav) return;
+        const setOpen = (open) => {
+          nav.classList.toggle('open', open);
+          btn.setAttribute('aria-expanded', String(open));
+        };
+        btn.addEventListener('click', () => setOpen(!nav.classList.contains('open')));
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') setOpen(false);
+        });
+      })();
     </script>
   </body>
 </html>

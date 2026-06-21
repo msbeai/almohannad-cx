@@ -1,8 +1,9 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import { T } from '../../../site';
-import { readingMinutes, excerpt } from '../../../lib/articles';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import { SITE, T } from '../../../site';
+import { getArticles, readingMinutes, excerpt } from '../../../lib/articles';
 
 export async function getStaticPaths() {
   const articles = await getCollection('en');
@@ -23,6 +24,12 @@ const dateStr = article.data.date?.toLocaleDateString('en-US', {
   day: 'numeric',
 });
 
+const related = (await getArticles('en'))
+  .filter((a) => a.id !== article.id && a.data.theme === article.data.theme)
+  .slice(0, 3);
+const shareUrl = `https://almohannad.cx/en/articles/${slug}`;
+const shareText = encodeURIComponent(article.data.title);
+
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -36,6 +43,16 @@ const articleSchema = {
   image: 'https://almohannad.cx/og-default.png',
   about: article.data.theme === 'cx' ? 'Customer Experience' : 'Marketing Research',
 };
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://almohannad.cx/en' },
+    { '@type': 'ListItem', position: 2, name: 'Articles', item: 'https://almohannad.cx/en/articles' },
+    { '@type': 'ListItem', position: 3, name: article.data.title, item: shareUrl },
+  ],
+};
 ---
 
 <Base
@@ -45,9 +62,14 @@ const articleSchema = {
   altPath={ar ? `/articles/${slug}` : '/articles'}
   altExact={!!ar}
   ogType="article"
-  schema={[articleSchema]}
+  schema={[articleSchema, breadcrumbSchema]}
 >
   <article class="wrap" data-pagefind-body>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/en">Home</a>
+      <span class="bc-sep" aria-hidden="true">/</span>
+      <a href="/en/articles">Articles</a>
+    </nav>
     <header class="article-head">
       <h1>{article.data.title}</h1>
       <div class="meta">
@@ -62,7 +84,41 @@ const articleSchema = {
     </div>
 
     <footer class="article-foot measure">
-      <a href="/en/articles">← All articles</a>
+      {article.data.linkedin && (
+        <a class="article-orig" href={article.data.linkedin} target="_blank" rel="noopener">{T.en.onLinkedIn} ↗</a>
+      )}
+      <div class="article-share">
+        <span class="share-label">Share:</span>
+        <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`} target="_blank" rel="noopener">LinkedIn</a>
+        <a href={`https://x.com/intent/tweet?url=${shareUrl}&text=${shareText}`} target="_blank" rel="noopener">X</a>
+        <a href={`https://wa.me/?text=${shareText}%20${shareUrl}`} target="_blank" rel="noopener">WhatsApp</a>
+      </div>
     </footer>
   </article>
+
+  {related.length > 0 && (
+    <section class="related wrap" aria-label="Related articles">
+      <h2>Read next</h2>
+      <div class="card-grid">
+        {related.map((a) => (
+          <ArticleCard
+            lang="en"
+            slug={a.id.replace(/\.md$/, '')}
+            title={a.data.title}
+            theme={a.data.theme}
+            date={a.data.date}
+            excerpt={excerpt(a.body)}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <aside class="follow-cta wrap">
+    <p>I write regularly about customer experience and marketing research. For more:</p>
+    <div class="follow-actions">
+      <a class="btn btn-solid" href={SITE.linkedin} target="_blank" rel="noopener">Follow on LinkedIn</a>
+      <a class="btn btn-ghost" href="/en/articles">All articles</a>
+    </div>
+  </aside>
 </Base>
