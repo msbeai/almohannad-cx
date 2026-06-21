@@ -5,6 +5,7 @@ titleEn: "The Story of Johnny the Bag Packer"
 theme: cx
 order: 22
 linkedin: "https://goo.gl/5duSFi"
+date: 2019-01-03
 ---
 
 ![](/images/articles/image83.jpg)
