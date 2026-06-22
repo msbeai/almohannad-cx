@@ -13,13 +13,15 @@ interface Props {
   /** current path for nav highlighting, e.g. "/articles" */
   current?: string;
   ogType?: 'website' | 'article';
+  /** per-page social share image (defaults to the site og-default) */
+  ogImage?: string;
   /** extra JSON-LD blocks (e.g. Article schema) */
   schema?: object[];
   /** emit noindex (for backup/recovery pages not meant for Google) */
   noindex?: boolean;
 }
 
-const { lang, title, description, altPath, altExact = true, current, ogType = 'website', schema = [], noindex = false } = Astro.props;
+const { lang, title, description, altPath, altExact = true, current, ogType = 'website', ogImage, schema = [], noindex = false } = Astro.props;
 const t = T[lang];
 const dir = lang === 'ar' ? 'rtl' : 'ltr';
 const desc = description ?? (lang === 'ar' ? SITE.descriptionAr : SITE.descriptionEn);
@@ -29,7 +31,7 @@ const altLang = lang === 'ar' ? 'en' : 'ar';
 const altUrl = altPath ? new URL(altPath, Astro.site) : undefined;
 const homeHref = lang === 'ar' ? '/' : '/en';
 const rssHref = lang === 'ar' ? '/rss.xml' : '/en/rss.xml';
-const ogImage = new URL('/og-default.png', Astro.site);
+const ogImageUrl = new URL(ogImage ?? '/og-default.png', Astro.site);
 const ogLocale = lang === 'ar' ? 'ar_SA' : 'en_US';
 const ogLocaleAlt = lang === 'ar' ? 'en_US' : 'ar_SA';
 
@@ -90,14 +92,14 @@ const allSchema = [personSchema, websiteSchema, ...schema];
     <meta property="og:site_name" content={name} />
     <meta property="og:locale" content={ogLocale} />
     <meta property="og:locale:alternate" content={ogLocaleAlt} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content={name} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={desc} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <script type="application/ld+json" set:html={JSON.stringify(allSchema)} />
     <link rel="preload" href="/fonts/thmanyahserifdisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/thmanyahsans-Regular.woff2" as="font" type="font/woff2" crossorigin />
