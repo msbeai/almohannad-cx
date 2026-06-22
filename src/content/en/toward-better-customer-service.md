@@ -180,7 +180,7 @@ Customers want to tell you the reasons for their dissatisfaction, but —
 
 - Global best practices are usually consulted when designing service standards, and benchmarking studies are likewise drawn upon to gauge the level of performance against the local or global market.
 
-Key performance indicators cover many aspects, among them satisfaction and loyalty indicators, which are measured through —
+Key performance indicators cover many aspects, among them satisfaction and loyalty indicators.
 
 ## Conclusion
 
