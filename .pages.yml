@@ -95,6 +95,7 @@ content:
           - { name: year, label: السنة, type: string }
           - { name: cover, label: صورة الغلاف, type: image }
           - { name: descriptionAr, label: نبذة, type: text }
+          - { name: file, label: ملف الكتاب للتحميل (PDF), type: string }
 
   - name: podcasts
     label: البودكاست
