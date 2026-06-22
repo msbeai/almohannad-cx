@@ -875,6 +875,17 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   display: flex;
   gap: 1.4rem;
 }
+.footer-rights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  line-height: 1.6;
+  max-width: 34rem;
+}
+.footer-rights a {
+  align-self: flex-start;
+  font-weight: 500;
+}
 
 @media (max-width: 640px) {
   .site-header .wrap {

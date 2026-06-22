@@ -185,7 +185,17 @@ const allSchema = [personSchema, websiteSchema, ...schema];
 
     <footer class="site-footer">
       <div class="wrap">
-        <span>© {new Date().getFullYear()} {name} — {t.rights}</span>
+        <div class="footer-rights">
+          <span>{t.disclaimer}</span>
+          <span>{t.license}</span>
+          <a
+            href={lang === 'ar'
+              ? 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar'
+              : 'https://creativecommons.org/licenses/by-nc-sa/4.0/'}
+            target="_blank"
+            rel="license noopener"
+          >CC BY-NC-SA</a>
+        </div>
         <span class="footer-links">
           <a href={SITE.linkedin} rel="me noopener" target="_blank">LinkedIn</a>
           <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
