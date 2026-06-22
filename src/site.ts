@@ -13,7 +13,7 @@ export const SITE = {
   email: 'hey@almohannad.cx',
   // Cloudflare Web Analytics beacon token (free, privacy-friendly). Paste the token
   // from the Cloudflare dashboard (Web Analytics → add almohannad.cx) to switch it on.
-  cfBeaconToken: '',
+  cfBeaconToken: 'bd3ffa3888054f6bab199fa73b9d42a4',
 };
 
 export const THEMES = {
