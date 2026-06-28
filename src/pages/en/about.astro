@@ -5,14 +5,14 @@ import { SITE } from '../../site';
 
 <Base lang="en" title="About — Almohannad Alsbeai" altPath="/about" current="/en/about">
   <div class="wrap">
-    <div class="deck" data-pagefind-body>
-      <article class="fcard fcard--cover">
+    <div class="deck deck--hang" data-pagefind-body>
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card fcard--cover">
         <img class="cover-avatar" src="/images/avatar.jpg" alt="Almohannad Alsbeai" width="84" height="84" />
         <h1>Beyond the Bio</h1>
         <p>A few cards on the person behind the work — Almohannad Alsbeai.</p>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">1</span>
         <h2>Named After a Sword</h2>
         <div class="fc-term"><span class="term">Almohannad · المُهنَّد</span><span class="pos">[noun]</span></div>
@@ -20,9 +20,9 @@ import { SITE } from '../../site';
         <p>A high-quality, finely crafted sword made from Indian steel — famed for its strength, sharpness, and craftsmanship.</p>
         <p><strong>TL;DR:</strong> a symbol of power, precision, and honor in Arabic culture. In Islamic tradition it's associated with valor and righteous warriors, and appears as a poetic epithet in classical Arabic literature.</p>
         <p class="fcard-note">Call me Mohannad — drop the "Al," it's simpler. Or, if you prefer tradition, Abu Rand works too.</p>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">2</span>
         <h2>Not Loud, but Solid</h2>
         <p class="fcard-lead">I value structure, responsibility, and quiet strength.</p>
@@ -34,9 +34,9 @@ import { SITE } from '../../site';
           <li>I lead with authenticity, calm, and empathy — not with volume.</li>
         </ul>
         <p class="fcard-note">In short: I'm the person you can count on. Quietly present. Consistently dependable.</p>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">3</span>
         <h2>My Values, My Compass</h2>
         <ol>
@@ -48,18 +48,18 @@ import { SITE } from '../../site';
           <li><strong>Independence:</strong> I think independently, stay grounded, and stay true to myself.</li>
           <li><strong>Meaning:</strong> I seek meaningful work, not just results.</li>
         </ol>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">4</span>
         <h2>Life Beyond Work</h2>
         <p>While I'm focused and structured at work, at home I lead with my heart.</p>
         <p><strong>My family are my reason, my joy, and my greatest support.</strong></p>
         <p>They remind me that while work matters, love is everything. 🤍</p>
         <p>A proud father of three: Rand (2010), Ward (2012), and Zaid (2018).</p>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">5</span>
         <h2>Fuel for My Free Time</h2>
         <p class="fcard-lead">I believe what we love in our free time says as much about us as our job titles. These are mine:</p>
@@ -71,9 +71,9 @@ import { SITE } from '../../site';
           <li>🎾 Padel — still a newbie, but loving the learning.</li>
           <li>☕ Coffee — brewing is a ritual I love.</li>
         </ul>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">6</span>
         <h2>A Journey, Not a Destination</h2>
         <p class="fcard-lead">Over 18 years, I've worked at 9 companies — each shaped my growth in a distinct way.</p>
@@ -89,9 +89,9 @@ import { SITE } from '../../site';
           <li><strong>Tweeq:</strong> a fintech startup (EMI license), acquired by Tabby.</li>
           <li><strong>Rewaa:</strong> fast-growing SaaS for inventory, POS, and accounting.</li>
         </ol>
-      </article>
+      </article></div>
 
-      <article class="fcard">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card">
         <span class="fcard-num" aria-hidden="true">7</span>
         <h2>Here to Elevate, Not Evaluate</h2>
         <p class="fcard-lead">When I join a team, I'm here to elevate, not evaluate — to help it stand out through exceptional CX. How I work:</p>
@@ -103,12 +103,71 @@ import { SITE } from '../../site';
           <li>Strengthen the culture until exceptional CX becomes the standard.</li>
         </ol>
         <p class="fcard-note"><strong>My promise:</strong> I build on what's already there. My role is to help raise the bar together — openly, respectfully, and transparently.</p>
-      </article>
+      </article></div>
 
-      <article class="fcard fcard--cover">
+      <div class="hang"><span class="hang-peg" aria-hidden="true"></span><article class="fcard hang-card fcard--cover">
         <p>Want to talk? Find me on <a href={SITE.linkedin} target="_blank" rel="noopener">LinkedIn</a> or email me at <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
-      </article>
+      </article></div>
     </div>
     <div style="height: 2rem"></div>
   </div>
+
+  <script>
+    (() => {
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const cards = Array.from(document.querySelectorAll('.hang-card'));
+      if (!cards.length) return;
+      const MAX = 0.34, STIFF = 0.02, DAMP = 0.9;
+      const state = cards.map((card) => ({ card, wrap: card.parentElement, angle: 0, vel: 0, dragging: false, px: 0, py: 0 }));
+      let running = false;
+      const apply = (s) => { s.card.style.transform = s.angle ? `rotate(${s.angle}rad)` : ''; };
+      const frame = () => {
+        let active = false;
+        for (const s of state) {
+          if (s.dragging) { active = true; continue; }
+          if (Math.abs(s.angle) > 0.0006 || Math.abs(s.vel) > 0.0006) {
+            s.vel += -STIFF * s.angle;
+            s.vel *= DAMP;
+            s.angle += s.vel;
+            if (s.angle > MAX) { s.angle = MAX; s.vel *= -0.4; }
+            else if (s.angle < -MAX) { s.angle = -MAX; s.vel *= -0.4; }
+            apply(s); active = true;
+          } else if (s.angle !== 0) { s.angle = 0; s.vel = 0; apply(s); }
+        }
+        running = active;
+        if (active) requestAnimationFrame(frame);
+      };
+      const kick = () => { if (!running) { running = true; requestAnimationFrame(frame); } };
+      for (const s of state) {
+        s.card.addEventListener('pointerdown', (e) => {
+          if (reduce.matches || e.target.closest('a')) return;
+          if (e.pointerType === 'touch' && !e.target.closest('.hang-peg')) return;
+          const r = s.wrap.getBoundingClientRect();
+          s.px = r.left + r.width / 2; s.py = r.top;
+          s.dragging = true;
+          try { s.card.setPointerCapture(e.pointerId); } catch (_) {}
+          s.card.classList.add('is-grabbing');
+          e.preventDefault();
+        });
+        s.card.addEventListener('pointermove', (e) => {
+          if (!s.dragging) return;
+          let a = Math.atan2(e.clientX - s.px, Math.max(1, e.clientY - s.py));
+          if (a > MAX) a = MAX; else if (a < -MAX) a = -MAX;
+          s.vel = a - s.angle; s.angle = a; apply(s);
+        });
+        const up = (e) => {
+          if (!s.dragging) return;
+          s.dragging = false; s.card.classList.remove('is-grabbing');
+          try { s.card.releasePointerCapture(e.pointerId); } catch (_) {}
+          kick();
+        };
+        s.card.addEventListener('pointerup', up);
+        s.card.addEventListener('pointercancel', up);
+      }
+      if (!reduce.matches) {
+        state.forEach((s, i) => { s.angle = (i % 2 ? -1 : 1) * 0.14; s.vel = (i % 2 ? 1 : -1) * 0.004; apply(s); });
+        kick();
+      }
+    })();
+  </script>
 </Base>

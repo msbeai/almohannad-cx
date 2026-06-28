@@ -900,6 +900,63 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   gap: 1.4rem;
   margin: 1.5rem 0 1rem;
 }
+/* ---------- hanging About cards ---------- */
+.deck--hang {
+  max-width: 32rem;
+  margin-inline: auto;
+  gap: 3.6rem;
+  padding-top: 2.2rem;
+  overflow: visible;
+}
+.hang {
+  position: relative;
+}
+.hang-card {
+  transform-origin: top center;
+  will-change: transform;
+  touch-action: pan-y;
+}
+.hang-peg {
+  position: absolute;
+  top: -1.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--ink-faint);
+  z-index: 4;
+  cursor: grab;
+  touch-action: none;
+}
+.hang-peg::after {
+  content: '';
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 1.15rem;
+  background: var(--ink-faint);
+  opacity: 0.5;
+}
+@media (hover: hover) {
+  .hang-card {
+    cursor: grab;
+  }
+  .hang-card.is-grabbing {
+    cursor: grabbing;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hang-peg {
+    display: none;
+  }
+  .deck--hang {
+    padding-top: 0;
+  }
+}
 .fcard {
   position: relative;
   overflow: hidden;
