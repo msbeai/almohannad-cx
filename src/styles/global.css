@@ -900,61 +900,184 @@ html[data-theme='dark'] .theme-toggle .icon-moon {
   gap: 1.4rem;
   margin: 1.5rem 0 1rem;
 }
-/* ---------- hanging About cards ---------- */
-.deck--hang {
-  max-width: 32rem;
-  margin-inline: auto;
-  gap: 3.6rem;
-  padding-top: 2.2rem;
-  overflow: visible;
-}
-.hang {
+/* ---------- About: hanging rail (Dave-Holloway style) ---------- */
+/* BASE STATE — ships in HTML, valid with ZERO JS: native horizontal
+   scroll-snap row; cards visible, upright, readable. GSAP only UPGRADES
+   this by adding .is-enhanced. */
+.rail-scroller {
   position: relative;
+  width: 100%;
+  max-width: none;
+  margin-inline: calc(50% - 50vw);
+  padding: 5.5rem 6vw 3rem;
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  outline: none;
 }
-.hang-card {
-  transform-origin: top center;
-  will-change: transform;
-  touch-action: pan-y;
+.rail-scroller:focus-visible {
+  box-shadow: inset 0 0 0 2px var(--accent);
 }
-.hang-peg {
+.rail-bar {
   position: absolute;
-  top: -1.7rem;
+  top: 4.4rem;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--line) 8%, var(--line) 92%, transparent);
+  opacity: 0.7;
+  z-index: 1;
+  pointer-events: none;
+}
+.rail-track {
+  --rail-card-w: clamp(290px, 82vw, 360px);
+  --rail-gap: clamp(1.4rem, 4vw, 2.6rem);
+  display: flex;
+  gap: var(--rail-gap);
+  width: max-content;
+  list-style: none;
+  margin: 0;
+  /* symmetric rest state: pad so a group of full cards sits centered
+     (2 cards by default, 3 on wide screens), never less than 4vw */
+  padding-inline: max(calc((100vw - (2 * var(--rail-card-w) + var(--rail-gap))) / 2), 4vw);
+  will-change: transform;
+}
+@media (min-width: 1240px) {
+  .rail-track {
+    padding-inline: calc((100vw - (3 * var(--rail-card-w) + 2 * var(--rail-gap))) / 2);
+  }
+}
+.rail-card {
+  position: relative;
+  flex: 0 0 auto;
+  inline-size: var(--rail-card-w, clamp(290px, 82vw, 360px));
+  scroll-snap-align: center;
+}
+.rail-card--cover:first-child {
+  scroll-snap-align: start;
+}
+.rail-card--cover:last-child {
+  scroll-snap-align: end;
+}
+.rail-pin {
+  position: absolute;
+  top: -0.55rem;
   left: 50%;
-  transform: translateX(-50%);
-  width: 0.95rem;
-  height: 0.95rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-left: -0.45rem;
   border-radius: 50%;
   background: var(--bg);
   border: 2px solid var(--ink-faint);
+  transform-origin: center bottom;
   z-index: 4;
-  cursor: grab;
-  touch-action: none;
 }
-.hang-peg::after {
+.rail-pin::after {
   content: '';
   position: absolute;
   top: calc(100% - 1px);
   left: 50%;
-  transform: translateX(-50%);
   width: 2px;
-  height: 1.15rem;
+  height: 0.9rem;
+  margin-left: -1px;
   background: var(--ink-faint);
   opacity: 0.5;
 }
+/* the rotating body; pivot near the pin (top) so it hangs.
+   Uniform fixed height — content is edited to fit; no inner scrolling. */
+.rail-card .fcard {
+  transform-origin: center 64px;
+  block-size: 500px;
+  overflow: hidden;
+  touch-action: pan-y;
+  font-size: 0.98rem;
+}
+.rail-card .fcard h1,
+.rail-card .fcard h2 {
+  font-size: 1.45rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+.rail-card .fcard ul,
+.rail-card .fcard ol {
+  margin-block: 0.6rem;
+}
+.rail-card--cover .fcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rail-hint {
+  position: absolute;
+  bottom: 0.8rem;
+  inset-inline-end: 6vw;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  margin: 0;
+}
+/* ENHANCED STATE — added by JS only after the gate passes. */
+.rail-scroller.is-enhanced {
+  overflow: hidden;
+  scroll-snap-type: none;
+  touch-action: pan-y;
+}
+.rail-scroller.is-enhanced .rail-card {
+  scroll-snap-align: none;
+}
 @media (hover: hover) {
-  .hang-card {
+  .rail-scroller.is-enhanced .rail-track {
     cursor: grab;
   }
-  .hang-card.is-grabbing {
+  .rail-scroller.is-enhanced .rail-track:active {
     cursor: grabbing;
   }
 }
+/* REDUCED MOTION — static native row, no rail furniture */
 @media (prefers-reduced-motion: reduce) {
-  .hang-peg {
+  .rail-scroller {
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+  .rail-bar,
+  .rail-hint,
+  .rail-pin {
     display: none;
   }
-  .deck--hang {
-    padding-top: 0;
+  .rail-card,
+  .rail-card .fcard {
+    transform: none !important;
+  }
+}
+/* SMALL SCREENS — plain readable vertical column */
+@media (max-width: 760px) {
+  .rail-scroller {
+    overflow: visible;
+    scroll-snap-type: none;
+    margin-inline: 0;
+    padding: 1rem 0;
+  }
+  .rail-bar,
+  .rail-hint,
+  .rail-pin {
+    display: none;
+  }
+  .rail-track {
+    flex-direction: column;
+    width: auto;
+    gap: 1.4rem;
+    padding-inline: 0;
+  }
+  .rail-card {
+    inline-size: 100%;
+    transform: none !important;
+  }
+  .rail-card .fcard {
+    block-size: auto;
+    max-block-size: none;
+    overflow: visible;
+    transform: none !important;
   }
 }
 .fcard {
