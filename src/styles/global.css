@@ -108,6 +108,10 @@
 
   --measure: 42rem;
   --wide: 70rem;
+
+  /* Thmanyah OpenType per usage guide (same as the talk-deck):
+     salt/ss01 = stylistic alternates, ss07 = extended kashida */
+  --ot-features: 'salt' 1, 'ss01' 1, 'ss07' 1, 'kern' 1, 'calt' 1, 'liga' 1;
 }
 
 /* dark theme — deep grays, same editorial feel */
@@ -136,6 +140,7 @@ html {
 body {
   margin: 0;
   overflow-x: clip;
+  font-feature-settings: var(--ot-features);
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-sans);
